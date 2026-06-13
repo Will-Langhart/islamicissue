@@ -54,7 +54,7 @@ export default function HomePage() {
         <p className="mb-2 font-ui text-xs font-bold uppercase tracking-[0.2em] text-cite">
           Contents
         </p>
-        <h2 className="mb-8 text-2xl font-bold text-heading">The Eight Parts</h2>
+        <h2 className="mb-8 text-2xl font-bold text-heading">The Nine Parts</h2>
         <div className="grid gap-5 sm:grid-cols-2">
           {site.map((part) => {
             const [, rest] = part.title.split(" — ");
@@ -87,7 +87,7 @@ export default function HomePage() {
               Conclusion: The Cumulative Case
             </h3>
             <p className="text-sm leading-relaxed text-muted">
-              How the seven parts converge — and where the Quran’s own test (4:82) leaves the reader.
+              How the nine parts converge — and where the Quran’s own test (4:82) leaves the reader.
             </p>
           </Link>
         </div>
