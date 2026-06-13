@@ -1,7 +1,21 @@
 import "./globals.css";
 import Link from "next/link";
+import { Newsreader, Inter } from "next/font/google";
 import Header from "@/components/Header";
 import ProgressBar from "@/components/ProgressBar";
+
+const newsreader = Newsreader({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-newsreader",
+  style: ["normal", "italic"],
+});
+
+const inter = Inter({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-inter",
+});
 
 export const metadata = {
   title: {
@@ -14,8 +28,7 @@ export const metadata = {
 
 const themeInit = `
 try {
-  const t = localStorage.getItem("theme");
-  if (t === "dark" || (!t && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
+  if (localStorage.getItem("theme") === "dark") {
     document.documentElement.classList.add("dark");
   }
 } catch {}
@@ -23,7 +36,7 @@ try {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" suppressHydrationWarning data-scroll-behavior="smooth">
+    <html lang="en" suppressHydrationWarning data-scroll-behavior="smooth" className={`${newsreader.variable} ${inter.variable}`}>
       <head>
         <script dangerouslySetInnerHTML={{ __html: themeInit }} />
       </head>
