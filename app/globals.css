@@ -87,6 +87,45 @@ details.cv[open] > summary .chev {
 
 /* Hero backdrop ornament */
 .hero-glow {
+  position: relative;
   background:
-    radial-gradient(60% 50% at 50% 0%, var(--c-accentbg) 0%, transparent 70%);
+    radial-gradient(70% 55% at 50% -5%, var(--c-accentbg) 0%, transparent 72%);
+}
+
+/* Faint hairline grid behind the hero, fading downward */
+.hero-grid {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-image:
+    linear-gradient(to right, var(--c-line) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--c-line) 1px, transparent 1px);
+  background-size: 64px 64px;
+  -webkit-mask-image: radial-gradient(80% 70% at 50% 0%, #000 0%, transparent 70%);
+  mask-image: radial-gradient(80% 70% at 50% 0%, #000 0%, transparent 70%);
+  opacity: 0.5;
+}
+
+/* Subtle scroll-reveal (used by components/Reveal.js) */
+.reveal {
+  opacity: 0;
+  transform: translateY(16px);
+  transition: opacity 0.6s cubic-bezier(0.22, 1, 0.36, 1),
+    transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: opacity, transform;
+}
+.reveal.is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
 }
