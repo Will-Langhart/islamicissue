@@ -1,0 +1,92 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Semantic design tokens — light theme (brand: saffron amber + charcoal, from the logo) */
+:root {
+  --c-page: #faf7f0;
+  --c-surface: #fffefb;
+  --c-line: #e9e2d1;
+  --c-ink: #23262e;
+  --c-muted: #686d79;
+  --c-heading: #23262e;
+  --c-brand: #fdc537;
+  --c-oncolor: #23262e;
+  --c-accent: #9a6d0c;
+  --c-accentbg: rgba(253, 197, 55, 0.14);
+  --c-cite: #9a6d0c;
+}
+
+/* Dark theme — near-black neutral with amber */
+.dark {
+  --c-page: #0b0b0c;
+  --c-surface: #161615;
+  --c-line: #2a2a28;
+  --c-ink: #e0ddd3;
+  --c-muted: #9b9a93;
+  --c-heading: #eeebe1;
+  --c-brand: #fdc537;
+  --c-oncolor: #1a1a18;
+  --c-accent: #f2bb47;
+  --c-accentbg: rgba(253, 197, 55, 0.10);
+  --c-cite: #f2bb47;
+}
+
+@theme inline {
+  --color-page: var(--c-page);
+  --color-surface: var(--c-surface);
+  --color-line: var(--c-line);
+  --color-ink: var(--c-ink);
+  --color-muted: var(--c-muted);
+  --color-heading: var(--c-heading);
+  --color-brand: var(--c-brand);
+  --color-oncolor: var(--c-oncolor);
+  --color-accent: var(--c-accent);
+  --color-accentbg: var(--c-accentbg);
+  --color-cite: var(--c-cite);
+
+  --font-body: Georgia, "Iowan Old Style", "Palatino Linotype", "Book Antiqua", serif;
+  --font-ui: ui-sans-serif, -apple-system, "SF Pro Text", "Segoe UI", Inter, Roboto, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: var(--c-accent);
+  color: var(--c-oncolor);
+}
+
+:where(a, button, summary, input):focus-visible {
+  outline: 2px solid var(--c-accent);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* Collapsible details styling */
+details.cv > summary {
+  cursor: pointer;
+  list-style: none;
+}
+details.cv > summary::-webkit-details-marker {
+  display: none;
+}
+details.cv > summary .chev {
+  transition: transform 0.2s ease;
+}
+details.cv[open] > summary .chev {
+  transform: rotate(90deg);
+}
+
+/* Hero backdrop ornament */
+.hero-glow {
+  background:
+    radial-gradient(60% 50% at 50% 0%, var(--c-accentbg) 0%, transparent 70%);
+}
