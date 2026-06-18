@@ -34,7 +34,7 @@ export default function HomePage() {
           <Reveal as="h1" delay={120} className="mx-auto max-w-3xl text-5xl font-bold leading-[1.05] tracking-tight text-heading sm:text-6xl">
             Examining Islam from Within
           </Reveal>
-          <Reveal delay={180} className="mx-auto mt-7 mb-7 h-px w-24 bg-cite/50" />
+          <Reveal delay={180} className="rule-grad-c mx-auto mt-7 mb-7 h-px w-24" />
           <Reveal as="p" delay={220} className="mx-auto max-w-2xl text-lg leading-relaxed text-muted">
             Every argument tested against Islam’s own sources — the Quran, the sahih hadith, the sira,
             and the manuscript record — with the strongest Muslim responses stated before each
@@ -43,7 +43,7 @@ export default function HomePage() {
           <Reveal delay={280} className="mt-10 flex flex-wrap items-center justify-center gap-4 font-ui">
             <Link
               href={flatIssues[0].href}
-              className="rounded-md bg-brand px-7 py-3.5 text-sm font-semibold text-oncolor shadow-sm transition hover:opacity-90 hover:shadow-md"
+              className="btn-brand rounded-md px-7 py-3.5 text-sm font-semibold shadow-sm"
             >
               Begin with Part I
             </Link>
@@ -75,7 +75,7 @@ export default function HomePage() {
       </section>
 
       {/* Featured Quran quote — the dilemma at the heart of the study */}
-      <section className="border-y border-line bg-accentbg/40">
+      <section className="border-y border-line bg-gradient-to-br from-accentbg via-transparent to-accentbg/50">
         <div className="mx-auto max-w-3xl px-4 py-16 text-center sm:px-6 sm:py-20">
           <Reveal as="p" className="mb-6 font-ui text-xs font-bold uppercase tracking-[0.25em] text-cite">
             The dilemma at the heart of this study
@@ -140,7 +140,7 @@ export default function HomePage() {
                     className="group flex h-full gap-5 rounded-lg border border-line bg-surface p-6 shadow-sm transition hover:-translate-y-0.5 hover:border-accent/50 hover:shadow-md"
                   >
                     <div className="shrink-0">
-                      <div className="flex h-12 w-12 items-center justify-center rounded-lg border border-line bg-accentbg font-body text-xl font-bold text-cite transition-colors group-hover:border-accent/40">
+                      <div className="numeral-badge flex h-12 w-12 items-center justify-center rounded-lg border border-line bg-accentbg font-body text-xl font-bold text-cite">
                         {roman[part.num - 1]}
                       </div>
                     </div>

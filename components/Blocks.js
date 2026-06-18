@@ -1,5 +1,11 @@
+import CitedText from "@/components/Cite";
+
 // Renders content block entries: string → paragraph, {q, ref} → block quote, {b} → bullet list.
-export default function Blocks({ entries }) {
+// Prose, bullet items, and citation footers are run through CitedText so the
+// Quran/hadith references written into the text become verifiable links and
+// glossary terms get first-use tooltips. `seen` is threaded from the page so a
+// glossary term is annotated only once across the whole article.
+export default function Blocks({ entries, seen }) {
   if (!entries) return null;
   return (
     <>
@@ -7,7 +13,7 @@ export default function Blocks({ entries }) {
         if (typeof e === "string") {
           return (
             <p key={i} className="mb-4 leading-relaxed text-ink">
-              {e}
+              <CitedText text={e} seen={seen} />
             </p>
           );
         }
@@ -20,7 +26,7 @@ export default function Blocks({ entries }) {
               <p className="italic leading-relaxed text-ink">“{e.q}”</p>
               {e.ref && (
                 <footer className="mt-2 font-ui text-xs font-semibold uppercase tracking-wider text-cite">
-                  — {e.ref}
+                  — <CitedText text={e.ref} seen={seen} />
                 </footer>
               )}
             </blockquote>
@@ -31,7 +37,7 @@ export default function Blocks({ entries }) {
             <ul key={i} className="mb-4 ml-5 list-disc space-y-2 marker:text-cite">
               {e.b.map((item, j) => (
                 <li key={j} className="leading-relaxed text-ink">
-                  {item}
+                  <CitedText text={item} seen={seen} />
                 </li>
               ))}
             </ul>

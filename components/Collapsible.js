@@ -1,7 +1,7 @@
 import Blocks from "./Blocks";
 
 // Expandable section using native <details> — no client JS required.
-export default function Collapsible({ label, hint, entries, accent = false }) {
+export default function Collapsible({ label, hint, entries, accent = false, seen }) {
   if (!entries) return null;
   return (
     <details
@@ -31,7 +31,7 @@ export default function Collapsible({ label, hint, entries, accent = false }) {
         </span>
       </summary>
       <div className="border-t border-line px-5 pt-4 pb-1">
-        <Blocks entries={entries} />
+        <Blocks entries={entries} seen={seen} />
       </div>
     </details>
   );

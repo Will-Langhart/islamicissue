@@ -18,7 +18,7 @@ export default function ProgressBar() {
 
   return (
     <div className="fixed left-0 top-0 z-50 h-0.5 w-full bg-transparent">
-      <div className="h-full bg-accent transition-[width] duration-100" style={{ width: `${pct}%` }} />
+      <div className="progress-fill h-full transition-[width] duration-100" style={{ width: `${pct}%` }} />
     </div>
   );
 }

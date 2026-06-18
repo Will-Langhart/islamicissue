@@ -22,19 +22,19 @@ export default function Header() {
         <nav className="flex items-center gap-1.5 font-ui sm:gap-4">
           <Link
             href="/#contents"
-            className="hidden text-sm text-muted transition-colors hover:text-accent sm:inline"
+            className="nav-link hidden text-sm text-muted transition-colors hover:text-accent sm:inline"
           >
             Contents
           </Link>
           <Link
             href="/conclusion"
-            className="hidden text-sm text-muted transition-colors hover:text-accent sm:inline"
+            className="nav-link hidden text-sm text-muted transition-colors hover:text-accent sm:inline"
           >
             Conclusion
           </Link>
           <Link
             href="/sources"
-            className="hidden text-sm text-muted transition-colors hover:text-accent md:inline"
+            className="nav-link hidden text-sm text-muted transition-colors hover:text-accent md:inline"
           >
             Sources
           </Link>

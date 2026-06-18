@@ -1,9 +1,10 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { site, getIssue, roman, blockText } from "@/lib/structure.mjs";
+import { site, getIssue, getRelated, roman, blockText } from "@/lib/structure.mjs";
 import Sidebar from "@/components/Sidebar";
 import Blocks from "@/components/Blocks";
 import Collapsible from "@/components/Collapsible";
+import IssueTools from "@/components/IssueTools";
 
 export const dynamicParams = false;
 
@@ -28,6 +29,12 @@ export default async function IssuePage({ params }) {
   const data = getIssue(partSlug, issueSlug);
   if (!data) notFound();
   const { part, item, prev, next } = data;
+  const related = getRelated(partSlug, issueSlug);
+  const partLabel = `Part ${roman[part.num - 1]}: ${part.short}`;
+
+  // Shared across the article so each glossary term is annotated only on its
+  // first appearance (critique → responses → rebuttal, in document order).
+  const seen = new Set();
 
   return (
     <div className="mx-auto flex max-w-6xl gap-10 px-4 py-10 sm:px-6">
@@ -48,9 +55,11 @@ export default async function IssuePage({ params }) {
           </span>
         </nav>
 
-        <h1 className="mb-8 text-3xl font-bold leading-tight text-heading sm:text-4xl">
+        <h1 className="mb-5 text-3xl font-bold leading-tight text-heading sm:text-4xl">
           {item.title}
         </h1>
+
+        <IssueTools title={item.title} partLabel={partLabel} />
 
         {/* Mobile TOC */}
         <details className="cv mb-8 rounded-lg border border-line bg-surface shadow-sm lg:hidden">
@@ -67,23 +76,51 @@ export default async function IssuePage({ params }) {
 
         <section className="mb-8">
           <h2 className="mb-4 flex items-center gap-3 font-ui text-xs font-bold uppercase tracking-[0.18em] text-cite">
-            <span className="h-px w-8 bg-cite/50" />
+            <span className="rule-grad h-px w-10" />
             The Critique
           </h2>
-          <Blocks entries={item.critique} />
+          <Blocks entries={item.critique} seen={seen} />
         </section>
 
         <Collapsible
           label="Common Muslim Responses"
           hint="how Muslim scholarship answers"
           entries={item.response}
+          seen={seen}
         />
         <Collapsible
           label="Counter-Rebuttal"
           hint="why critics find the responses insufficient"
           entries={item.rebuttal}
           accent
+          seen={seen}
         />
+
+        {related.length > 0 && (
+          <section className="issue-related mt-12 border-t border-line pt-6">
+            <h2 className="mb-4 flex items-center gap-3 font-ui text-xs font-bold uppercase tracking-[0.18em] text-cite">
+              <span className="rule-grad h-px w-10" />
+              Related Issues
+            </h2>
+            <ul className="grid gap-3 sm:grid-cols-2">
+              {related.map((r) => (
+                <li key={r.href}>
+                  <Link
+                    href={r.href}
+                    className="group block h-full rounded-lg border border-line bg-surface p-4 shadow-sm transition hover:border-accent/50 hover:shadow-md"
+                  >
+                    <div className="font-ui text-[11px] uppercase tracking-wider text-muted">
+                      Part {roman[r.partNum - 1]} · {r.partShort}
+                    </div>
+                    <div className="mt-1 text-sm font-semibold text-heading transition-colors group-hover:text-accent">
+                      {r.title}
+                    </div>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
 
         <nav className="mt-12 grid gap-4 border-t border-line pt-6 sm:grid-cols-2">
           {prev ? (

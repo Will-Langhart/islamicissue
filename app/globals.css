@@ -4,32 +4,50 @@
 
 /* Semantic design tokens — light theme (brand: saffron amber + charcoal, from the logo) */
 :root {
-  --c-page: #faf7f0;
+  --c-page: #faf6ee;
   --c-surface: #fffefb;
-  --c-line: #e9e2d1;
-  --c-ink: #23262e;
-  --c-muted: #686d79;
-  --c-heading: #23262e;
+  --c-line: #e9e1cf;
+  --c-ink: #222530;
+  --c-muted: #696e7a;
+  --c-heading: #1f2128;
   --c-brand: #fdc537;
-  --c-oncolor: #23262e;
+  --c-brand-2: #ef9b3b;
+  --c-ember: #d9763f;
+  --c-oncolor: #2a1e07;
   --c-accent: #9a6d0c;
   --c-accentbg: rgba(253, 197, 55, 0.14);
   --c-cite: #9a6d0c;
+
+  /* Gradients (warm amber → bronze → ember) */
+  --grad-brand: linear-gradient(135deg, #fdc537 0%, #ef9b3b 55%, #df7a3c 100%);
+  --grad-rule: linear-gradient(90deg, var(--c-cite), color-mix(in oklab, var(--c-ember) 60%, transparent) 55%, transparent);
+  --grad-rule-c: linear-gradient(90deg, transparent, var(--c-cite) 35%, var(--c-ember) 65%, transparent);
+  --grad-hero-a: radial-gradient(58% 48% at 50% -8%, rgba(253, 197, 55, 0.22) 0%, transparent 72%);
+  --grad-hero-b: radial-gradient(38% 42% at 80% 6%, rgba(217, 118, 63, 0.14) 0%, transparent 70%);
 }
 
 /* Dark theme — near-black neutral with amber */
 .dark {
-  --c-page: #0b0b0c;
-  --c-surface: #161615;
-  --c-line: #2a2a28;
+  --c-page: #0b0a0a;
+  --c-surface: #161513;
+  --c-line: #2b2a27;
   --c-ink: #e0ddd3;
   --c-muted: #9b9a93;
   --c-heading: #eeebe1;
   --c-brand: #fdc537;
-  --c-oncolor: #1a1a18;
+  --c-brand-2: #ec9a36;
+  --c-ember: #e0884f;
+  --c-oncolor: #1a1407;
   --c-accent: #f2bb47;
   --c-accentbg: rgba(253, 197, 55, 0.10);
   --c-cite: #f2bb47;
+
+  /* Gradients (warm amber → bronze → ember) */
+  --grad-brand: linear-gradient(135deg, #fdc537 0%, #ec9a36 55%, #d9763f 100%);
+  --grad-rule: linear-gradient(90deg, var(--c-cite), color-mix(in oklab, var(--c-ember) 65%, transparent) 55%, transparent);
+  --grad-rule-c: linear-gradient(90deg, transparent, var(--c-cite) 35%, var(--c-ember) 65%, transparent);
+  --grad-hero-a: radial-gradient(58% 48% at 50% -8%, rgba(253, 197, 55, 0.16) 0%, transparent 72%);
+  --grad-hero-b: radial-gradient(40% 44% at 80% 6%, rgba(224, 136, 79, 0.12) 0%, transparent 70%);
 }
 
 @theme inline {
@@ -40,6 +58,8 @@
   --color-muted: var(--c-muted);
   --color-heading: var(--c-heading);
   --color-brand: var(--c-brand);
+  --color-brand-2: var(--c-brand-2);
+  --color-ember: var(--c-ember);
   --color-oncolor: var(--c-oncolor);
   --color-accent: var(--c-accent);
   --color-accentbg: var(--c-accentbg);
@@ -70,6 +90,51 @@ body {
   border-radius: 2px;
 }
 
+/* Inline citation links (Quran / hadith references in the prose) */
+.cite-link {
+  color: var(--c-cite);
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.cite-link:hover {
+  text-decoration-style: solid;
+}
+
+/* Glossary first-use term: dotted marker + CSS-only popover (no client JS) */
+.gloss {
+  position: relative;
+  display: inline;
+  border-bottom: 1px dotted var(--c-muted);
+  cursor: help;
+  outline-offset: 2px;
+}
+.gloss-pop {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  z-index: 30;
+  margin-top: 0.5rem;
+  width: min(20rem, 80vw);
+  padding: 0.85rem 1rem;
+  text-align: left;
+  white-space: normal;
+  font-style: normal;
+  border: 1px solid var(--c-line);
+  border-radius: 0.5rem;
+  background: var(--c-surface);
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.35);
+}
+.gloss:hover .gloss-pop,
+.gloss:focus-within .gloss-pop {
+  display: block;
+}
+
 /* Collapsible details styling */
 details.cv > summary {
   cursor: pointer;
@@ -85,11 +150,105 @@ details.cv[open] > summary .chev {
   transform: rotate(90deg);
 }
 
-/* Hero backdrop ornament */
+/* Hero backdrop ornament — layered warm aura with a slow drift */
 .hero-glow {
   position: relative;
-  background:
-    radial-gradient(70% 55% at 50% -5%, var(--c-accentbg) 0%, transparent 72%);
+  background: var(--grad-hero-a), var(--grad-hero-b);
+}
+.hero-glow::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -15%;
+  height: 520px;
+  pointer-events: none;
+  z-index: 0;
+  background: radial-gradient(46% 60% at 50% 0%, rgba(239, 155, 59, 0.14), transparent 70%);
+  animation: hero-drift 16s ease-in-out infinite alternate;
+}
+
+@keyframes hero-drift {
+  from {
+    transform: translateX(-5%) scale(1);
+    opacity: 0.85;
+  }
+  to {
+    transform: translateX(5%) scale(1.08);
+    opacity: 1;
+  }
+}
+
+/* Gradient brand button with a one-shot shine sweep on hover */
+.btn-brand {
+  position: relative;
+  overflow: hidden;
+  background-image: var(--grad-brand);
+  background-size: 150% 150%;
+  background-position: 0% 50%;
+  color: var(--c-oncolor);
+  transition: background-position 0.6s ease, box-shadow 0.3s ease, transform 0.2s ease;
+}
+.btn-brand:hover {
+  background-position: 100% 50%;
+  transform: translateY(-1px);
+  box-shadow: 0 10px 26px -10px rgba(223, 122, 60, 0.55);
+}
+.btn-brand::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(110deg, transparent 35%, rgba(255, 255, 255, 0.38) 50%, transparent 65%);
+  transform: translateX(-130%);
+  transition: transform 0.7s ease;
+  pointer-events: none;
+}
+.btn-brand:hover::after {
+  transform: translateX(130%);
+}
+
+/* Gradient hairline rules (replace flat bg dividers) */
+.rule-grad {
+  background-image: var(--grad-rule);
+}
+.rule-grad-c {
+  background-image: var(--grad-rule-c);
+}
+
+/* Animated underline for header nav links */
+.nav-link {
+  position: relative;
+}
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -3px;
+  height: 1.5px;
+  border-radius: 2px;
+  background-image: var(--grad-brand);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.25s ease;
+}
+.nav-link:hover::after {
+  transform: scaleX(1);
+}
+
+/* Reading-progress fill uses the brand gradient */
+.progress-fill {
+  background-image: var(--grad-brand);
+}
+
+/* Roman-numeral badge: warms into a gradient on card hover */
+.numeral-badge {
+  transition: background 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+}
+.group:hover .numeral-badge {
+  background-image: var(--grad-brand);
+  color: var(--c-oncolor);
+  border-color: transparent;
 }
 
 /* Faint hairline grid behind the hero, fading downward */
@@ -119,6 +278,59 @@ details.cv[open] > summary .chev {
   transform: none;
 }
 
+/* Print / save-as-PDF: a single issue as a clean handout. The Print button
+   opens all <details> first so responses and rebuttals are included. */
+@media print {
+  header,
+  footer,
+  aside,
+  .issue-tools,
+  .issue-related,
+  details.cv.lg\:hidden,
+  [aria-label="Issue navigation"] {
+    display: none !important;
+  }
+  /* Hide the prev/next nav (last block in the article) when printing. */
+  article > nav:last-of-type {
+    display: none !important;
+  }
+  main {
+    margin: 0 !important;
+  }
+  article {
+    max-width: none !important;
+  }
+  body {
+    background: #fff !important;
+    color: #000 !important;
+  }
+  .gloss-pop,
+  [role="tooltip"] {
+    display: none !important;
+  }
+  details.cv {
+    border: none !important;
+    box-shadow: none !important;
+    page-break-inside: auto;
+  }
+  details.cv > summary {
+    font-weight: 700;
+  }
+  blockquote {
+    page-break-inside: avoid;
+  }
+  a[href^="http"]::after {
+    content: " (" attr(href) ")";
+    font-size: 0.75em;
+    color: #555;
+    word-break: break-all;
+  }
+  /* Citations and glossary terms are already inside the text; don't expand. */
+  a.cite-link::after {
+    content: "" !important;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
@@ -126,6 +338,15 @@ details.cv[open] > summary .chev {
   .reveal {
     opacity: 1;
     transform: none;
+    transition: none;
+  }
+  .hero-glow::before {
+    animation: none;
+  }
+  .btn-brand,
+  .btn-brand::after,
+  .nav-link::after,
+  .numeral-badge {
     transition: none;
   }
 }
