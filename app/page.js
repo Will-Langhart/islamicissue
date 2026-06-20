@@ -122,59 +122,95 @@ export default function HomePage() {
           ))}
         </section>
 
-        {/* Contents */}
+        {/* Contents — the nine parts as a cumulative-case sequence on a rail */}
         <section id="contents" className="scroll-mt-20 border-t border-line py-16">
-          <Reveal as="p" className="mb-2 font-ui text-xs font-bold uppercase tracking-[0.2em] text-cite">
-            Contents
-          </Reveal>
-          <Reveal as="h2" className="mb-8 text-3xl font-bold tracking-tight text-heading">
-            The Nine Parts
-          </Reveal>
-          <div className="grid gap-5 sm:grid-cols-2">
-            {site.map((part, idx) => {
-              const [, rest] = part.title.split(" — ");
-              return (
-                <Reveal key={part.slug} delay={(idx % 2) * 80}>
-                  <Link
-                    href={`/${part.slug}`}
-                    className="group flex h-full gap-5 rounded-lg border border-line bg-surface p-6 shadow-sm transition hover:-translate-y-0.5 hover:border-accent/50 hover:shadow-md"
-                  >
-                    <div className="shrink-0">
-                      <div className="numeral-badge flex h-12 w-12 items-center justify-center rounded-lg border border-line bg-accentbg font-body text-xl font-bold text-cite">
-                        {roman[part.num - 1]}
-                      </div>
-                    </div>
-                    <div className="min-w-0">
-                      <div className="mb-1 font-ui text-[11px] font-semibold uppercase tracking-wider text-muted">
-                        {part.items.length} issues
-                      </div>
-                      <h3 className="mb-2 text-lg font-bold leading-snug text-heading transition-colors group-hover:text-accent">
-                        {rest}
-                      </h3>
-                      <p className="line-clamp-3 text-sm leading-relaxed text-muted">
-                        {part.intro[0]}
-                      </p>
-                    </div>
-                  </Link>
-                </Reveal>
-              );
-            })}
-            <Reveal delay={(site.length % 2) * 80}>
-              <Link
-                href="/conclusion"
-                className="group flex h-full flex-col justify-center rounded-lg border border-accent/40 bg-accentbg p-6 shadow-sm transition hover:-translate-y-0.5 hover:border-accent hover:shadow-md"
-              >
-                <div className="mb-1 font-ui text-[11px] font-semibold uppercase tracking-wider text-cite">
-                  Closing
-                </div>
-                <h3 className="mb-2 text-lg font-bold text-heading transition-colors group-hover:text-accent">
-                  Conclusion: The Cumulative Case
-                </h3>
-                <p className="text-sm leading-relaxed text-muted">
-                  How the nine parts converge — and where the Quran’s own test (4:82) leaves the reader.
-                </p>
-              </Link>
+          <div className="mx-auto max-w-3xl">
+            <Reveal as="p" className="mb-2 font-ui text-xs font-bold uppercase tracking-[0.2em] text-cite">
+              Contents
             </Reveal>
+            <Reveal as="h2" className="mb-3 text-3xl font-bold tracking-tight text-heading">
+              The Cumulative Case
+            </Reveal>
+            <Reveal as="p" delay={60} className="max-w-2xl leading-relaxed text-muted">
+              Nine parts, each testing Islam against its own sources. Read in order they build
+              into a single cumulative argument — or jump straight to any part.
+            </Reveal>
+
+            <div className="relative mt-10">
+              <span
+                aria-hidden="true"
+                className="dialectic-spine absolute left-6 top-10 bottom-10 w-px"
+              />
+
+              {site.map((part, idx) => {
+                const [, rest] = part.title.split(" — ");
+                return (
+                  <Reveal key={part.slug} delay={Math.min(idx, 8) * 40}>
+                    <Link
+                      href={`/${part.slug}`}
+                      className="group relative flex items-start gap-5 rounded-lg py-4 pr-3 transition-colors"
+                    >
+                      <div className="relative z-10 shrink-0">
+                        <div className="numeral-badge flex h-12 w-12 items-center justify-center rounded-lg border border-line bg-accentbg font-body text-xl font-bold text-cite shadow-sm">
+                          {roman[part.num - 1]}
+                        </div>
+                      </div>
+                      <div className="min-w-0 pt-1">
+                        <div className="mb-1 font-ui text-[11px] font-semibold uppercase tracking-wider text-muted">
+                          Part {roman[part.num - 1]} · {part.items.length} issues
+                        </div>
+                        <h3 className="mb-1 text-lg font-bold leading-snug text-heading transition-colors group-hover:text-accent">
+                          {rest}
+                        </h3>
+                        <p className="line-clamp-2 text-sm leading-relaxed text-muted">
+                          {part.intro[0]}
+                        </p>
+                      </div>
+                      <svg
+                        width="16"
+                        height="16"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2.5"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        aria-hidden="true"
+                        className="mt-2.5 ml-auto hidden shrink-0 text-muted/40 transition group-hover:translate-x-0.5 group-hover:text-accent sm:block"
+                      >
+                        <path d="m9 18 6-6-6-6" />
+                      </svg>
+                    </Link>
+                  </Reveal>
+                );
+              })}
+
+              <Reveal delay={Math.min(site.length, 8) * 40}>
+                <Link
+                  href="/conclusion"
+                  className="group relative flex items-start gap-5 rounded-lg py-4 pr-3 transition-colors"
+                >
+                  <div className="relative z-10 shrink-0">
+                    <div className="flex h-12 w-12 items-center justify-center rounded-lg border border-accent/50 bg-accentbg text-accent shadow-sm transition group-hover:bg-accent group-hover:text-oncolor">
+                      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                        <path d="M20 6 9 17l-5-5" />
+                      </svg>
+                    </div>
+                  </div>
+                  <div className="min-w-0 pt-1">
+                    <div className="mb-1 font-ui text-[11px] font-semibold uppercase tracking-wider text-cite">
+                      Closing
+                    </div>
+                    <h3 className="mb-1 text-lg font-bold leading-snug text-heading transition-colors group-hover:text-accent">
+                      Conclusion: The Cumulative Case
+                    </h3>
+                    <p className="line-clamp-2 text-sm leading-relaxed text-muted">
+                      How the nine parts converge — and where the Quran’s own test (4:82) leaves the reader.
+                    </p>
+                  </div>
+                </Link>
+              </Reveal>
+            </div>
           </div>
         </section>
       </div>

@@ -2,8 +2,8 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { site, getIssue, getRelated, roman, blockText } from "@/lib/structure.mjs";
 import Sidebar from "@/components/Sidebar";
-import Blocks from "@/components/Blocks";
-import Collapsible from "@/components/Collapsible";
+import Stance from "@/components/Stance";
+import InPageToc from "@/components/InPageToc";
 import IssueTools from "@/components/IssueTools";
 
 export const dynamicParams = false;
@@ -32,12 +32,19 @@ export default async function IssuePage({ params }) {
   const related = getRelated(partSlug, issueSlug);
   const partLabel = `Part ${roman[part.num - 1]}: ${part.short}`;
 
+  const tocItems = [
+    { id: "critique", label: "The Critique" },
+    { id: "responses", label: "Common Muslim Responses" },
+    { id: "rebuttal", label: "Counter-Rebuttal" },
+    ...(related.length > 0 ? [{ id: "related", label: "Related Issues" }] : []),
+  ];
+
   // Shared across the article so each glossary term is annotated only on its
   // first appearance (critique → responses → rebuttal, in document order).
   const seen = new Set();
 
   return (
-    <div className="mx-auto flex max-w-6xl gap-10 px-4 py-10 sm:px-6">
+    <div className="mx-auto flex max-w-6xl gap-10 px-4 py-10 sm:px-6 xl:max-w-7xl">
       <aside className="hidden w-72 shrink-0 lg:block">
         <div className="sticky top-20 max-h-[calc(100vh-6rem)] overflow-y-auto pr-2">
           <Sidebar />
@@ -74,30 +81,41 @@ export default async function IssuePage({ params }) {
           </div>
         </details>
 
-        <section className="mb-8">
-          <h2 className="mb-4 flex items-center gap-3 font-ui text-xs font-bold uppercase tracking-[0.18em] text-cite">
-            <span className="rule-grad h-px w-10" />
-            The Critique
-          </h2>
-          <Blocks entries={item.critique} seen={seen} />
-        </section>
-
-        <Collapsible
-          label="Common Muslim Responses"
-          hint="how Muslim scholarship answers"
-          entries={item.response}
-          seen={seen}
-        />
-        <Collapsible
-          label="Counter-Rebuttal"
-          hint="why critics find the responses insufficient"
-          entries={item.rebuttal}
-          accent
-          seen={seen}
-        />
+        {/* The dialectic: critique → responses → rebuttal, threaded on a rail */}
+        <div className="dialectic relative space-y-5">
+          <span
+            aria-hidden="true"
+            className="dialectic-spine absolute left-[18px] top-[18px] bottom-[18px] w-px"
+          />
+          <Stance
+            id="critique"
+            role="critique"
+            label="The Critique"
+            entries={item.critique}
+            seen={seen}
+            open
+            dropCap
+          />
+          <Stance
+            id="responses"
+            role="response"
+            label="Common Muslim Responses"
+            hint="how Muslim scholarship answers"
+            entries={item.response}
+            seen={seen}
+          />
+          <Stance
+            id="rebuttal"
+            role="rebuttal"
+            label="Counter-Rebuttal"
+            hint="why critics find the responses insufficient"
+            entries={item.rebuttal}
+            seen={seen}
+          />
+        </div>
 
         {related.length > 0 && (
-          <section className="issue-related mt-12 border-t border-line pt-6">
+          <section id="related" className="issue-related mt-12 scroll-mt-24 border-t border-line pt-6">
             <h2 className="mb-4 flex items-center gap-3 font-ui text-xs font-bold uppercase tracking-[0.18em] text-cite">
               <span className="rule-grad h-px w-10" />
               Related Issues
@@ -165,6 +183,12 @@ export default async function IssuePage({ params }) {
           )}
         </nav>
       </article>
+
+      <aside className="hidden w-52 shrink-0 xl:block">
+        <div className="sticky top-20">
+          <InPageToc items={tocItems} />
+        </div>
+      </aside>
     </div>
   );
 }

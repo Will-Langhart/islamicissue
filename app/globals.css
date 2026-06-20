@@ -135,6 +135,28 @@ body {
   display: block;
 }
 
+/* Illuminated drop-cap on the opening line of a critique */
+.dropcap::first-letter {
+  float: left;
+  margin: 0.28rem 0.55rem 0 0;
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 3.1rem;
+  line-height: 0.78;
+  color: var(--c-cite);
+}
+
+/* Vertical rail threading the three dialectic stages, faded at both ends */
+.dialectic-spine {
+  background-image: linear-gradient(
+    to bottom,
+    transparent,
+    var(--c-line) 7%,
+    var(--c-line) 93%,
+    transparent
+  );
+}
+
 /* Collapsible details styling */
 details.cv > summary {
   cursor: pointer;
@@ -305,7 +327,8 @@ details.cv[open] > summary .chev {
     color: #000 !important;
   }
   .gloss-pop,
-  [role="tooltip"] {
+  [role="tooltip"],
+  .dialectic-spine {
     display: none !important;
   }
   details.cv {
