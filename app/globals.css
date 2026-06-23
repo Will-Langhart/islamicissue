@@ -201,6 +201,61 @@ details.cv[open] > summary .chev {
   }
 }
 
+/* Hero mark — the crescent-and-magnifier logo with a breathing halo,
+   a one-shot entrance settle, and a slow ambient float */
+.hero-mark {
+  position: relative;
+  display: inline-flex;
+  isolation: isolate;
+}
+.hero-mark::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: -1;
+  width: 200%;
+  height: 200%;
+  translate: -50% -50%;
+  border-radius: 9999px;
+  background: radial-gradient(closest-side, rgba(253, 197, 55, 0.45), rgba(239, 155, 59, 0.16) 55%, transparent 75%);
+  animation: hero-halo 5.5s ease-in-out infinite;
+}
+.hero-mark__img {
+  animation:
+    hero-mark-rise 1s cubic-bezier(0.22, 1, 0.36, 1) both,
+    hero-mark-float 7s ease-in-out 1s infinite;
+}
+
+@keyframes hero-halo {
+  0%, 100% {
+    opacity: 0.55;
+    transform: scale(0.92);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.06);
+  }
+}
+@keyframes hero-mark-rise {
+  from {
+    opacity: 0;
+    transform: scale(0.6) rotate(-8deg);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) rotate(0deg);
+  }
+}
+@keyframes hero-mark-float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
 /* Gradient brand button with a one-shot shine sweep on hover */
 .btn-brand {
   position: relative;
@@ -363,7 +418,9 @@ details.cv[open] > summary .chev {
     transform: none;
     transition: none;
   }
-  .hero-glow::before {
+  .hero-glow::before,
+  .hero-mark::before,
+  .hero-mark__img {
     animation: none;
   }
   .btn-brand,

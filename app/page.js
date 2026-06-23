@@ -19,14 +19,16 @@ export default function HomePage() {
         <div className="hero-grid" aria-hidden="true" />
         <div className="relative mx-auto max-w-4xl px-4 py-20 text-center sm:px-6 sm:py-28">
           <Reveal className="mb-8 flex justify-center">
-            <Image
-              src="/logo.png"
-              alt="Examining Islam from Within"
-              width={84}
-              height={84}
-              priority
-              className="h-20 w-20 drop-shadow-sm"
-            />
+            <span className="hero-mark">
+              <Image
+                src="/logo.png"
+                alt="Examining Islam from Within"
+                width={84}
+                height={84}
+                priority
+                className="hero-mark__img h-20 w-20 drop-shadow-sm"
+              />
+            </span>
           </Reveal>
           <Reveal as="p" delay={60} className="mb-5 font-ui text-xs font-bold uppercase tracking-[0.3em] text-cite">
             An Internal Critique Compendium
