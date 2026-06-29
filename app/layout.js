@@ -26,20 +26,9 @@ export const metadata = {
     "A scholarly compendium of internal critiques of Islam: the Islamic Dilemma, Quranic contradictions, textual preservation, history and science, the prophetic credentials of Muhammad, and theology — each with Muslim responses and counter-rebuttals, fully sourced.",
 };
 
-const themeInit = `
-try {
-  if (localStorage.getItem("theme") === "dark") {
-    document.documentElement.classList.add("dark");
-  }
-} catch {}
-`;
-
 export default function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning data-scroll-behavior="smooth" className={`${newsreader.variable} ${inter.variable}`}>
-      <head>
-        <script dangerouslySetInnerHTML={{ __html: themeInit }} />
-      </head>
       <body className="min-h-screen bg-page text-ink antialiased">
         <ProgressBar />
         <Header />

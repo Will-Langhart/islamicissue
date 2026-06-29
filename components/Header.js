@@ -1,7 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
 import SearchDialog from "./SearchDialog";
-import ThemeToggle from "./ThemeToggle";
 
 export default function Header() {
   return (
@@ -39,7 +38,6 @@ export default function Header() {
             Sources
           </Link>
           <SearchDialog />
-          <ThemeToggle />
         </nav>
       </div>
     </header>

@@ -1,7 +1,5 @@
 @import "tailwindcss";
 
-@custom-variant dark (&:where(.dark, .dark *));
-
 /* Semantic design tokens — light theme (brand: saffron amber + charcoal, from the logo) */
 :root {
   --c-page: #faf6ee;
@@ -24,30 +22,6 @@
   --grad-rule-c: linear-gradient(90deg, transparent, var(--c-cite) 35%, var(--c-ember) 65%, transparent);
   --grad-hero-a: radial-gradient(58% 48% at 50% -8%, rgba(253, 197, 55, 0.22) 0%, transparent 72%);
   --grad-hero-b: radial-gradient(38% 42% at 80% 6%, rgba(217, 118, 63, 0.14) 0%, transparent 70%);
-}
-
-/* Dark theme — near-black neutral with amber */
-.dark {
-  --c-page: #0b0a0a;
-  --c-surface: #161513;
-  --c-line: #2b2a27;
-  --c-ink: #e0ddd3;
-  --c-muted: #9b9a93;
-  --c-heading: #eeebe1;
-  --c-brand: #fdc537;
-  --c-brand-2: #ec9a36;
-  --c-ember: #e0884f;
-  --c-oncolor: #1a1407;
-  --c-accent: #f2bb47;
-  --c-accentbg: rgba(253, 197, 55, 0.10);
-  --c-cite: #f2bb47;
-
-  /* Gradients (warm amber → bronze → ember) */
-  --grad-brand: linear-gradient(135deg, #fdc537 0%, #ec9a36 55%, #d9763f 100%);
-  --grad-rule: linear-gradient(90deg, var(--c-cite), color-mix(in oklab, var(--c-ember) 65%, transparent) 55%, transparent);
-  --grad-rule-c: linear-gradient(90deg, transparent, var(--c-cite) 35%, var(--c-ember) 65%, transparent);
-  --grad-hero-a: radial-gradient(58% 48% at 50% -8%, rgba(253, 197, 55, 0.16) 0%, transparent 72%);
-  --grad-hero-b: radial-gradient(40% 44% at 80% 6%, rgba(224, 136, 79, 0.12) 0%, transparent 70%);
 }
 
 @theme inline {
