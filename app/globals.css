@@ -149,7 +149,10 @@ details.cv[open] > summary .chev {
 /* Hero backdrop ornament — layered warm aura with a slow drift */
 .hero-glow {
   position: relative;
-  background: var(--grad-hero-a), var(--grad-hero-b);
+  background:
+    var(--grad-hero-a),
+    var(--grad-hero-b),
+    radial-gradient(125% 85% at 50% -5%, transparent 58%, rgba(122, 86, 30, 0.06) 100%);
 }
 .hero-glow::before {
   content: "";
@@ -163,6 +166,19 @@ details.cv[open] > summary .chev {
   background: radial-gradient(46% 60% at 50% 0%, rgba(239, 155, 59, 0.14), transparent 70%);
   animation: hero-drift 16s ease-in-out infinite alternate;
 }
+/* Second, counter-drifting bloom — together they read as a slow warm aurora */
+.hero-glow::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -12%;
+  height: 560px;
+  pointer-events: none;
+  z-index: 0;
+  background: radial-gradient(34% 46% at 24% 8%, rgba(253, 197, 55, 0.16), transparent 70%);
+  animation: hero-drift-2 21s ease-in-out infinite alternate;
+}
 
 @keyframes hero-drift {
   from {
@@ -172,6 +188,138 @@ details.cv[open] > summary .chev {
   to {
     transform: translateX(5%) scale(1.08);
     opacity: 1;
+  }
+}
+@keyframes hero-drift-2 {
+  from {
+    transform: translateX(5%) translateY(0) scale(1);
+    opacity: 0.65;
+  }
+  to {
+    transform: translateX(-7%) translateY(2%) scale(1.14);
+    opacity: 1;
+  }
+}
+
+/* Faint paper grain over the hero — aged-folio texture, masked to fade downward */
+.hero-grain {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.32;
+  mix-blend-mode: multiply;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  -webkit-mask-image: radial-gradient(80% 70% at 50% 0%, #000 0%, transparent 75%);
+  mask-image: radial-gradient(80% 70% at 50% 0%, #000 0%, transparent 75%);
+}
+
+/* Hero title — typeset two-line treatment with a one-shot clip-rise entrance */
+.hero-title {
+  position: relative;
+  z-index: 1;
+}
+.hero-title__line {
+  display: block;
+  overflow: hidden;
+  padding-bottom: 0.06em;
+}
+.hero-title__line > span {
+  display: inline-block;
+  transform: translateY(115%);
+  opacity: 0;
+  filter: blur(10px);
+  animation: hero-title-rise 1.1s cubic-bezier(0.2, 0.9, 0.2, 1) forwards;
+}
+.hero-title__line:nth-child(2) > span {
+  animation-delay: 0.16s;
+}
+.hero-title__ink {
+  background: linear-gradient(180deg, var(--c-heading) 0%, #34302a 58%, #4a3a22 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.hero-title__accent {
+  background: linear-gradient(118deg, var(--c-accent) 0%, var(--c-ember) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+@keyframes hero-title-rise {
+  to {
+    transform: translateY(0);
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+
+/* Stat tiles — ink-gradient numerals (matching the title) and a warm hover-lift */
+.stat-tile {
+  position: relative;
+  transition: background-color 0.3s ease;
+}
+.stat-tile::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 2px;
+  background-image: var(--grad-brand);
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.35s ease;
+}
+.stat-tile:hover {
+  background-color: var(--c-accentbg);
+}
+.stat-tile:hover::before {
+  transform: scaleX(1);
+}
+.stat-tile__value {
+  background: linear-gradient(160deg, var(--c-heading) 0%, #4a3a22 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Scroll cue — an ember spark falling down a hairline */
+.hero-scroll {
+  position: relative;
+  display: inline-block;
+  width: 1px;
+  height: 46px;
+  overflow: hidden;
+  background: linear-gradient(to bottom, transparent, var(--c-cite) 45%, transparent);
+  opacity: 0.7;
+}
+.hero-scroll__dot {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 3px;
+  height: 9px;
+  translate: -50% 0;
+  border-radius: 2px;
+  background: var(--c-ember);
+  box-shadow: 0 0 6px rgba(217, 118, 63, 0.7);
+  animation: hero-scroll-spark 2.4s ease-in-out infinite;
+}
+@keyframes hero-scroll-spark {
+  0% {
+    top: -10px;
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    top: 46px;
+    opacity: 0;
   }
 }
 
@@ -393,9 +541,24 @@ details.cv[open] > summary .chev {
     transition: none;
   }
   .hero-glow::before,
+  .hero-glow::after,
   .hero-mark::before,
   .hero-mark__img {
     animation: none;
+  }
+  .hero-title__line > span {
+    transform: none;
+    opacity: 1;
+    filter: none;
+    animation: none;
+  }
+  .hero-scroll__dot {
+    animation: none;
+    top: 18px;
+  }
+  .stat-tile,
+  .stat-tile::before {
+    transition: none;
   }
   .btn-brand,
   .btn-brand::after,

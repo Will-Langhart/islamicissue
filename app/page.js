@@ -17,6 +17,7 @@ export default function HomePage() {
       {/* Hero */}
       <section className="hero-glow relative overflow-hidden">
         <div className="hero-grid" aria-hidden="true" />
+        <div className="hero-grain" aria-hidden="true" />
         <div className="relative mx-auto max-w-4xl px-4 py-20 text-center sm:px-6 sm:py-28">
           <Reveal className="mb-8 flex justify-center">
             <span className="hero-mark">
@@ -30,12 +31,19 @@ export default function HomePage() {
               />
             </span>
           </Reveal>
-          <Reveal as="p" delay={60} className="mb-5 font-ui text-xs font-bold uppercase tracking-[0.3em] text-cite">
+          <Reveal as="p" delay={60} className="mb-5 flex items-center justify-center gap-3 font-ui text-xs font-bold uppercase tracking-[0.3em] text-cite">
+            <span aria-hidden="true" className="hidden h-px w-8 bg-cite/40 sm:inline-block" />
             An Internal Critique Compendium
+            <span aria-hidden="true" className="hidden h-px w-8 bg-cite/40 sm:inline-block" />
           </Reveal>
-          <Reveal as="h1" delay={120} className="mx-auto max-w-3xl text-5xl font-bold leading-[1.05] tracking-tight text-heading sm:text-6xl">
-            Examining Islam from Within
-          </Reveal>
+          <h1 className="hero-title mx-auto max-w-3xl text-5xl font-bold leading-[1.05] tracking-tight text-heading sm:text-6xl">
+            <span className="hero-title__line">
+              <span className="hero-title__ink">Examining Islam</span>
+            </span>
+            <span className="hero-title__line">
+              <span className="hero-title__accent font-body italic">from Within</span>
+            </span>
+          </h1>
           <Reveal delay={180} className="rule-grad-c mx-auto mt-7 mb-7 h-px w-24" />
           <Reveal as="p" delay={220} className="mx-auto max-w-2xl text-lg leading-relaxed text-muted">
             Every argument tested against Islam’s own sources — the Quran, the sahih hadith, the sira,
@@ -65,13 +73,20 @@ export default function HomePage() {
           {/* Stat row */}
           <Reveal delay={340} className="mx-auto mt-14 grid max-w-2xl grid-cols-2 gap-px overflow-hidden rounded-xl border border-line bg-line/60 sm:grid-cols-4">
             {stats.map((s) => (
-              <div key={s.label} className="bg-surface px-4 py-5">
-                <div className="text-2xl font-bold text-heading sm:text-3xl">{s.value}</div>
+              <div key={s.label} className="stat-tile bg-surface px-4 py-5">
+                <div className="stat-tile__value text-2xl font-bold sm:text-3xl">{s.value}</div>
                 <div className="mt-1 font-ui text-[11px] font-semibold uppercase tracking-wider text-muted">
                   {s.label}
                 </div>
               </div>
             ))}
+          </Reveal>
+
+          {/* Scroll cue — an ember spark travelling down a hairline */}
+          <Reveal delay={420} className="mt-14 flex justify-center">
+            <span className="hero-scroll" aria-hidden="true">
+              <span className="hero-scroll__dot" />
+            </span>
           </Reveal>
         </div>
       </section>
