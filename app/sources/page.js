@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { bibliography } from "@/lib/structure.mjs";
+import SourceExplorer from "@/components/SourceExplorer";
 
 export const metadata = {
   title: "Sources and Further Reading",
@@ -14,13 +15,8 @@ export default function SourcesPage() {
       <h1 className="mb-8 text-3xl font-bold leading-tight text-heading sm:text-4xl">
         Sources and Further Reading
       </h1>
-      <ul className="ml-5 list-disc space-y-3 marker:text-cite">
-        {bibliography.map((t, i) => (
-          <li key={i} className="leading-relaxed text-ink">
-            {t}
-          </li>
-        ))}
-      </ul>
+      <p className="mb-8 text-lg leading-relaxed text-muted">Filter the bibliography by the role a source plays in the case. The mix matters: primary texts establish what traditions say; scholarship helps determine what follows historically.</p>
+      <SourceExplorer sources={bibliography} />
       <nav className="mt-12 border-t border-line pt-6 font-ui text-sm">
         <Link href="/" className="text-accent hover:underline">
           ← Back to contents

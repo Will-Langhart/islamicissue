@@ -5,6 +5,7 @@ import Sidebar from "@/components/Sidebar";
 import Stance from "@/components/Stance";
 import InPageToc from "@/components/InPageToc";
 import IssueTools from "@/components/IssueTools";
+import ArgumentWorkbench from "@/components/ArgumentWorkbench";
 
 export const dynamicParams = false;
 
@@ -36,6 +37,7 @@ export default async function IssuePage({ params }) {
     { id: "critique", label: "The Critique" },
     { id: "responses", label: "Common Muslim Responses" },
     { id: "rebuttal", label: "Counter-Rebuttal" },
+    { id: "workbench", label: "Argument Workbench" },
     ...(related.length > 0 ? [{ id: "related", label: "Related Issues" }] : []),
   ];
 
@@ -113,6 +115,16 @@ export default async function IssuePage({ params }) {
             seen={seen}
           />
         </div>
+
+        <ArgumentWorkbench
+          title={item.title}
+          critique={item.critique}
+          response={item.response}
+          rebuttal={item.rebuttal}
+          evidence={item.evidence}
+          editorial={item.editorial}
+          audit={item.audit}
+        />
 
         {related.length > 0 && (
           <section id="related" className="issue-related mt-12 scroll-mt-24 border-t border-line pt-6">

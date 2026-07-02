@@ -124,6 +124,13 @@ export default function HomePage() {
       </section>
 
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
+        <section className="grid gap-4 border-b border-line py-10 sm:grid-cols-3">
+          {[
+            ["/methodology", "Evidence standards", "See how claims, responses, and confidence judgments are evaluated."],
+            ["/timeline", "Visual timeline", "Place manuscripts, canon formation, and hadith collections in chronological context."],
+            ["/corrections", "Public revisions", "Inspect the correction policy and substantive revision log."],
+          ].map(([href, title, body]) => <Reveal key={href}><Link href={href} className="research-card"><span>Research tool</span><h2>{title}</h2><p>{body}</p></Link></Reveal>)}
+        </section>
         {/* Method */}
         <section className="mx-auto max-w-3xl py-16">
           <Reveal as="p" className="mb-2 font-ui text-xs font-bold uppercase tracking-[0.2em] text-cite">

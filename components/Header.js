@@ -37,6 +37,7 @@ export default function Header() {
           >
             Sources
           </Link>
+          <Link href="/methodology" className="nav-link hidden text-sm text-muted transition-colors hover:text-accent lg:inline">Method</Link>
           <SearchDialog />
         </nav>
       </div>
