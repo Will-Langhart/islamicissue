@@ -1,5 +1,6 @@
 import "./globals.css";
 import Link from "next/link";
+import { Analytics } from "@vercel/analytics/next";
 import { Newsreader, Inter } from "next/font/google";
 import Header from "@/components/Header";
 import ProgressBar from "@/components/ProgressBar";
@@ -62,6 +63,7 @@ export default function RootLayout({ children }) {
             <p className="font-ui text-xs">Compiled June 2026.</p>
           </div>
         </footer>
+        <Analytics />
       </body>
     </html>
   );
