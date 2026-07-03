@@ -53,6 +53,10 @@ export default function RootLayout({ children }) {
               <span className="mx-2 text-line">·</span>
               <Link href="/timeline" className="text-accent hover:underline">Timeline</Link>
               <span className="mx-2 text-line">·</span>
+              <Link href="/graph" className="text-accent hover:underline">Graph</Link>
+              <span className="mx-2 text-line">·</span>
+              <Link href="/citations" className="text-accent hover:underline">Citation report</Link>
+              <span className="mx-2 text-line">·</span>
               <Link href="/corrections" className="text-accent hover:underline">Corrections</Link>
             </p>
             <p className="font-ui text-xs">Compiled June 2026.</p>

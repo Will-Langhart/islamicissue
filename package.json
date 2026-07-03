@@ -7,7 +7,13 @@
     "build": "node build-graph.mjs && next build",
     "start": "next start",
     "build-doc": "node build-doc.mjs",
-    "graph:build": "node build-graph.mjs"
+    "graph:build": "node build-graph.mjs",
+    "content:validate": "node scripts/content-pipeline.mjs validate",
+    "content:index": "node scripts/content-pipeline.mjs index",
+    "content:contracts": "node scripts/content-pipeline.mjs contracts",
+    "content:cite": "node scripts/content-pipeline.mjs cite",
+    "content:suggest": "node scripts/content-pipeline.mjs suggest",
+    "content:release-check": "node scripts/content-pipeline.mjs release-check"
   },
   "keywords": [],
   "author": "",

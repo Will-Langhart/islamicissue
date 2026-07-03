@@ -1,12 +1,14 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { site, getIssue, getRelated, roman, blockText } from "@/lib/structure.mjs";
+import { site, getIssue, roman, blockText } from "@/lib/structure.mjs";
 import Sidebar from "@/components/Sidebar";
 import Stance from "@/components/Stance";
 import InPageToc from "@/components/InPageToc";
 import IssueTools from "@/components/IssueTools";
 import ArgumentWorkbench from "@/components/ArgumentWorkbench";
 import RelatedIssuesWidget from "@/components/RelatedIssuesWidget";
+import IssueStrengthMeter from "@/components/IssueStrengthMeter";
+import ProofSystemPanel from "@/components/ProofSystemPanel";
 
 export const dynamicParams = false;
 
@@ -31,7 +33,6 @@ export default async function IssuePage({ params }) {
   const data = getIssue(partSlug, issueSlug);
   if (!data) notFound();
   const { part, item, prev, next } = data;
-  const related = getRelated(partSlug, issueSlug);
   const partLabel = `Part ${roman[part.num - 1]}: ${part.short}`;
 
   const tocItems = [
@@ -39,6 +40,8 @@ export default async function IssuePage({ params }) {
     { id: "responses", label: "Common Muslim Responses" },
     { id: "rebuttal", label: "Counter-Rebuttal" },
     { id: "workbench", label: "Argument Workbench" },
+    { id: "proof", label: "Formal Proof System" },
+    { id: "strength", label: "Strength Dashboard" },
     { id: "related", label: "Related Issues" },
   ];
 
@@ -125,6 +128,20 @@ export default async function IssuePage({ params }) {
           evidence={item.evidence}
           editorial={item.editorial}
           audit={item.audit}
+        />
+        <ProofSystemPanel
+          title={item.title}
+          critique={item.critique}
+          response={item.response}
+          rebuttal={item.rebuttal}
+          proof={item.proof}
+          review={item.review}
+        />
+        <IssueStrengthMeter
+          issueId={`issue-${part.num}-${item.num}`}
+          critique={item.critique}
+          response={item.response}
+          rebuttal={item.rebuttal}
         />
 
         <RelatedIssuesWidget

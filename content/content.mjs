@@ -21,6 +21,22 @@ parts.push({
         { q: "So if you are in doubt about that which We have revealed to you, then ask those who have been reading the Scripture before you.", ref: "Quran 10:94" },
         "Alongside these affirmations stands a categorical promise about the durability of God’s words: “The word of your Lord has been fulfilled in truth and in justice. None can alter His words” (Quran 6:115); “Recite what has been revealed to you of the Book of your Lord. None can change His words” (Quran 18:27). The Quran also tells its audience that Muhammad himself is “written in what they have of the Torah and the Gospel” (Quran 7:157) — a present-tense claim about texts in circulation circa 600–632 AD.",
       ],
+      proof: {
+        premises: [
+          "The Quran repeatedly treats Torah and Gospel as present and authoritative in the 7th century context.",
+          "The same passages present divine words as unalterable (Quran 6:115; 18:27).",
+          "Muhammad is told to consult those already reading prior scripture (Quran 10:94), implying continued textual accessibility.",
+        ],
+        conclusion:
+          "The text-level framing of prior scripture in these verses is best read as affirming ongoing scriptural authority rather than a wholly lost text.",
+        assumptions: [
+          "Commands to consult/judge by scripture presuppose materially available, intelligible texts.",
+          "The unalterability language applies to revealed content represented in the cited scripture corpus.",
+        ],
+        fallacies: [],
+        confidence: 0.86,
+        source: "author",
+      },
     },
     {
       title: "The Dilemma Stated",
@@ -39,6 +55,22 @@ parts.push({
         "Critics reply that the tahrif response collides with the Quran’s own wording. First, the corruption proof texts describe distortion “with their tongues” (Quran 3:78) — misreading, mispronouncing, concealing — and 3:78 explicitly says they do this “so that you may think it is from the Scripture, but it is not from the Scripture,” which presupposes an intact Scripture against which the distortion is measured. Second, Quran 5:43 says the Jews of Medina have the Torah “in which is the judgement of Allah” — present tense, about physical books in seventh-century Arabia. Third, Quran 10:94 tells Muhammad to resolve his own doubts by asking the People of the Book, which would be incoherent advice if their scriptures were corrupt. Fourth, the claim that the “real Injil” is lost is an article of faith with no manuscript, patristic, or historical evidence: no fragment, citation, or memory of any such book exists, whereas the four Gospels are attested within decades of Jesus.",
         "Classical Muslim scholarship itself was divided. The thoroughgoing textual-corruption thesis is largely a development associated with Ibn Hazm (d. 1064), four centuries after Muhammad, formulated in polemical context. Earlier and later authorities — al-Tabari on several verses, al-Razi, and in the modern period Muhammad Abduh, who wrote that the charge of textual corruption “makes no sense at all,” since Jews and Christians scattered across the world could never have coordinated identical changes — located the corruption in interpretation, not text. The manuscript record settles the empirical question: the Bible Muhammad’s contemporaries possessed is the Bible we can read today in manuscripts that predate him. Whatever the Quran was confirming in 600s Arabia, we still have it — and the Quran contradicts it.",
       ],
+      proof: {
+        premises: [
+          "Either the Bible in Muhammad’s milieu is substantially preserved or it is materially corrupted.",
+          "If preserved, the Quran’s denials of crucifixion/sonship/atonement conflict with that corpus.",
+          "If corrupted, Quranic endorsements of judging by those texts become internally difficult to reconcile.",
+        ],
+        conclusion:
+          "Under this two-branch framing, critics argue Islam inherits a consistency burden whichever branch is chosen.",
+        assumptions: [
+          "The dilemma is exhaustive with respect to practical text authority in 7th-century context.",
+          "Core Christological claims are not peripheral in the cited Bible corpus.",
+        ],
+        fallacies: ["false dilemma"],
+        confidence: 0.74,
+        source: "author",
+      },
     },
     {
       title: "The Quran’s Own Falsification Test",
@@ -51,6 +83,21 @@ parts.push({
       rebuttal: [
         "The critic answers that harmonization-by-any-means is unfalsifiable: if every tension can be dissolved by positing a new distinction after the fact, then 4:82 is no test at all, and the verse’s rhetorical force evaporates. Abrogation in particular sits awkwardly with the claim that the Quran is the timeless speech of God inscribed on a preserved tablet (Quran 85:21–22): an eternal, unchangeable decree that nonetheless cancels and replaces its own rulings within a single generation (Quran 2:106; 16:101) looks, from the outside, like a text responding to changing political circumstances — and early Muslims themselves catalogued hundreds of abrogated verses (the counts in al-Suyuti and Ibn al-Jawzi range from five to over two hundred).",
       ],
+      proof: {
+        premises: [
+          "Quran 4:82 presents contradiction absence as an authenticity test.",
+          "Defenses relying on broad post hoc harmonization can reduce falsifiability of that test.",
+          "Abrogation debates create a pressure point between timelessness claims and staged legal replacement.",
+        ],
+        conclusion:
+          "Critics treat contradiction/harmonization tension as a methodological test case for 4:82’s practical force.",
+        assumptions: [
+          "A meaningful test must retain conditions under which failure is possible.",
+        ],
+        fallacies: ["assumption-heavy leap"],
+        confidence: 0.79,
+        source: "author",
+      },
     },
   ],
 });

@@ -39,3 +39,34 @@ npm run dev        # local dev server
 npm run build      # production build
 npm run build-doc  # regenerate the Word document from content/content.mjs
 ```
+
+## Graph + citation APIs
+
+These routes are generated from build artifacts (`public/graph-index.json`,
+`public/citation-report.json`) and exposed for integrations.
+
+### Graph API (`/api/graph`)
+
+- `GET /api/graph?mode=summary`
+- `GET /api/graph?mode=concepts`
+- `GET /api/graph?mode=concept&name=abrogation&limit=30`
+- `GET /api/graph?mode=related&issueId=issue-1-2&limit=12&minWeight=0.2`
+
+### Citation API (`/api/citations`)
+
+- `GET /api/citations?mode=summary`
+- `GET /api/citations?mode=top&type=quran|hadith|scholar`
+- `GET /api/citations?mode=parts`
+- `GET /api/citations?mode=warnings&status=all|unreviewed|in_review|reviewed`
+- `GET /api/citations?mode=review`
+
+## Content pipeline commands
+
+```bash
+npm run content:index         # regenerate graph + citation artifacts
+npm run content:validate      # validate indexed issue content
+npm run content:contracts     # validate API contracts against artifacts
+npm run content:cite          # show citation summary + warning gate
+npm run content:suggest -- --issue=/part/issue
+npm run content:release-check # validate + contracts + citation gate
+```
