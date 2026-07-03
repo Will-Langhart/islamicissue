@@ -1,0 +1,8784 @@
+{
+  "version": "1.0",
+  "generatedAt": "2026-07-03T00:00:18.010Z",
+  "stats": {
+    "nodeCount": 82,
+    "edgeCount": 650,
+    "conceptCount": 27,
+    "issueCount": 55
+  },
+  "nodes": [
+    [
+      "issue-1-1",
+      {
+        "id": "issue-1-1",
+        "type": "issue",
+        "label": "What the Quran Says About the Torah and the Gospel",
+        "description": "Part 1, Issue 1",
+        "partNum": 1,
+        "issueNum": 1,
+        "partSlug": "islamic-dilemma",
+        "issueSlug": "what-the-quran-says-about-the-torah-and-the-gospel",
+        "href": "/islamic-dilemma/what-the-quran-says-about-the-torah-and-the-gospel",
+        "metadata": {
+          "concepts": [
+            "revelation"
+          ],
+          "citationCount": 8
+        }
+      }
+    ],
+    [
+      "issue-1-2",
+      {
+        "id": "issue-1-2",
+        "type": "issue",
+        "label": "The Dilemma Stated",
+        "description": "Part 1, Issue 2",
+        "partNum": 1,
+        "issueNum": 2,
+        "partSlug": "islamic-dilemma",
+        "issueSlug": "the-dilemma-stated",
+        "href": "/islamic-dilemma/the-dilemma-stated",
+        "metadata": {
+          "concepts": [
+            "tahrif",
+            "corruption",
+            "distortion",
+            "preserved",
+            "manuscript",
+            "textual",
+            "variant",
+            "deity",
+            "atonement",
+            "resurrection",
+            "crucifixion",
+            "revelation",
+            "historical"
+          ],
+          "citationCount": 14
+        }
+      }
+    ],
+    [
+      "issue-1-3",
+      {
+        "id": "issue-1-3",
+        "type": "issue",
+        "label": "The Quran’s Own Falsification Test",
+        "description": "Part 1, Issue 3",
+        "partNum": 1,
+        "issueNum": 3,
+        "partSlug": "islamic-dilemma",
+        "issueSlug": "the-qurans-own-falsification-test",
+        "href": "/islamic-dilemma/the-qurans-own-falsification-test",
+        "metadata": {
+          "concepts": [
+            "abrogation",
+            "naskh",
+            "contradiction",
+            "preserved",
+            "transmission",
+            "textual",
+            "harmonization",
+            "revelation"
+          ],
+          "citationCount": 7
+        }
+      }
+    ],
+    [
+      "issue-2-1",
+      {
+        "id": "issue-2-1",
+        "type": "issue",
+        "label": "How Many Days of Creation — Six or Eight?",
+        "description": "Part 2, Issue 1",
+        "partNum": 2,
+        "issueNum": 1,
+        "partSlug": "quran-contradictions",
+        "issueSlug": "how-many-days-of-creation-six-or-eight",
+        "href": "/quran-contradictions/how-many-days-of-creation-six-or-eight",
+        "metadata": {
+          "concepts": [
+            "contradiction"
+          ],
+          "citationCount": 9
+        }
+      }
+    ],
+    [
+      "issue-2-2",
+      {
+        "id": "issue-2-2",
+        "type": "issue",
+        "label": "Who Was the First Muslim?",
+        "description": "Part 2, Issue 2",
+        "partNum": 2,
+        "issueNum": 2,
+        "partSlug": "quran-contradictions",
+        "issueSlug": "who-was-the-first-muslim",
+        "href": "/quran-contradictions/who-was-the-first-muslim",
+        "metadata": {
+          "concepts": [
+            "harmonization",
+            "revelation"
+          ],
+          "citationCount": 8
+        }
+      }
+    ],
+    [
+      "issue-2-3",
+      {
+        "id": "issue-2-3",
+        "type": "issue",
+        "label": "How Long Is a Day with Allah — 1,000 Years or 50,000?",
+        "description": "Part 2, Issue 3",
+        "partNum": 2,
+        "issueNum": 3,
+        "partSlug": "quran-contradictions",
+        "issueSlug": "how-long-is-a-day-with-allah-1-000-years-or-50-000",
+        "href": "/quran-contradictions/how-long-is-a-day-with-allah-1-000-years-or-50-000",
+        "metadata": {
+          "concepts": [
+            "miracle"
+          ],
+          "citationCount": 3
+        }
+      }
+    ],
+    [
+      "issue-2-4",
+      {
+        "id": "issue-2-4",
+        "type": "issue",
+        "label": "Was Iblis an Angel or a Jinn?",
+        "description": "Part 2, Issue 4",
+        "partNum": 2,
+        "issueNum": 4,
+        "partSlug": "quran-contradictions",
+        "issueSlug": "was-iblis-an-angel-or-a-jinn",
+        "href": "/quran-contradictions/was-iblis-an-angel-or-a-jinn",
+        "metadata": {
+          "concepts": [
+            "contradiction"
+          ],
+          "citationCount": 8
+        }
+      }
+    ],
+    [
+      "issue-2-5",
+      {
+        "id": "issue-2-5",
+        "type": "issue",
+        "label": "Does Intercession Exist or Not?",
+        "description": "Part 2, Issue 5",
+        "partNum": 2,
+        "issueNum": 5,
+        "partSlug": "quran-contradictions",
+        "issueSlug": "does-intercession-exist-or-not",
+        "href": "/quran-contradictions/does-intercession-exist-or-not",
+        "metadata": {
+          "concepts": [
+            "harmonization"
+          ],
+          "citationCount": 9
+        }
+      }
+    ],
+    [
+      "issue-2-6",
+      {
+        "id": "issue-2-6",
+        "type": "issue",
+        "label": "Could Allah Have a Son?",
+        "description": "Part 2, Issue 6",
+        "partNum": 2,
+        "issueNum": 6,
+        "partSlug": "quran-contradictions",
+        "issueSlug": "could-allah-have-a-son",
+        "href": "/quran-contradictions/could-allah-have-a-son",
+        "metadata": {
+          "concepts": [
+            "contradiction"
+          ],
+          "citationCount": 4
+        }
+      }
+    ],
+    [
+      "issue-2-7",
+      {
+        "id": "issue-2-7",
+        "type": "issue",
+        "label": "Does the Quran Misdescribe the Trinity?",
+        "description": "Part 2, Issue 7",
+        "partNum": 2,
+        "issueNum": 7,
+        "partSlug": "quran-contradictions",
+        "issueSlug": "does-the-quran-misdescribe-the-trinity",
+        "href": "/quran-contradictions/does-the-quran-misdescribe-the-trinity",
+        "metadata": {
+          "concepts": [],
+          "citationCount": 4
+        }
+      }
+    ],
+    [
+      "issue-2-8",
+      {
+        "id": "issue-2-8",
+        "type": "issue",
+        "label": "Tolerance Verses Versus Sword Verses, and the Problem of Abrogation",
+        "description": "Part 2, Issue 8",
+        "partNum": 2,
+        "issueNum": 8,
+        "partSlug": "quran-contradictions",
+        "issueSlug": "tolerance-verses-versus-sword-verses-and-the-problem-of-abro",
+        "href": "/quran-contradictions/tolerance-verses-versus-sword-verses-and-the-problem-of-abro",
+        "metadata": {
+          "concepts": [
+            "abrogation",
+            "contradiction",
+            "preserved",
+            "revelation"
+          ],
+          "citationCount": 11
+        }
+      }
+    ],
+    [
+      "issue-2-9",
+      {
+        "id": "issue-2-9",
+        "type": "issue",
+        "label": "Pure Arabic — With Foreign Loanwords",
+        "description": "Part 2, Issue 9",
+        "partNum": 2,
+        "issueNum": 9,
+        "partSlug": "quran-contradictions",
+        "issueSlug": "pure-arabic-with-foreign-loanwords",
+        "href": "/quran-contradictions/pure-arabic-with-foreign-loanwords",
+        "metadata": {
+          "concepts": [
+            "authenticity"
+          ],
+          "citationCount": 4
+        }
+      }
+    ],
+    [
+      "issue-3-1",
+      {
+        "id": "issue-3-1",
+        "type": "issue",
+        "label": "The Quran Was Compiled After Muhammad’s Death — and Parts Were Nearly Lost",
+        "description": "Part 3, Issue 1",
+        "partNum": 3,
+        "issueNum": 1,
+        "partSlug": "preservation",
+        "issueSlug": "the-quran-was-compiled-after-muhammads-death-and-parts-were",
+        "href": "/preservation/the-quran-was-compiled-after-muhammads-death-and-parts-were",
+        "metadata": {
+          "concepts": [
+            "preservation"
+          ],
+          "citationCount": 2
+        }
+      }
+    ],
+    [
+      "issue-3-2",
+      {
+        "id": "issue-3-2",
+        "type": "issue",
+        "label": "Uthman Burned the Competing Codices",
+        "description": "Part 3, Issue 2",
+        "partNum": 3,
+        "issueNum": 2,
+        "partSlug": "preservation",
+        "issueSlug": "uthman-burned-the-competing-codices",
+        "href": "/preservation/uthman-burned-the-competing-codices",
+        "metadata": {
+          "concepts": [
+            "preservation",
+            "manuscript",
+            "variant",
+            "revelation"
+          ],
+          "citationCount": 3
+        }
+      }
+    ],
+    [
+      "issue-3-3",
+      {
+        "id": "issue-3-3",
+        "type": "issue",
+        "label": "Ibn Mas‘ud and Ubayy: The Master Reciters Disagreed About the Canon",
+        "description": "Part 3, Issue 3",
+        "partNum": 3,
+        "issueNum": 3,
+        "partSlug": "preservation",
+        "issueSlug": "ibn-masud-and-ubayy-the-master-reciters-disagreed-about-the",
+        "href": "/preservation/ibn-masud-and-ubayy-the-master-reciters-disagreed-about-the",
+        "metadata": {
+          "concepts": [
+            "naskh",
+            "preservation",
+            "authenticity",
+            "isnad"
+          ],
+          "citationCount": 3
+        }
+      }
+    ],
+    [
+      "issue-3-4",
+      {
+        "id": "issue-3-4",
+        "type": "issue",
+        "label": "Missing Verses: Stoning, Adult Suckling, and the Sheep",
+        "description": "Part 3, Issue 4",
+        "partNum": 3,
+        "issueNum": 4,
+        "partSlug": "preservation",
+        "issueSlug": "missing-verses-stoning-adult-suckling-and-the-sheep",
+        "href": "/preservation/missing-verses-stoning-adult-suckling-and-the-sheep",
+        "metadata": {
+          "concepts": [
+            "abrogation",
+            "naskh",
+            "preservation",
+            "textual"
+          ],
+          "citationCount": 10
+        }
+      }
+    ],
+    [
+      "issue-3-5",
+      {
+        "id": "issue-3-5",
+        "type": "issue",
+        "label": "The Sanaa Palimpsest: Physical Evidence of a Different Text",
+        "description": "Part 3, Issue 5",
+        "partNum": 3,
+        "issueNum": 5,
+        "partSlug": "preservation",
+        "issueSlug": "the-sanaa-palimpsest-physical-evidence-of-a-different-text",
+        "href": "/preservation/the-sanaa-palimpsest-physical-evidence-of-a-different-text",
+        "metadata": {
+          "concepts": [
+            "preserved",
+            "preservation",
+            "manuscript",
+            "transmission",
+            "textual",
+            "variant"
+          ],
+          "citationCount": 0
+        }
+      }
+    ],
+    [
+      "issue-3-6",
+      {
+        "id": "issue-3-6",
+        "type": "issue",
+        "label": "The Qira’at: Today’s Qurans Differ From Each Other",
+        "description": "Part 3, Issue 6",
+        "partNum": 3,
+        "issueNum": 6,
+        "partSlug": "preservation",
+        "issueSlug": "the-qiraat-todays-qurans-differ-from-each-other",
+        "href": "/preservation/the-qiraat-todays-qurans-differ-from-each-other",
+        "metadata": {
+          "concepts": [
+            "preservation",
+            "manuscript",
+            "transmission",
+            "variant",
+            "revelation",
+            "miracle"
+          ],
+          "citationCount": 3
+        }
+      }
+    ],
+    [
+      "issue-4-1",
+      {
+        "id": "issue-4-1",
+        "type": "issue",
+        "label": "Haman in Pharaoh’s Egypt",
+        "description": "Part 4, Issue 1",
+        "partNum": 4,
+        "issueNum": 1,
+        "partSlug": "history-science",
+        "issueSlug": "haman-in-pharaohs-egypt",
+        "href": "/history-science/haman-in-pharaohs-egypt",
+        "metadata": {
+          "concepts": [],
+          "citationCount": 4
+        }
+      }
+    ],
+    [
+      "issue-4-2",
+      {
+        "id": "issue-4-2",
+        "type": "issue",
+        "label": "Crucifixion Before Crucifixion Existed",
+        "description": "Part 4, Issue 2",
+        "partNum": 4,
+        "issueNum": 2,
+        "partSlug": "history-science",
+        "issueSlug": "crucifixion-before-crucifixion-existed",
+        "href": "/history-science/crucifixion-before-crucifixion-existed",
+        "metadata": {
+          "concepts": [
+            "crucifixion"
+          ],
+          "citationCount": 7
+        }
+      }
+    ],
+    [
+      "issue-4-3",
+      {
+        "id": "issue-4-3",
+        "type": "issue",
+        "label": "The Samaritan at Sinai",
+        "description": "Part 4, Issue 3",
+        "partNum": 4,
+        "issueNum": 3,
+        "partSlug": "history-science",
+        "issueSlug": "the-samaritan-at-sinai",
+        "href": "/history-science/the-samaritan-at-sinai",
+        "metadata": {
+          "concepts": [],
+          "citationCount": 2
+        }
+      }
+    ],
+    [
+      "issue-4-4",
+      {
+        "id": "issue-4-4",
+        "type": "issue",
+        "label": "Mary the Sister of Aaron, Daughter of Amram",
+        "description": "Part 4, Issue 4",
+        "partNum": 4,
+        "issueNum": 4,
+        "partSlug": "history-science",
+        "issueSlug": "mary-the-sister-of-aaron-daughter-of-amram",
+        "href": "/history-science/mary-the-sister-of-aaron-daughter-of-amram",
+        "metadata": {
+          "concepts": [],
+          "citationCount": 5
+        }
+      }
+    ],
+    [
+      "issue-4-5",
+      {
+        "id": "issue-4-5",
+        "type": "issue",
+        "label": "The Sun Sets in a Muddy Spring",
+        "description": "Part 4, Issue 5",
+        "partNum": 4,
+        "issueNum": 5,
+        "partSlug": "history-science",
+        "issueSlug": "the-sun-sets-in-a-muddy-spring",
+        "href": "/history-science/the-sun-sets-in-a-muddy-spring",
+        "metadata": {
+          "concepts": [],
+          "citationCount": 3
+        }
+      }
+    ],
+    [
+      "issue-4-6",
+      {
+        "id": "issue-4-6",
+        "type": "issue",
+        "label": "Semen From Between the Backbone and the Ribs",
+        "description": "Part 4, Issue 6",
+        "partNum": 4,
+        "issueNum": 6,
+        "partSlug": "history-science",
+        "issueSlug": "semen-from-between-the-backbone-and-the-ribs",
+        "href": "/history-science/semen-from-between-the-backbone-and-the-ribs",
+        "metadata": {
+          "concepts": [
+            "harmonization"
+          ],
+          "citationCount": 1
+        }
+      }
+    ],
+    [
+      "issue-4-7",
+      {
+        "id": "issue-4-7",
+        "type": "issue",
+        "label": "Embryology: The Clot and the Bones-Then-Flesh Sequence",
+        "description": "Part 4, Issue 7",
+        "partNum": 4,
+        "issueNum": 7,
+        "partSlug": "history-science",
+        "issueSlug": "embryology-the-clot-and-the-bones-then-flesh-sequence",
+        "href": "/history-science/embryology-the-clot-and-the-bones-then-flesh-sequence",
+        "metadata": {
+          "concepts": [
+            "revelation",
+            "miracle",
+            "scientific"
+          ],
+          "citationCount": 3
+        }
+      }
+    ],
+    [
+      "issue-4-8",
+      {
+        "id": "issue-4-8",
+        "type": "issue",
+        "label": "Stars as Missiles, Seven Earths, and the Solid Sky",
+        "description": "Part 4, Issue 8",
+        "partNum": 4,
+        "issueNum": 8,
+        "partSlug": "history-science",
+        "issueSlug": "stars-as-missiles-seven-earths-and-the-solid-sky",
+        "href": "/history-science/stars-as-missiles-seven-earths-and-the-solid-sky",
+        "metadata": {
+          "concepts": [],
+          "citationCount": 16
+        }
+      }
+    ],
+    [
+      "issue-4-9",
+      {
+        "id": "issue-4-9",
+        "type": "issue",
+        "label": "Hadith Science: The Fly, the Camel Urine, and Adam’s Height",
+        "description": "Part 4, Issue 9",
+        "partNum": 4,
+        "issueNum": 9,
+        "partSlug": "history-science",
+        "issueSlug": "hadith-science-the-fly-the-camel-urine-and-adams-height",
+        "href": "/history-science/hadith-science-the-fly-the-camel-urine-and-adams-height",
+        "metadata": {
+          "concepts": [
+            "revelation",
+            "miracle",
+            "scientific"
+          ],
+          "citationCount": 7
+        }
+      }
+    ],
+    [
+      "issue-5-1",
+      {
+        "id": "issue-5-1",
+        "type": "issue",
+        "label": "A Messenger Without Signs — Who Later Has Thousands",
+        "description": "Part 5, Issue 1",
+        "partNum": 5,
+        "issueNum": 1,
+        "partSlug": "muhammad",
+        "issueSlug": "a-messenger-without-signs-who-later-has-thousands",
+        "href": "/muhammad/a-messenger-without-signs-who-later-has-thousands",
+        "metadata": {
+          "concepts": [
+            "miracle",
+            "historical"
+          ],
+          "citationCount": 4
+        }
+      }
+    ],
+    [
+      "issue-5-2",
+      {
+        "id": "issue-5-2",
+        "type": "issue",
+        "label": "Convenient Revelations: Zaynab, the Wives, and Aisha’s Observation",
+        "description": "Part 5, Issue 2",
+        "partNum": 5,
+        "issueNum": 2,
+        "partSlug": "muhammad",
+        "issueSlug": "convenient-revelations-zaynab-the-wives-and-aishas-observati",
+        "href": "/muhammad/convenient-revelations-zaynab-the-wives-and-aishas-observati",
+        "metadata": {
+          "concepts": [
+            "preserved",
+            "transmission",
+            "harmonization",
+            "revelation"
+          ],
+          "citationCount": 8
+        }
+      }
+    ],
+    [
+      "issue-5-3",
+      {
+        "id": "issue-5-3",
+        "type": "issue",
+        "label": "The Satanic Verses Incident",
+        "description": "Part 5, Issue 3",
+        "partNum": 5,
+        "issueNum": 3,
+        "partSlug": "muhammad",
+        "issueSlug": "the-satanic-verses-incident",
+        "href": "/muhammad/the-satanic-verses-incident",
+        "metadata": {
+          "concepts": [
+            "chain",
+            "isnad",
+            "compilation",
+            "revelation",
+            "historical"
+          ],
+          "citationCount": 4
+        }
+      }
+    ],
+    [
+      "issue-5-4",
+      {
+        "id": "issue-5-4",
+        "type": "issue",
+        "label": "The Bewitchment of the Prophet",
+        "description": "Part 5, Issue 4",
+        "partNum": 5,
+        "issueNum": 4,
+        "partSlug": "muhammad",
+        "issueSlug": "the-bewitchment-of-the-prophet",
+        "href": "/muhammad/the-bewitchment-of-the-prophet",
+        "metadata": {
+          "concepts": [
+            "contradiction",
+            "revelation",
+            "prophecy",
+            "historical"
+          ],
+          "citationCount": 5
+        }
+      }
+    ],
+    [
+      "issue-5-5",
+      {
+        "id": "issue-5-5",
+        "type": "issue",
+        "label": "Aisha’s Age",
+        "description": "Part 5, Issue 5",
+        "partNum": 5,
+        "issueNum": 5,
+        "partSlug": "muhammad",
+        "issueSlug": "aishas-age",
+        "href": "/muhammad/aishas-age",
+        "metadata": {
+          "concepts": [
+            "transmission",
+            "textual",
+            "revelation",
+            "anachronism"
+          ],
+          "citationCount": 9
+        }
+      }
+    ],
+    [
+      "issue-5-6",
+      {
+        "id": "issue-5-6",
+        "type": "issue",
+        "label": "Banu Qurayza and the Captives",
+        "description": "Part 5, Issue 6",
+        "partNum": 5,
+        "issueNum": 6,
+        "partSlug": "muhammad",
+        "issueSlug": "banu-qurayza-and-the-captives",
+        "href": "/muhammad/banu-qurayza-and-the-captives",
+        "metadata": {
+          "concepts": [
+            "chain",
+            "revelation"
+          ],
+          "citationCount": 7
+        }
+      }
+    ],
+    [
+      "issue-5-7",
+      {
+        "id": "issue-5-7",
+        "type": "issue",
+        "label": "The Aorta Test: Quran 69:44–46 and the Prophet’s Death",
+        "description": "Part 5, Issue 7",
+        "partNum": 5,
+        "issueNum": 7,
+        "partSlug": "muhammad",
+        "issueSlug": "the-aorta-test-quran-69-44-46-and-the-prophets-death",
+        "href": "/muhammad/the-aorta-test-quran-69-44-46-and-the-prophets-death",
+        "metadata": {
+          "concepts": [
+            "preserved",
+            "revelation"
+          ],
+          "citationCount": 3
+        }
+      }
+    ],
+    [
+      "issue-6-1",
+      {
+        "id": "issue-6-1",
+        "type": "issue",
+        "label": "Allah, the Best of Schemers",
+        "description": "Part 6, Issue 1",
+        "partNum": 6,
+        "issueNum": 1,
+        "partSlug": "theology-ethics",
+        "issueSlug": "allah-the-best-of-schemers",
+        "href": "/theology-ethics/allah-the-best-of-schemers",
+        "metadata": {
+          "concepts": [
+            "deity",
+            "revelation"
+          ],
+          "citationCount": 8
+        }
+      }
+    ],
+    [
+      "issue-6-2",
+      {
+        "id": "issue-6-2",
+        "type": "issue",
+        "label": "Predestination Versus Accountability",
+        "description": "Part 6, Issue 2",
+        "partNum": 6,
+        "issueNum": 2,
+        "partSlug": "theology-ethics",
+        "issueSlug": "predestination-versus-accountability",
+        "href": "/theology-ethics/predestination-versus-accountability",
+        "metadata": {
+          "concepts": [
+            "revelation"
+          ],
+          "citationCount": 9
+        }
+      }
+    ],
+    [
+      "issue-6-3",
+      {
+        "id": "issue-6-3",
+        "type": "issue",
+        "label": "The Crucifixion Denial",
+        "description": "Part 6, Issue 3",
+        "partNum": 6,
+        "issueNum": 3,
+        "partSlug": "theology-ethics",
+        "issueSlug": "the-crucifixion-denial",
+        "href": "/theology-ethics/the-crucifixion-denial",
+        "metadata": {
+          "concepts": [
+            "crucifixion",
+            "revelation",
+            "historical"
+          ],
+          "citationCount": 3
+        }
+      }
+    ],
+    [
+      "issue-6-4",
+      {
+        "id": "issue-6-4",
+        "type": "issue",
+        "label": "Salvation Without Atonement — and the Transferred Sins Hadith",
+        "description": "Part 6, Issue 4",
+        "partNum": 6,
+        "issueNum": 4,
+        "partSlug": "theology-ethics",
+        "issueSlug": "salvation-without-atonement-and-the-transferred-sins-hadith",
+        "href": "/theology-ethics/salvation-without-atonement-and-the-transferred-sins-hadith",
+        "metadata": {
+          "concepts": [
+            "atonement",
+            "resurrection",
+            "historical"
+          ],
+          "citationCount": 13
+        }
+      }
+    ],
+    [
+      "issue-6-5",
+      {
+        "id": "issue-6-5",
+        "type": "issue",
+        "label": "Women in the Quran and Sahih Hadith",
+        "description": "Part 6, Issue 5",
+        "partNum": 6,
+        "issueNum": 5,
+        "partSlug": "theology-ethics",
+        "issueSlug": "women-in-the-quran-and-sahih-hadith",
+        "href": "/theology-ethics/women-in-the-quran-and-sahih-hadith",
+        "metadata": {
+          "concepts": [
+            "textual",
+            "revelation",
+            "historical"
+          ],
+          "citationCount": 9
+        }
+      }
+    ],
+    [
+      "issue-6-6",
+      {
+        "id": "issue-6-6",
+        "type": "issue",
+        "label": "Eternal Hell, the Treatment of Unbelief, and Compulsion in Practice",
+        "description": "Part 6, Issue 6",
+        "partNum": 6,
+        "issueNum": 6,
+        "partSlug": "theology-ethics",
+        "issueSlug": "eternal-hell-the-treatment-of-unbelief-and-compulsion-in-pra",
+        "href": "/theology-ethics/eternal-hell-the-treatment-of-unbelief-and-compulsion-in-pra",
+        "metadata": {
+          "concepts": [
+            "textual"
+          ],
+          "citationCount": 6
+        }
+      }
+    ],
+    [
+      "issue-7-1",
+      {
+        "id": "issue-7-1",
+        "type": "issue",
+        "label": "Child Marriage: Quran 65:4 and the Juristic Consensus",
+        "description": "Part 7, Issue 1",
+        "partNum": 7,
+        "issueNum": 1,
+        "partSlug": "sharia-morality",
+        "issueSlug": "child-marriage-quran-65-4-and-the-juristic-consensus",
+        "href": "/sharia-morality/child-marriage-quran-65-4-and-the-juristic-consensus",
+        "metadata": {
+          "concepts": [
+            "contradiction",
+            "preserved",
+            "textual",
+            "revelation"
+          ],
+          "citationCount": 3
+        }
+      }
+    ],
+    [
+      "issue-7-2",
+      {
+        "id": "issue-7-2",
+        "type": "issue",
+        "label": "The Jizya and the Dhimma System",
+        "description": "Part 7, Issue 2",
+        "partNum": 7,
+        "issueNum": 2,
+        "partSlug": "sharia-morality",
+        "issueSlug": "the-jizya-and-the-dhimma-system",
+        "href": "/sharia-morality/the-jizya-and-the-dhimma-system",
+        "metadata": {
+          "concepts": [
+            "historical"
+          ],
+          "citationCount": 2
+        }
+      }
+    ],
+    [
+      "issue-7-3",
+      {
+        "id": "issue-7-3",
+        "type": "issue",
+        "label": "Slavery and Concubinage",
+        "description": "Part 7, Issue 3",
+        "partNum": 7,
+        "issueNum": 3,
+        "partSlug": "sharia-morality",
+        "issueSlug": "slavery-and-concubinage",
+        "href": "/sharia-morality/slavery-and-concubinage",
+        "metadata": {
+          "concepts": [
+            "revelation"
+          ],
+          "citationCount": 11
+        }
+      }
+    ],
+    [
+      "issue-7-4",
+      {
+        "id": "issue-7-4",
+        "type": "issue",
+        "label": "Sanctioned Deception and the Dissolution of Oaths",
+        "description": "Part 7, Issue 4",
+        "partNum": 7,
+        "issueNum": 4,
+        "partSlug": "sharia-morality",
+        "issueSlug": "sanctioned-deception-and-the-dissolution-of-oaths",
+        "href": "/sharia-morality/sanctioned-deception-and-the-dissolution-of-oaths",
+        "metadata": {
+          "concepts": [
+            "resurrection",
+            "revelation"
+          ],
+          "citationCount": 12
+        }
+      }
+    ],
+    [
+      "issue-7-5",
+      {
+        "id": "issue-7-5",
+        "type": "issue",
+        "label": "Temporary Marriage (Mut‘ah): The Revocable Sexual Contract",
+        "description": "Part 7, Issue 5",
+        "partNum": 7,
+        "issueNum": 5,
+        "partSlug": "sharia-morality",
+        "issueSlug": "temporary-marriage-mutah-the-revocable-sexual-contract",
+        "href": "/sharia-morality/temporary-marriage-mutah-the-revocable-sexual-contract",
+        "metadata": {
+          "concepts": [
+            "abrogation",
+            "harmonization",
+            "resurrection",
+            "revelation"
+          ],
+          "citationCount": 7
+        }
+      }
+    ],
+    [
+      "issue-7-6",
+      {
+        "id": "issue-7-6",
+        "type": "issue",
+        "label": "Assassinations of Critics and the Nakhla Precedent",
+        "description": "Part 7, Issue 6",
+        "partNum": 7,
+        "issueNum": 6,
+        "partSlug": "sharia-morality",
+        "issueSlug": "assassinations-of-critics-and-the-nakhla-precedent",
+        "href": "/sharia-morality/assassinations-of-critics-and-the-nakhla-precedent",
+        "metadata": {
+          "concepts": [
+            "chain",
+            "compilation",
+            "revelation"
+          ],
+          "citationCount": 4
+        }
+      }
+    ],
+    [
+      "issue-8-1",
+      {
+        "id": "issue-8-1",
+        "type": "issue",
+        "label": "Islam Is Unworkable Without Hadith",
+        "description": "Part 8, Issue 1",
+        "partNum": 8,
+        "issueNum": 1,
+        "partSlug": "hadith-problem",
+        "issueSlug": "islam-is-unworkable-without-hadith",
+        "href": "/hadith-problem/islam-is-unworkable-without-hadith",
+        "metadata": {
+          "concepts": [
+            "preservation",
+            "isnad",
+            "revelation"
+          ],
+          "citationCount": 6
+        }
+      }
+    ],
+    [
+      "issue-8-2",
+      {
+        "id": "issue-8-2",
+        "type": "issue",
+        "label": "The Hadith Corpus: Late, Sifted, and Self-Confessedly Polluted",
+        "description": "Part 8, Issue 2",
+        "partNum": 8,
+        "issueNum": 2,
+        "partSlug": "hadith-problem",
+        "issueSlug": "the-hadith-corpus-late-sifted-and-self-confessedly-polluted",
+        "href": "/hadith-problem/the-hadith-corpus-late-sifted-and-self-confessedly-polluted",
+        "metadata": {
+          "concepts": [
+            "chain",
+            "isnad",
+            "transmission"
+          ],
+          "citationCount": 0
+        }
+      }
+    ],
+    [
+      "issue-8-3",
+      {
+        "id": "issue-8-3",
+        "type": "issue",
+        "label": "The Consensus Trap",
+        "description": "Part 8, Issue 3",
+        "partNum": 8,
+        "issueNum": 3,
+        "partSlug": "hadith-problem",
+        "issueSlug": "the-consensus-trap",
+        "href": "/hadith-problem/the-consensus-trap",
+        "metadata": {
+          "concepts": [
+            "preserved",
+            "revelation",
+            "miracle",
+            "scientific"
+          ],
+          "citationCount": 3
+        }
+      }
+    ],
+    [
+      "issue-9-1",
+      {
+        "id": "issue-9-1",
+        "type": "issue",
+        "label": "Failed and Unfulfilled Prophecies",
+        "description": "Part 9, Issue 1",
+        "partNum": 9,
+        "issueNum": 1,
+        "partSlug": "prophecy-miracle",
+        "issueSlug": "failed-and-unfulfilled-prophecies",
+        "href": "/prophecy-miracle/failed-and-unfulfilled-prophecies",
+        "metadata": {
+          "concepts": [
+            "prophecy",
+            "historical"
+          ],
+          "citationCount": 14
+        }
+      }
+    ],
+    [
+      "issue-9-2",
+      {
+        "id": "issue-9-2",
+        "type": "issue",
+        "label": "The Literary Challenge (I‘jaz) and Its Unfalsifiability",
+        "description": "Part 9, Issue 2",
+        "partNum": 9,
+        "issueNum": 2,
+        "partSlug": "prophecy-miracle",
+        "issueSlug": "the-literary-challenge-ijaz-and-its-unfalsifiability",
+        "href": "/prophecy-miracle/the-literary-challenge-ijaz-and-its-unfalsifiability",
+        "metadata": {
+          "concepts": [
+            "miracle",
+            "historical"
+          ],
+          "citationCount": 4
+        }
+      }
+    ],
+    [
+      "issue-9-3",
+      {
+        "id": "issue-9-3",
+        "type": "issue",
+        "label": "Borrowed Apocryphal and Legendary Sources",
+        "description": "Part 9, Issue 3",
+        "partNum": 9,
+        "issueNum": 3,
+        "partSlug": "prophecy-miracle",
+        "issueSlug": "borrowed-apocryphal-and-legendary-sources",
+        "href": "/prophecy-miracle/borrowed-apocryphal-and-legendary-sources",
+        "metadata": {
+          "concepts": [
+            "revelation",
+            "miracle",
+            "historical"
+          ],
+          "citationCount": 7
+        }
+      }
+    ],
+    [
+      "issue-9-4",
+      {
+        "id": "issue-9-4",
+        "type": "issue",
+        "label": "The Inheritance Arithmetic (the ‘Awl Problem)",
+        "description": "Part 9, Issue 4",
+        "partNum": 9,
+        "issueNum": 4,
+        "partSlug": "prophecy-miracle",
+        "issueSlug": "the-inheritance-arithmetic-the-awl-problem",
+        "href": "/prophecy-miracle/the-inheritance-arithmetic-the-awl-problem",
+        "metadata": {
+          "concepts": [
+            "revelation"
+          ],
+          "citationCount": 2
+        }
+      }
+    ],
+    [
+      "issue-9-5",
+      {
+        "id": "issue-9-5",
+        "type": "issue",
+        "label": "Pagan Continuity in Islamic Ritual",
+        "description": "Part 9, Issue 5",
+        "partNum": 9,
+        "issueNum": 5,
+        "partSlug": "prophecy-miracle",
+        "issueSlug": "pagan-continuity-in-islamic-ritual",
+        "href": "/prophecy-miracle/pagan-continuity-in-islamic-ritual",
+        "metadata": {
+          "concepts": [
+            "preserved",
+            "historical"
+          ],
+          "citationCount": 5
+        }
+      }
+    ],
+    [
+      "issue-9-6",
+      {
+        "id": "issue-9-6",
+        "type": "issue",
+        "label": "The Night Journey and the Negotiated Prayers",
+        "description": "Part 9, Issue 6",
+        "partNum": 9,
+        "issueNum": 6,
+        "partSlug": "prophecy-miracle",
+        "issueSlug": "the-night-journey-and-the-negotiated-prayers",
+        "href": "/prophecy-miracle/the-night-journey-and-the-negotiated-prayers",
+        "metadata": {
+          "concepts": [
+            "transmission",
+            "deity"
+          ],
+          "citationCount": 3
+        }
+      }
+    ],
+    [
+      "concept-revelation",
+      {
+        "id": "concept-revelation",
+        "type": "concept",
+        "label": "revelation",
+        "frequency": 28,
+        "contexts": [
+          "What the Quran Says About the Torah and the Gospel (Part 1)",
+          "The Dilemma Stated (Part 1)",
+          "The Quran’s Own Falsification Test (Part 1)"
+        ],
+        "metadata": {
+          "category": "conceptual"
+        }
+      }
+    ],
+    [
+      "concept-tahrif",
+      {
+        "id": "concept-tahrif",
+        "type": "concept",
+        "label": "tahrif",
+        "frequency": 1,
+        "contexts": [
+          "The Dilemma Stated (Part 1)"
+        ],
+        "metadata": {
+          "category": "conceptual"
+        }
+      }
+    ],
+    [
+      "concept-corruption",
+      {
+        "id": "concept-corruption",
+        "type": "concept",
+        "label": "corruption",
+        "frequency": 1,
+        "contexts": [
+          "The Dilemma Stated (Part 1)"
+        ],
+        "metadata": {
+          "category": "conceptual"
+        }
+      }
+    ],
+    [
+      "concept-distortion",
+      {
+        "id": "concept-distortion",
+        "type": "concept",
+        "label": "distortion",
+        "frequency": 1,
+        "contexts": [
+          "The Dilemma Stated (Part 1)"
+        ],
+        "metadata": {
+          "category": "conceptual"
+        }
+      }
+    ],
+    [
+      "concept-preserved",
+      {
+        "id": "concept-preserved",
+        "type": "concept",
+        "label": "preserved",
+        "frequency": 9,
+        "contexts": [
+          "The Dilemma Stated (Part 1)",
+          "The Quran’s Own Falsification Test (Part 1)",
+          "Tolerance Verses Versus Sword Verses, and the Problem of Abrogation (Part 2)"
+        ],
+        "metadata": {
+          "category": "conceptual"
+        }
+      }
+    ],
+    [
+      "concept-manuscript",
+      {
+        "id": "concept-manuscript",
+        "type": "concept",
+        "label": "manuscript",
+        "frequency": 4,
+        "contexts": [
+          "The Dilemma Stated (Part 1)",
+          "Uthman Burned the Competing Codices (Part 3)",
+          "The Sanaa Palimpsest: Physical Evidence of a Different Text (Part 3)"
+        ],
+        "metadata": {
+          "category": "conceptual"
+        }
+      }
+    ],
+    [
+      "concept-textual",
+      {
+        "id": "concept-textual",
+        "type": "concept",
+        "label": "textual",
+        "frequency": 8,
+        "contexts": [
+          "The Dilemma Stated (Part 1)",
+          "The Quran’s Own Falsification Test (Part 1)",
+          "Missing Verses: Stoning, Adult Suckling, and the Sheep (Part 3)"
+        ],
+        "metadata": {
+          "category": "conceptual"
+        }
+      }
+    ],
+    [
+      "concept-variant",
+      {
+        "id": "concept-variant",
+        "type": "concept",
+        "label": "variant",
+        "frequency": 4,
+        "contexts": [
+          "The Dilemma Stated (Part 1)",
+          "Uthman Burned the Competing Codices (Part 3)",
+          "The Sanaa Palimpsest: Physical Evidence of a Different Text (Part 3)"
+        ],
+        "metadata": {
+          "category": "conceptual"
+        }
+      }
+    ],
+    [
+      "concept-deity",
+      {
+        "id": "concept-deity",
+        "type": "concept",
+        "label": "deity",
+        "frequency": 3,
+        "contexts": [
+          "The Dilemma Stated (Part 1)",
+          "Allah, the Best of Schemers (Part 6)",
+          "The Night Journey and the Negotiated Prayers (Part 9)"
+        ],
+        "metadata": {
+          "category": "conceptual"
+        }
+      }
+    ],
+    [
+      "concept-atonement",
+      {
+        "id": "concept-atonement",
+        "type": "concept",
+        "label": "atonement",
+        "frequency": 2,
+        "contexts": [
+          "The Dilemma Stated (Part 1)",
+          "Salvation Without Atonement — and the Transferred Sins Hadith (Part 6)"
+        ],
+        "metadata": {
+          "category": "conceptual"
+        }
+      }
+    ],
+    [
+      "concept-resurrection",
+      {
+        "id": "concept-resurrection",
+        "type": "concept",
+        "label": "resurrection",
+        "frequency": 4,
+        "contexts": [
+          "The Dilemma Stated (Part 1)",
+          "Salvation Without Atonement — and the Transferred Sins Hadith (Part 6)",
+          "Sanctioned Deception and the Dissolution of Oaths (Part 7)"
+        ],
+        "metadata": {
+          "category": "conceptual"
+        }
+      }
+    ],
+    [
+      "concept-crucifixion",
+      {
+        "id": "concept-crucifixion",
+        "type": "concept",
+        "label": "crucifixion",
+        "frequency": 3,
+        "contexts": [
+          "The Dilemma Stated (Part 1)",
+          "Crucifixion Before Crucifixion Existed (Part 4)",
+          "The Crucifixion Denial (Part 6)"
+        ],
+        "metadata": {
+          "category": "conceptual"
+        }
+      }
+    ],
+    [
+      "concept-historical",
+      {
+        "id": "concept-historical",
+        "type": "concept",
+        "label": "historical",
+        "frequency": 12,
+        "contexts": [
+          "The Dilemma Stated (Part 1)",
+          "A Messenger Without Signs — Who Later Has Thousands (Part 5)",
+          "The Satanic Verses Incident (Part 5)"
+        ],
+        "metadata": {
+          "category": "conceptual"
+        }
+      }
+    ],
+    [
+      "concept-abrogation",
+      {
+        "id": "concept-abrogation",
+        "type": "concept",
+        "label": "abrogation",
+        "frequency": 4,
+        "contexts": [
+          "The Quran’s Own Falsification Test (Part 1)",
+          "Tolerance Verses Versus Sword Verses, and the Problem of Abrogation (Part 2)",
+          "Missing Verses: Stoning, Adult Suckling, and the Sheep (Part 3)"
+        ],
+        "metadata": {
+          "category": "conceptual"
+        }
+      }
+    ],
+    [
+      "concept-naskh",
+      {
+        "id": "concept-naskh",
+        "type": "concept",
+        "label": "naskh",
+        "frequency": 3,
+        "contexts": [
+          "The Quran’s Own Falsification Test (Part 1)",
+          "Ibn Mas‘ud and Ubayy: The Master Reciters Disagreed About the Canon (Part 3)",
+          "Missing Verses: Stoning, Adult Suckling, and the Sheep (Part 3)"
+        ],
+        "metadata": {
+          "category": "conceptual"
+        }
+      }
+    ],
+    [
+      "concept-contradiction",
+      {
+        "id": "concept-contradiction",
+        "type": "concept",
+        "label": "contradiction",
+        "frequency": 7,
+        "contexts": [
+          "The Quran’s Own Falsification Test (Part 1)",
+          "How Many Days of Creation — Six or Eight? (Part 2)",
+          "Was Iblis an Angel or a Jinn? (Part 2)"
+        ],
+        "metadata": {
+          "category": "conceptual"
+        }
+      }
+    ],
+    [
+      "concept-transmission",
+      {
+        "id": "concept-transmission",
+        "type": "concept",
+        "label": "transmission",
+        "frequency": 7,
+        "contexts": [
+          "The Quran’s Own Falsification Test (Part 1)",
+          "The Sanaa Palimpsest: Physical Evidence of a Different Text (Part 3)",
+          "The Qira’at: Today’s Qurans Differ From Each Other (Part 3)"
+        ],
+        "metadata": {
+          "category": "conceptual"
+        }
+      }
+    ],
+    [
+      "concept-harmonization",
+      {
+        "id": "concept-harmonization",
+        "type": "concept",
+        "label": "harmonization",
+        "frequency": 6,
+        "contexts": [
+          "The Quran’s Own Falsification Test (Part 1)",
+          "Who Was the First Muslim? (Part 2)",
+          "Does Intercession Exist or Not? (Part 2)"
+        ],
+        "metadata": {
+          "category": "conceptual"
+        }
+      }
+    ],
+    [
+      "concept-miracle",
+      {
+        "id": "concept-miracle",
+        "type": "concept",
+        "label": "miracle",
+        "frequency": 8,
+        "contexts": [
+          "How Long Is a Day with Allah — 1,000 Years or 50,000? (Part 2)",
+          "The Qira’at: Today’s Qurans Differ From Each Other (Part 3)",
+          "Embryology: The Clot and the Bones-Then-Flesh Sequence (Part 4)"
+        ],
+        "metadata": {
+          "category": "conceptual"
+        }
+      }
+    ],
+    [
+      "concept-authenticity",
+      {
+        "id": "concept-authenticity",
+        "type": "concept",
+        "label": "authenticity",
+        "frequency": 2,
+        "contexts": [
+          "Pure Arabic — With Foreign Loanwords (Part 2)",
+          "Ibn Mas‘ud and Ubayy: The Master Reciters Disagreed About the Canon (Part 3)"
+        ],
+        "metadata": {
+          "category": "conceptual"
+        }
+      }
+    ],
+    [
+      "concept-preservation",
+      {
+        "id": "concept-preservation",
+        "type": "concept",
+        "label": "preservation",
+        "frequency": 7,
+        "contexts": [
+          "The Quran Was Compiled After Muhammad’s Death — and Parts Were Nearly Lost (Part 3)",
+          "Uthman Burned the Competing Codices (Part 3)",
+          "Ibn Mas‘ud and Ubayy: The Master Reciters Disagreed About the Canon (Part 3)"
+        ],
+        "metadata": {
+          "category": "conceptual"
+        }
+      }
+    ],
+    [
+      "concept-isnad",
+      {
+        "id": "concept-isnad",
+        "type": "concept",
+        "label": "isnad",
+        "frequency": 4,
+        "contexts": [
+          "Ibn Mas‘ud and Ubayy: The Master Reciters Disagreed About the Canon (Part 3)",
+          "The Satanic Verses Incident (Part 5)",
+          "Islam Is Unworkable Without Hadith (Part 8)"
+        ],
+        "metadata": {
+          "category": "conceptual"
+        }
+      }
+    ],
+    [
+      "concept-scientific",
+      {
+        "id": "concept-scientific",
+        "type": "concept",
+        "label": "scientific",
+        "frequency": 3,
+        "contexts": [
+          "Embryology: The Clot and the Bones-Then-Flesh Sequence (Part 4)",
+          "Hadith Science: The Fly, the Camel Urine, and Adam’s Height (Part 4)",
+          "The Consensus Trap (Part 8)"
+        ],
+        "metadata": {
+          "category": "conceptual"
+        }
+      }
+    ],
+    [
+      "concept-chain",
+      {
+        "id": "concept-chain",
+        "type": "concept",
+        "label": "chain",
+        "frequency": 4,
+        "contexts": [
+          "The Satanic Verses Incident (Part 5)",
+          "Banu Qurayza and the Captives (Part 5)",
+          "Assassinations of Critics and the Nakhla Precedent (Part 7)"
+        ],
+        "metadata": {
+          "category": "conceptual"
+        }
+      }
+    ],
+    [
+      "concept-compilation",
+      {
+        "id": "concept-compilation",
+        "type": "concept",
+        "label": "compilation",
+        "frequency": 2,
+        "contexts": [
+          "The Satanic Verses Incident (Part 5)",
+          "Assassinations of Critics and the Nakhla Precedent (Part 7)"
+        ],
+        "metadata": {
+          "category": "conceptual"
+        }
+      }
+    ],
+    [
+      "concept-prophecy",
+      {
+        "id": "concept-prophecy",
+        "type": "concept",
+        "label": "prophecy",
+        "frequency": 2,
+        "contexts": [
+          "The Bewitchment of the Prophet (Part 5)",
+          "Failed and Unfulfilled Prophecies (Part 9)"
+        ],
+        "metadata": {
+          "category": "conceptual"
+        }
+      }
+    ],
+    [
+      "concept-anachronism",
+      {
+        "id": "concept-anachronism",
+        "type": "concept",
+        "label": "anachronism",
+        "frequency": 1,
+        "contexts": [
+          "Aisha’s Age (Part 5)"
+        ],
+        "metadata": {
+          "category": "conceptual"
+        }
+      }
+    ]
+  ],
+  "edges": [
+    {
+      "source": "issue-1-1",
+      "target": "issue-1-2",
+      "type": "related",
+      "weight": 1
+    },
+    {
+      "source": "issue-1-1",
+      "target": "issue-1-3",
+      "type": "related",
+      "weight": 0.5
+    },
+    {
+      "source": "issue-1-1",
+      "target": "issue-2-2",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-1-1",
+      "target": "issue-2-8",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-1-1",
+      "target": "issue-3-2",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-1-1",
+      "target": "issue-3-6",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-1-1",
+      "target": "issue-4-7",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-1-1",
+      "target": "issue-4-9",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-1-1",
+      "target": "issue-5-2",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-1-1",
+      "target": "issue-5-3",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-1-1",
+      "target": "issue-5-4",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-1-1",
+      "target": "issue-5-5",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-1-1",
+      "target": "issue-5-6",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-1-1",
+      "target": "issue-5-7",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-1-1",
+      "target": "issue-6-1",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-1-1",
+      "target": "issue-6-2",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-1-1",
+      "target": "issue-6-3",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-1-1",
+      "target": "issue-6-5",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-1-1",
+      "target": "issue-7-1",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-1-1",
+      "target": "issue-7-3",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-1-1",
+      "target": "issue-7-4",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-1-1",
+      "target": "issue-7-5",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-1-1",
+      "target": "issue-7-6",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-1-1",
+      "target": "issue-8-1",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-1-1",
+      "target": "issue-8-3",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-1-1",
+      "target": "issue-9-3",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-1-1",
+      "target": "issue-9-4",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-1-2",
+      "target": "issue-1-3",
+      "type": "related",
+      "weight": 0.9000000000000001
+    },
+    {
+      "source": "issue-1-2",
+      "target": "issue-2-1",
+      "type": "related",
+      "weight": 0.4
+    },
+    {
+      "source": "issue-1-2",
+      "target": "issue-2-2",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-1-2",
+      "target": "issue-2-8",
+      "type": "related",
+      "weight": 0.8
+    },
+    {
+      "source": "issue-1-2",
+      "target": "issue-3-2",
+      "type": "related",
+      "weight": 0.6000000000000001
+    },
+    {
+      "source": "issue-1-2",
+      "target": "issue-3-4",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-1-2",
+      "target": "issue-3-5",
+      "type": "related",
+      "weight": 0.8
+    },
+    {
+      "source": "issue-1-2",
+      "target": "issue-3-6",
+      "type": "related",
+      "weight": 0.6000000000000001
+    },
+    {
+      "source": "issue-1-2",
+      "target": "issue-4-2",
+      "type": "related",
+      "weight": 0.45
+    },
+    {
+      "source": "issue-1-2",
+      "target": "issue-4-3",
+      "type": "related",
+      "weight": 0.4
+    },
+    {
+      "source": "issue-1-2",
+      "target": "issue-4-5",
+      "type": "related",
+      "weight": 0.4
+    },
+    {
+      "source": "issue-1-2",
+      "target": "issue-4-7",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-1-2",
+      "target": "issue-4-9",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-1-2",
+      "target": "issue-5-1",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-1-2",
+      "target": "issue-5-2",
+      "type": "related",
+      "weight": 0.4
+    },
+    {
+      "source": "issue-1-2",
+      "target": "issue-5-3",
+      "type": "related",
+      "weight": 1
+    },
+    {
+      "source": "issue-1-2",
+      "target": "issue-5-4",
+      "type": "related",
+      "weight": 0.4
+    },
+    {
+      "source": "issue-1-2",
+      "target": "issue-5-5",
+      "type": "related",
+      "weight": 0.4
+    },
+    {
+      "source": "issue-1-2",
+      "target": "issue-5-6",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-1-2",
+      "target": "issue-5-7",
+      "type": "related",
+      "weight": 0.4
+    },
+    {
+      "source": "issue-1-2",
+      "target": "issue-6-1",
+      "type": "related",
+      "weight": 0.4
+    },
+    {
+      "source": "issue-1-2",
+      "target": "issue-6-2",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-1-2",
+      "target": "issue-6-3",
+      "type": "related",
+      "weight": 0.8500000000000001
+    },
+    {
+      "source": "issue-1-2",
+      "target": "issue-6-4",
+      "type": "related",
+      "weight": 0.8500000000000001
+    },
+    {
+      "source": "issue-1-2",
+      "target": "issue-6-5",
+      "type": "related",
+      "weight": 0.6000000000000001
+    },
+    {
+      "source": "issue-1-2",
+      "target": "issue-6-6",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-1-2",
+      "target": "issue-7-1",
+      "type": "related",
+      "weight": 1
+    },
+    {
+      "source": "issue-1-2",
+      "target": "issue-7-2",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-1-2",
+      "target": "issue-7-3",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-1-2",
+      "target": "issue-7-4",
+      "type": "related",
+      "weight": 0.4
+    },
+    {
+      "source": "issue-1-2",
+      "target": "issue-7-5",
+      "type": "related",
+      "weight": 0.4
+    },
+    {
+      "source": "issue-1-2",
+      "target": "issue-7-6",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-1-2",
+      "target": "issue-8-1",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-1-2",
+      "target": "issue-8-3",
+      "type": "related",
+      "weight": 0.4
+    },
+    {
+      "source": "issue-1-2",
+      "target": "issue-9-1",
+      "type": "related",
+      "weight": 0.6
+    },
+    {
+      "source": "issue-1-2",
+      "target": "issue-9-2",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-1-2",
+      "target": "issue-9-3",
+      "type": "related",
+      "weight": 0.4
+    },
+    {
+      "source": "issue-1-2",
+      "target": "issue-9-4",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-1-2",
+      "target": "issue-9-5",
+      "type": "related",
+      "weight": 0.4
+    },
+    {
+      "source": "issue-1-2",
+      "target": "issue-9-6",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-1-3",
+      "target": "issue-2-1",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-1-3",
+      "target": "issue-2-2",
+      "type": "related",
+      "weight": 0.4
+    },
+    {
+      "source": "issue-1-3",
+      "target": "issue-2-4",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-1-3",
+      "target": "issue-2-5",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-1-3",
+      "target": "issue-2-6",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-1-3",
+      "target": "issue-2-8",
+      "type": "related",
+      "weight": 1
+    },
+    {
+      "source": "issue-1-3",
+      "target": "issue-2-9",
+      "type": "related",
+      "weight": 0.4
+    },
+    {
+      "source": "issue-1-3",
+      "target": "issue-3-2",
+      "type": "related",
+      "weight": 0.6
+    },
+    {
+      "source": "issue-1-3",
+      "target": "issue-3-3",
+      "type": "related",
+      "weight": 0.6
+    },
+    {
+      "source": "issue-1-3",
+      "target": "issue-3-4",
+      "type": "related",
+      "weight": 0.8500000000000001
+    },
+    {
+      "source": "issue-1-3",
+      "target": "issue-3-5",
+      "type": "related",
+      "weight": 0.6000000000000001
+    },
+    {
+      "source": "issue-1-3",
+      "target": "issue-3-6",
+      "type": "related",
+      "weight": 0.4
+    },
+    {
+      "source": "issue-1-3",
+      "target": "issue-4-6",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-1-3",
+      "target": "issue-4-7",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-1-3",
+      "target": "issue-4-9",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-1-3",
+      "target": "issue-5-2",
+      "type": "related",
+      "weight": 0.8
+    },
+    {
+      "source": "issue-1-3",
+      "target": "issue-5-3",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-1-3",
+      "target": "issue-5-4",
+      "type": "related",
+      "weight": 0.4
+    },
+    {
+      "source": "issue-1-3",
+      "target": "issue-5-5",
+      "type": "related",
+      "weight": 0.6000000000000001
+    },
+    {
+      "source": "issue-1-3",
+      "target": "issue-5-6",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-1-3",
+      "target": "issue-5-7",
+      "type": "related",
+      "weight": 0.4
+    },
+    {
+      "source": "issue-1-3",
+      "target": "issue-6-1",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-1-3",
+      "target": "issue-6-2",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-1-3",
+      "target": "issue-6-3",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-1-3",
+      "target": "issue-6-5",
+      "type": "related",
+      "weight": 0.4
+    },
+    {
+      "source": "issue-1-3",
+      "target": "issue-6-6",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-1-3",
+      "target": "issue-7-1",
+      "type": "related",
+      "weight": 0.8
+    },
+    {
+      "source": "issue-1-3",
+      "target": "issue-7-3",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-1-3",
+      "target": "issue-7-4",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-1-3",
+      "target": "issue-7-5",
+      "type": "related",
+      "weight": 0.6000000000000001
+    },
+    {
+      "source": "issue-1-3",
+      "target": "issue-7-6",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-1-3",
+      "target": "issue-8-1",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-1-3",
+      "target": "issue-8-2",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-1-3",
+      "target": "issue-8-3",
+      "type": "related",
+      "weight": 0.65
+    },
+    {
+      "source": "issue-1-3",
+      "target": "issue-9-3",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-1-3",
+      "target": "issue-9-4",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-1-3",
+      "target": "issue-9-5",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-1-3",
+      "target": "issue-9-6",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-2-1",
+      "target": "issue-2-2",
+      "type": "related",
+      "weight": 0.3
+    },
+    {
+      "source": "issue-2-1",
+      "target": "issue-2-3",
+      "type": "related",
+      "weight": 0.3
+    },
+    {
+      "source": "issue-2-1",
+      "target": "issue-2-4",
+      "type": "related",
+      "weight": 0.5
+    },
+    {
+      "source": "issue-2-1",
+      "target": "issue-2-5",
+      "type": "related",
+      "weight": 0.55
+    },
+    {
+      "source": "issue-2-1",
+      "target": "issue-2-6",
+      "type": "related",
+      "weight": 0.5
+    },
+    {
+      "source": "issue-2-1",
+      "target": "issue-2-7",
+      "type": "related",
+      "weight": 0.3
+    },
+    {
+      "source": "issue-2-1",
+      "target": "issue-2-8",
+      "type": "related",
+      "weight": 0.5
+    },
+    {
+      "source": "issue-2-1",
+      "target": "issue-2-9",
+      "type": "related",
+      "weight": 0.3
+    },
+    {
+      "source": "issue-2-1",
+      "target": "issue-4-3",
+      "type": "related",
+      "weight": 0.4
+    },
+    {
+      "source": "issue-2-1",
+      "target": "issue-4-5",
+      "type": "related",
+      "weight": 0.4
+    },
+    {
+      "source": "issue-2-1",
+      "target": "issue-5-3",
+      "type": "related",
+      "weight": 0.4
+    },
+    {
+      "source": "issue-2-1",
+      "target": "issue-5-4",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-2-1",
+      "target": "issue-7-1",
+      "type": "related",
+      "weight": 0.6
+    },
+    {
+      "source": "issue-2-1",
+      "target": "issue-9-1",
+      "type": "related",
+      "weight": 0.4
+    },
+    {
+      "source": "issue-2-2",
+      "target": "issue-2-3",
+      "type": "related",
+      "weight": 0.3
+    },
+    {
+      "source": "issue-2-2",
+      "target": "issue-2-4",
+      "type": "related",
+      "weight": 0.3
+    },
+    {
+      "source": "issue-2-2",
+      "target": "issue-2-5",
+      "type": "related",
+      "weight": 0.5
+    },
+    {
+      "source": "issue-2-2",
+      "target": "issue-2-6",
+      "type": "related",
+      "weight": 0.3
+    },
+    {
+      "source": "issue-2-2",
+      "target": "issue-2-7",
+      "type": "related",
+      "weight": 0.3
+    },
+    {
+      "source": "issue-2-2",
+      "target": "issue-2-8",
+      "type": "related",
+      "weight": 0.5
+    },
+    {
+      "source": "issue-2-2",
+      "target": "issue-2-9",
+      "type": "related",
+      "weight": 0.3
+    },
+    {
+      "source": "issue-2-2",
+      "target": "issue-3-2",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-2-2",
+      "target": "issue-3-6",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-2-2",
+      "target": "issue-4-6",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-2-2",
+      "target": "issue-4-7",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-2-2",
+      "target": "issue-4-9",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-2-2",
+      "target": "issue-5-2",
+      "type": "related",
+      "weight": 0.4
+    },
+    {
+      "source": "issue-2-2",
+      "target": "issue-5-3",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-2-2",
+      "target": "issue-5-4",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-2-2",
+      "target": "issue-5-5",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-2-2",
+      "target": "issue-5-6",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-2-2",
+      "target": "issue-5-7",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-2-2",
+      "target": "issue-6-1",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-2-2",
+      "target": "issue-6-2",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-2-2",
+      "target": "issue-6-3",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-2-2",
+      "target": "issue-6-5",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-2-2",
+      "target": "issue-7-1",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-2-2",
+      "target": "issue-7-3",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-2-2",
+      "target": "issue-7-4",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-2-2",
+      "target": "issue-7-5",
+      "type": "related",
+      "weight": 0.4
+    },
+    {
+      "source": "issue-2-2",
+      "target": "issue-7-6",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-2-2",
+      "target": "issue-8-1",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-2-2",
+      "target": "issue-8-3",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-2-2",
+      "target": "issue-9-3",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-2-2",
+      "target": "issue-9-4",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-2-3",
+      "target": "issue-2-4",
+      "type": "related",
+      "weight": 0.3
+    },
+    {
+      "source": "issue-2-3",
+      "target": "issue-2-5",
+      "type": "related",
+      "weight": 0.3
+    },
+    {
+      "source": "issue-2-3",
+      "target": "issue-2-6",
+      "type": "related",
+      "weight": 0.3
+    },
+    {
+      "source": "issue-2-3",
+      "target": "issue-2-7",
+      "type": "related",
+      "weight": 0.3
+    },
+    {
+      "source": "issue-2-3",
+      "target": "issue-2-8",
+      "type": "related",
+      "weight": 0.3
+    },
+    {
+      "source": "issue-2-3",
+      "target": "issue-2-9",
+      "type": "related",
+      "weight": 0.3
+    },
+    {
+      "source": "issue-2-3",
+      "target": "issue-3-6",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-2-3",
+      "target": "issue-4-7",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-2-3",
+      "target": "issue-4-9",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-2-3",
+      "target": "issue-5-1",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-2-3",
+      "target": "issue-8-3",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-2-3",
+      "target": "issue-9-1",
+      "type": "related",
+      "weight": 0.25
+    },
+    {
+      "source": "issue-2-3",
+      "target": "issue-9-2",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-2-3",
+      "target": "issue-9-3",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-2-4",
+      "target": "issue-2-5",
+      "type": "related",
+      "weight": 0.3
+    },
+    {
+      "source": "issue-2-4",
+      "target": "issue-2-6",
+      "type": "related",
+      "weight": 0.5
+    },
+    {
+      "source": "issue-2-4",
+      "target": "issue-2-7",
+      "type": "related",
+      "weight": 0.3
+    },
+    {
+      "source": "issue-2-4",
+      "target": "issue-2-8",
+      "type": "related",
+      "weight": 0.5
+    },
+    {
+      "source": "issue-2-4",
+      "target": "issue-2-9",
+      "type": "related",
+      "weight": 0.3
+    },
+    {
+      "source": "issue-2-4",
+      "target": "issue-5-4",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-2-4",
+      "target": "issue-7-1",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-2-5",
+      "target": "issue-2-6",
+      "type": "related",
+      "weight": 0.3
+    },
+    {
+      "source": "issue-2-5",
+      "target": "issue-2-7",
+      "type": "related",
+      "weight": 0.3
+    },
+    {
+      "source": "issue-2-5",
+      "target": "issue-2-8",
+      "type": "related",
+      "weight": 0.3
+    },
+    {
+      "source": "issue-2-5",
+      "target": "issue-2-9",
+      "type": "related",
+      "weight": 0.3
+    },
+    {
+      "source": "issue-2-5",
+      "target": "issue-4-6",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-2-5",
+      "target": "issue-5-2",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-2-5",
+      "target": "issue-6-4",
+      "type": "related",
+      "weight": 0.25
+    },
+    {
+      "source": "issue-2-5",
+      "target": "issue-7-5",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-2-6",
+      "target": "issue-2-7",
+      "type": "related",
+      "weight": 0.55
+    },
+    {
+      "source": "issue-2-6",
+      "target": "issue-2-8",
+      "type": "related",
+      "weight": 0.5
+    },
+    {
+      "source": "issue-2-6",
+      "target": "issue-2-9",
+      "type": "related",
+      "weight": 0.3
+    },
+    {
+      "source": "issue-2-6",
+      "target": "issue-5-4",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-2-6",
+      "target": "issue-7-1",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-2-7",
+      "target": "issue-2-8",
+      "type": "related",
+      "weight": 0.3
+    },
+    {
+      "source": "issue-2-7",
+      "target": "issue-2-9",
+      "type": "related",
+      "weight": 0.3
+    },
+    {
+      "source": "issue-2-8",
+      "target": "issue-2-9",
+      "type": "related",
+      "weight": 0.7000000000000001
+    },
+    {
+      "source": "issue-2-8",
+      "target": "issue-3-2",
+      "type": "related",
+      "weight": 0.6
+    },
+    {
+      "source": "issue-2-8",
+      "target": "issue-3-3",
+      "type": "related",
+      "weight": 0.4
+    },
+    {
+      "source": "issue-2-8",
+      "target": "issue-3-4",
+      "type": "related",
+      "weight": 0.45
+    },
+    {
+      "source": "issue-2-8",
+      "target": "issue-3-5",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-2-8",
+      "target": "issue-3-6",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-2-8",
+      "target": "issue-4-7",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-2-8",
+      "target": "issue-4-9",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-2-8",
+      "target": "issue-5-2",
+      "type": "related",
+      "weight": 0.4
+    },
+    {
+      "source": "issue-2-8",
+      "target": "issue-5-3",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-2-8",
+      "target": "issue-5-4",
+      "type": "related",
+      "weight": 0.4
+    },
+    {
+      "source": "issue-2-8",
+      "target": "issue-5-5",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-2-8",
+      "target": "issue-5-6",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-2-8",
+      "target": "issue-5-7",
+      "type": "related",
+      "weight": 0.4
+    },
+    {
+      "source": "issue-2-8",
+      "target": "issue-6-1",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-2-8",
+      "target": "issue-6-2",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-2-8",
+      "target": "issue-6-3",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-2-8",
+      "target": "issue-6-5",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-2-8",
+      "target": "issue-6-6",
+      "type": "related",
+      "weight": 0.5
+    },
+    {
+      "source": "issue-2-8",
+      "target": "issue-7-1",
+      "type": "related",
+      "weight": 0.6000000000000001
+    },
+    {
+      "source": "issue-2-8",
+      "target": "issue-7-2",
+      "type": "related",
+      "weight": 0.5
+    },
+    {
+      "source": "issue-2-8",
+      "target": "issue-7-3",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-2-8",
+      "target": "issue-7-4",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-2-8",
+      "target": "issue-7-5",
+      "type": "related",
+      "weight": 0.4
+    },
+    {
+      "source": "issue-2-8",
+      "target": "issue-7-6",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-2-8",
+      "target": "issue-8-1",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-2-8",
+      "target": "issue-8-3",
+      "type": "related",
+      "weight": 0.65
+    },
+    {
+      "source": "issue-2-8",
+      "target": "issue-9-3",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-2-8",
+      "target": "issue-9-4",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-2-8",
+      "target": "issue-9-5",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-2-9",
+      "target": "issue-3-2",
+      "type": "related",
+      "weight": 0.4
+    },
+    {
+      "source": "issue-2-9",
+      "target": "issue-3-3",
+      "type": "related",
+      "weight": 0.6
+    },
+    {
+      "source": "issue-3-1",
+      "target": "issue-3-2",
+      "type": "related",
+      "weight": 0.5
+    },
+    {
+      "source": "issue-3-1",
+      "target": "issue-3-3",
+      "type": "related",
+      "weight": 0.5
+    },
+    {
+      "source": "issue-3-1",
+      "target": "issue-3-4",
+      "type": "related",
+      "weight": 0.5
+    },
+    {
+      "source": "issue-3-1",
+      "target": "issue-3-5",
+      "type": "related",
+      "weight": 0.5
+    },
+    {
+      "source": "issue-3-1",
+      "target": "issue-3-6",
+      "type": "related",
+      "weight": 0.5
+    },
+    {
+      "source": "issue-3-1",
+      "target": "issue-8-1",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-3-2",
+      "target": "issue-3-3",
+      "type": "related",
+      "weight": 0.9
+    },
+    {
+      "source": "issue-3-2",
+      "target": "issue-3-4",
+      "type": "related",
+      "weight": 0.5
+    },
+    {
+      "source": "issue-3-2",
+      "target": "issue-3-5",
+      "type": "related",
+      "weight": 0.9000000000000001
+    },
+    {
+      "source": "issue-3-2",
+      "target": "issue-3-6",
+      "type": "related",
+      "weight": 1
+    },
+    {
+      "source": "issue-3-2",
+      "target": "issue-4-7",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-3-2",
+      "target": "issue-4-9",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-3-2",
+      "target": "issue-5-2",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-3-2",
+      "target": "issue-5-3",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-3-2",
+      "target": "issue-5-4",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-3-2",
+      "target": "issue-5-5",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-3-2",
+      "target": "issue-5-6",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-3-2",
+      "target": "issue-5-7",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-3-2",
+      "target": "issue-6-1",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-3-2",
+      "target": "issue-6-2",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-3-2",
+      "target": "issue-6-3",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-3-2",
+      "target": "issue-6-5",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-3-2",
+      "target": "issue-7-1",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-3-2",
+      "target": "issue-7-3",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-3-2",
+      "target": "issue-7-4",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-3-2",
+      "target": "issue-7-5",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-3-2",
+      "target": "issue-7-6",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-3-2",
+      "target": "issue-8-1",
+      "type": "related",
+      "weight": 0.4
+    },
+    {
+      "source": "issue-3-2",
+      "target": "issue-8-3",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-3-2",
+      "target": "issue-9-3",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-3-2",
+      "target": "issue-9-4",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-3-3",
+      "target": "issue-3-4",
+      "type": "related",
+      "weight": 0.7
+    },
+    {
+      "source": "issue-3-3",
+      "target": "issue-3-5",
+      "type": "related",
+      "weight": 0.5
+    },
+    {
+      "source": "issue-3-3",
+      "target": "issue-3-6",
+      "type": "related",
+      "weight": 0.5
+    },
+    {
+      "source": "issue-3-3",
+      "target": "issue-5-3",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-3-3",
+      "target": "issue-8-1",
+      "type": "related",
+      "weight": 0.4
+    },
+    {
+      "source": "issue-3-3",
+      "target": "issue-8-2",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-3-4",
+      "target": "issue-3-5",
+      "type": "related",
+      "weight": 0.7
+    },
+    {
+      "source": "issue-3-4",
+      "target": "issue-3-6",
+      "type": "related",
+      "weight": 0.5
+    },
+    {
+      "source": "issue-3-4",
+      "target": "issue-5-5",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-3-4",
+      "target": "issue-6-5",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-3-4",
+      "target": "issue-6-6",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-3-4",
+      "target": "issue-7-1",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-3-4",
+      "target": "issue-7-5",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-3-4",
+      "target": "issue-8-1",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-3-5",
+      "target": "issue-3-6",
+      "type": "related",
+      "weight": 1
+    },
+    {
+      "source": "issue-3-5",
+      "target": "issue-5-2",
+      "type": "related",
+      "weight": 0.4
+    },
+    {
+      "source": "issue-3-5",
+      "target": "issue-5-5",
+      "type": "related",
+      "weight": 0.4
+    },
+    {
+      "source": "issue-3-5",
+      "target": "issue-5-7",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-3-5",
+      "target": "issue-6-5",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-3-5",
+      "target": "issue-6-6",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-3-5",
+      "target": "issue-7-1",
+      "type": "related",
+      "weight": 0.4
+    },
+    {
+      "source": "issue-3-5",
+      "target": "issue-8-1",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-3-5",
+      "target": "issue-8-2",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-3-5",
+      "target": "issue-8-3",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-3-5",
+      "target": "issue-9-5",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-3-5",
+      "target": "issue-9-6",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-3-6",
+      "target": "issue-4-7",
+      "type": "related",
+      "weight": 0.4
+    },
+    {
+      "source": "issue-3-6",
+      "target": "issue-4-9",
+      "type": "related",
+      "weight": 0.4
+    },
+    {
+      "source": "issue-3-6",
+      "target": "issue-5-1",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-3-6",
+      "target": "issue-5-2",
+      "type": "related",
+      "weight": 0.4
+    },
+    {
+      "source": "issue-3-6",
+      "target": "issue-5-3",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-3-6",
+      "target": "issue-5-4",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-3-6",
+      "target": "issue-5-5",
+      "type": "related",
+      "weight": 0.4
+    },
+    {
+      "source": "issue-3-6",
+      "target": "issue-5-6",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-3-6",
+      "target": "issue-5-7",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-3-6",
+      "target": "issue-6-1",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-3-6",
+      "target": "issue-6-2",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-3-6",
+      "target": "issue-6-3",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-3-6",
+      "target": "issue-6-5",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-3-6",
+      "target": "issue-7-1",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-3-6",
+      "target": "issue-7-3",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-3-6",
+      "target": "issue-7-4",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-3-6",
+      "target": "issue-7-5",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-3-6",
+      "target": "issue-7-6",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-3-6",
+      "target": "issue-8-1",
+      "type": "related",
+      "weight": 0.4
+    },
+    {
+      "source": "issue-3-6",
+      "target": "issue-8-2",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-3-6",
+      "target": "issue-8-3",
+      "type": "related",
+      "weight": 0.4
+    },
+    {
+      "source": "issue-3-6",
+      "target": "issue-9-2",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-3-6",
+      "target": "issue-9-3",
+      "type": "related",
+      "weight": 0.4
+    },
+    {
+      "source": "issue-3-6",
+      "target": "issue-9-4",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-3-6",
+      "target": "issue-9-6",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-4-1",
+      "target": "issue-4-2",
+      "type": "related",
+      "weight": 0.3
+    },
+    {
+      "source": "issue-4-1",
+      "target": "issue-4-3",
+      "type": "related",
+      "weight": 0.3
+    },
+    {
+      "source": "issue-4-1",
+      "target": "issue-4-4",
+      "type": "related",
+      "weight": 0.3
+    },
+    {
+      "source": "issue-4-1",
+      "target": "issue-4-5",
+      "type": "related",
+      "weight": 0.3
+    },
+    {
+      "source": "issue-4-1",
+      "target": "issue-4-6",
+      "type": "related",
+      "weight": 0.3
+    },
+    {
+      "source": "issue-4-1",
+      "target": "issue-4-7",
+      "type": "related",
+      "weight": 0.3
+    },
+    {
+      "source": "issue-4-1",
+      "target": "issue-4-8",
+      "type": "related",
+      "weight": 0.3
+    },
+    {
+      "source": "issue-4-1",
+      "target": "issue-4-9",
+      "type": "related",
+      "weight": 0.3
+    },
+    {
+      "source": "issue-4-2",
+      "target": "issue-4-3",
+      "type": "related",
+      "weight": 0.3
+    },
+    {
+      "source": "issue-4-2",
+      "target": "issue-4-4",
+      "type": "related",
+      "weight": 0.3
+    },
+    {
+      "source": "issue-4-2",
+      "target": "issue-4-5",
+      "type": "related",
+      "weight": 0.3
+    },
+    {
+      "source": "issue-4-2",
+      "target": "issue-4-6",
+      "type": "related",
+      "weight": 0.3
+    },
+    {
+      "source": "issue-4-2",
+      "target": "issue-4-7",
+      "type": "related",
+      "weight": 0.3
+    },
+    {
+      "source": "issue-4-2",
+      "target": "issue-4-8",
+      "type": "related",
+      "weight": 0.3
+    },
+    {
+      "source": "issue-4-2",
+      "target": "issue-4-9",
+      "type": "related",
+      "weight": 0.3
+    },
+    {
+      "source": "issue-4-2",
+      "target": "issue-6-3",
+      "type": "related",
+      "weight": 0.45
+    },
+    {
+      "source": "issue-4-3",
+      "target": "issue-4-4",
+      "type": "related",
+      "weight": 0.3
+    },
+    {
+      "source": "issue-4-3",
+      "target": "issue-4-5",
+      "type": "related",
+      "weight": 0.7000000000000001
+    },
+    {
+      "source": "issue-4-3",
+      "target": "issue-4-6",
+      "type": "related",
+      "weight": 0.3
+    },
+    {
+      "source": "issue-4-3",
+      "target": "issue-4-7",
+      "type": "related",
+      "weight": 0.3
+    },
+    {
+      "source": "issue-4-3",
+      "target": "issue-4-8",
+      "type": "related",
+      "weight": 0.3
+    },
+    {
+      "source": "issue-4-3",
+      "target": "issue-4-9",
+      "type": "related",
+      "weight": 0.3
+    },
+    {
+      "source": "issue-4-3",
+      "target": "issue-5-3",
+      "type": "related",
+      "weight": 0.4
+    },
+    {
+      "source": "issue-4-3",
+      "target": "issue-7-1",
+      "type": "related",
+      "weight": 0.4
+    },
+    {
+      "source": "issue-4-3",
+      "target": "issue-9-1",
+      "type": "related",
+      "weight": 0.4
+    },
+    {
+      "source": "issue-4-4",
+      "target": "issue-4-5",
+      "type": "related",
+      "weight": 0.3
+    },
+    {
+      "source": "issue-4-4",
+      "target": "issue-4-6",
+      "type": "related",
+      "weight": 0.3
+    },
+    {
+      "source": "issue-4-4",
+      "target": "issue-4-7",
+      "type": "related",
+      "weight": 0.3
+    },
+    {
+      "source": "issue-4-4",
+      "target": "issue-4-8",
+      "type": "related",
+      "weight": 0.3
+    },
+    {
+      "source": "issue-4-4",
+      "target": "issue-4-9",
+      "type": "related",
+      "weight": 0.3
+    },
+    {
+      "source": "issue-4-5",
+      "target": "issue-4-6",
+      "type": "related",
+      "weight": 0.3
+    },
+    {
+      "source": "issue-4-5",
+      "target": "issue-4-7",
+      "type": "related",
+      "weight": 0.3
+    },
+    {
+      "source": "issue-4-5",
+      "target": "issue-4-8",
+      "type": "related",
+      "weight": 0.3
+    },
+    {
+      "source": "issue-4-5",
+      "target": "issue-4-9",
+      "type": "related",
+      "weight": 0.3
+    },
+    {
+      "source": "issue-4-5",
+      "target": "issue-5-3",
+      "type": "related",
+      "weight": 0.4
+    },
+    {
+      "source": "issue-4-5",
+      "target": "issue-7-1",
+      "type": "related",
+      "weight": 0.4
+    },
+    {
+      "source": "issue-4-5",
+      "target": "issue-9-1",
+      "type": "related",
+      "weight": 0.4
+    },
+    {
+      "source": "issue-4-6",
+      "target": "issue-4-7",
+      "type": "related",
+      "weight": 0.3
+    },
+    {
+      "source": "issue-4-6",
+      "target": "issue-4-8",
+      "type": "related",
+      "weight": 0.3
+    },
+    {
+      "source": "issue-4-6",
+      "target": "issue-4-9",
+      "type": "related",
+      "weight": 0.3
+    },
+    {
+      "source": "issue-4-6",
+      "target": "issue-5-2",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-4-6",
+      "target": "issue-7-5",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-4-7",
+      "target": "issue-4-8",
+      "type": "related",
+      "weight": 0.3
+    },
+    {
+      "source": "issue-4-7",
+      "target": "issue-4-9",
+      "type": "related",
+      "weight": 0.9000000000000001
+    },
+    {
+      "source": "issue-4-7",
+      "target": "issue-5-1",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-4-7",
+      "target": "issue-5-2",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-4-7",
+      "target": "issue-5-3",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-4-7",
+      "target": "issue-5-4",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-4-7",
+      "target": "issue-5-5",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-4-7",
+      "target": "issue-5-6",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-4-7",
+      "target": "issue-5-7",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-4-7",
+      "target": "issue-6-1",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-4-7",
+      "target": "issue-6-2",
+      "type": "related",
+      "weight": 0.7
+    },
+    {
+      "source": "issue-4-7",
+      "target": "issue-6-3",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-4-7",
+      "target": "issue-6-5",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-4-7",
+      "target": "issue-7-1",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-4-7",
+      "target": "issue-7-3",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-4-7",
+      "target": "issue-7-4",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-4-7",
+      "target": "issue-7-5",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-4-7",
+      "target": "issue-7-6",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-4-7",
+      "target": "issue-8-1",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-4-7",
+      "target": "issue-8-3",
+      "type": "related",
+      "weight": 0.6000000000000001
+    },
+    {
+      "source": "issue-4-7",
+      "target": "issue-9-2",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-4-7",
+      "target": "issue-9-3",
+      "type": "related",
+      "weight": 0.4
+    },
+    {
+      "source": "issue-4-7",
+      "target": "issue-9-4",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-4-8",
+      "target": "issue-4-9",
+      "type": "related",
+      "weight": 0.3
+    },
+    {
+      "source": "issue-4-9",
+      "target": "issue-5-1",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-4-9",
+      "target": "issue-5-2",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-4-9",
+      "target": "issue-5-3",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-4-9",
+      "target": "issue-5-4",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-4-9",
+      "target": "issue-5-5",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-4-9",
+      "target": "issue-5-6",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-4-9",
+      "target": "issue-5-7",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-4-9",
+      "target": "issue-6-1",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-4-9",
+      "target": "issue-6-2",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-4-9",
+      "target": "issue-6-3",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-4-9",
+      "target": "issue-6-5",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-4-9",
+      "target": "issue-7-1",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-4-9",
+      "target": "issue-7-3",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-4-9",
+      "target": "issue-7-4",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-4-9",
+      "target": "issue-7-5",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-4-9",
+      "target": "issue-7-6",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-4-9",
+      "target": "issue-8-1",
+      "type": "related",
+      "weight": 0.45
+    },
+    {
+      "source": "issue-4-9",
+      "target": "issue-8-3",
+      "type": "related",
+      "weight": 0.6000000000000001
+    },
+    {
+      "source": "issue-4-9",
+      "target": "issue-9-2",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-4-9",
+      "target": "issue-9-3",
+      "type": "related",
+      "weight": 0.4
+    },
+    {
+      "source": "issue-4-9",
+      "target": "issue-9-4",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-5-1",
+      "target": "issue-5-2",
+      "type": "related",
+      "weight": 0.3
+    },
+    {
+      "source": "issue-5-1",
+      "target": "issue-5-3",
+      "type": "related",
+      "weight": 0.5
+    },
+    {
+      "source": "issue-5-1",
+      "target": "issue-5-4",
+      "type": "related",
+      "weight": 0.5
+    },
+    {
+      "source": "issue-5-1",
+      "target": "issue-5-5",
+      "type": "related",
+      "weight": 0.3
+    },
+    {
+      "source": "issue-5-1",
+      "target": "issue-5-6",
+      "type": "related",
+      "weight": 0.3
+    },
+    {
+      "source": "issue-5-1",
+      "target": "issue-5-7",
+      "type": "related",
+      "weight": 0.3
+    },
+    {
+      "source": "issue-5-1",
+      "target": "issue-6-3",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-5-1",
+      "target": "issue-6-4",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-5-1",
+      "target": "issue-6-5",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-5-1",
+      "target": "issue-7-2",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-5-1",
+      "target": "issue-8-3",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-5-1",
+      "target": "issue-9-1",
+      "type": "related",
+      "weight": 0.45
+    },
+    {
+      "source": "issue-5-1",
+      "target": "issue-9-2",
+      "type": "related",
+      "weight": 0.4
+    },
+    {
+      "source": "issue-5-1",
+      "target": "issue-9-3",
+      "type": "related",
+      "weight": 0.4
+    },
+    {
+      "source": "issue-5-1",
+      "target": "issue-9-5",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-5-2",
+      "target": "issue-5-3",
+      "type": "related",
+      "weight": 0.5
+    },
+    {
+      "source": "issue-5-2",
+      "target": "issue-5-4",
+      "type": "related",
+      "weight": 0.5
+    },
+    {
+      "source": "issue-5-2",
+      "target": "issue-5-5",
+      "type": "related",
+      "weight": 0.7
+    },
+    {
+      "source": "issue-5-2",
+      "target": "issue-5-6",
+      "type": "related",
+      "weight": 0.5
+    },
+    {
+      "source": "issue-5-2",
+      "target": "issue-5-7",
+      "type": "related",
+      "weight": 0.7
+    },
+    {
+      "source": "issue-5-2",
+      "target": "issue-6-1",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-5-2",
+      "target": "issue-6-2",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-5-2",
+      "target": "issue-6-3",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-5-2",
+      "target": "issue-6-5",
+      "type": "related",
+      "weight": 0.45
+    },
+    {
+      "source": "issue-5-2",
+      "target": "issue-7-1",
+      "type": "related",
+      "weight": 0.4
+    },
+    {
+      "source": "issue-5-2",
+      "target": "issue-7-3",
+      "type": "related",
+      "weight": 0.7
+    },
+    {
+      "source": "issue-5-2",
+      "target": "issue-7-4",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-5-2",
+      "target": "issue-7-5",
+      "type": "related",
+      "weight": 0.4
+    },
+    {
+      "source": "issue-5-2",
+      "target": "issue-7-6",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-5-2",
+      "target": "issue-8-1",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-5-2",
+      "target": "issue-8-2",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-5-2",
+      "target": "issue-8-3",
+      "type": "related",
+      "weight": 0.4
+    },
+    {
+      "source": "issue-5-2",
+      "target": "issue-9-3",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-5-2",
+      "target": "issue-9-4",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-5-2",
+      "target": "issue-9-5",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-5-2",
+      "target": "issue-9-6",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-5-3",
+      "target": "issue-5-4",
+      "type": "related",
+      "weight": 0.7
+    },
+    {
+      "source": "issue-5-3",
+      "target": "issue-5-5",
+      "type": "related",
+      "weight": 0.5
+    },
+    {
+      "source": "issue-5-3",
+      "target": "issue-5-6",
+      "type": "related",
+      "weight": 0.7
+    },
+    {
+      "source": "issue-5-3",
+      "target": "issue-5-7",
+      "type": "related",
+      "weight": 0.5
+    },
+    {
+      "source": "issue-5-3",
+      "target": "issue-6-1",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-5-3",
+      "target": "issue-6-2",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-5-3",
+      "target": "issue-6-3",
+      "type": "related",
+      "weight": 0.4
+    },
+    {
+      "source": "issue-5-3",
+      "target": "issue-6-4",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-5-3",
+      "target": "issue-6-5",
+      "type": "related",
+      "weight": 0.4
+    },
+    {
+      "source": "issue-5-3",
+      "target": "issue-7-1",
+      "type": "related",
+      "weight": 0.6
+    },
+    {
+      "source": "issue-5-3",
+      "target": "issue-7-2",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-5-3",
+      "target": "issue-7-3",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-5-3",
+      "target": "issue-7-4",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-5-3",
+      "target": "issue-7-5",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-5-3",
+      "target": "issue-7-6",
+      "type": "related",
+      "weight": 0.6000000000000001
+    },
+    {
+      "source": "issue-5-3",
+      "target": "issue-8-1",
+      "type": "related",
+      "weight": 0.4
+    },
+    {
+      "source": "issue-5-3",
+      "target": "issue-8-2",
+      "type": "related",
+      "weight": 0.4
+    },
+    {
+      "source": "issue-5-3",
+      "target": "issue-8-3",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-5-3",
+      "target": "issue-9-1",
+      "type": "related",
+      "weight": 0.6
+    },
+    {
+      "source": "issue-5-3",
+      "target": "issue-9-2",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-5-3",
+      "target": "issue-9-3",
+      "type": "related",
+      "weight": 0.4
+    },
+    {
+      "source": "issue-5-3",
+      "target": "issue-9-4",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-5-3",
+      "target": "issue-9-5",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-5-4",
+      "target": "issue-5-5",
+      "type": "related",
+      "weight": 0.5
+    },
+    {
+      "source": "issue-5-4",
+      "target": "issue-5-6",
+      "type": "related",
+      "weight": 0.5
+    },
+    {
+      "source": "issue-5-4",
+      "target": "issue-5-7",
+      "type": "related",
+      "weight": 0.5
+    },
+    {
+      "source": "issue-5-4",
+      "target": "issue-6-1",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-5-4",
+      "target": "issue-6-2",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-5-4",
+      "target": "issue-6-3",
+      "type": "related",
+      "weight": 0.4
+    },
+    {
+      "source": "issue-5-4",
+      "target": "issue-6-4",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-5-4",
+      "target": "issue-6-5",
+      "type": "related",
+      "weight": 0.4
+    },
+    {
+      "source": "issue-5-4",
+      "target": "issue-7-1",
+      "type": "related",
+      "weight": 0.4
+    },
+    {
+      "source": "issue-5-4",
+      "target": "issue-7-2",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-5-4",
+      "target": "issue-7-3",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-5-4",
+      "target": "issue-7-4",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-5-4",
+      "target": "issue-7-5",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-5-4",
+      "target": "issue-7-6",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-5-4",
+      "target": "issue-8-1",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-5-4",
+      "target": "issue-8-3",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-5-4",
+      "target": "issue-9-1",
+      "type": "related",
+      "weight": 0.4
+    },
+    {
+      "source": "issue-5-4",
+      "target": "issue-9-2",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-5-4",
+      "target": "issue-9-3",
+      "type": "related",
+      "weight": 0.4
+    },
+    {
+      "source": "issue-5-4",
+      "target": "issue-9-4",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-5-4",
+      "target": "issue-9-5",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-5-5",
+      "target": "issue-5-6",
+      "type": "related",
+      "weight": 0.5
+    },
+    {
+      "source": "issue-5-5",
+      "target": "issue-5-7",
+      "type": "related",
+      "weight": 0.5
+    },
+    {
+      "source": "issue-5-5",
+      "target": "issue-6-1",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-5-5",
+      "target": "issue-6-2",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-5-5",
+      "target": "issue-6-3",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-5-5",
+      "target": "issue-6-5",
+      "type": "related",
+      "weight": 0.65
+    },
+    {
+      "source": "issue-5-5",
+      "target": "issue-6-6",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-5-5",
+      "target": "issue-7-1",
+      "type": "related",
+      "weight": 0.65
+    },
+    {
+      "source": "issue-5-5",
+      "target": "issue-7-3",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-5-5",
+      "target": "issue-7-4",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-5-5",
+      "target": "issue-7-5",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-5-5",
+      "target": "issue-7-6",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-5-5",
+      "target": "issue-8-1",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-5-5",
+      "target": "issue-8-2",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-5-5",
+      "target": "issue-8-3",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-5-5",
+      "target": "issue-9-3",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-5-5",
+      "target": "issue-9-4",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-5-5",
+      "target": "issue-9-6",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-5-6",
+      "target": "issue-5-7",
+      "type": "related",
+      "weight": 0.5
+    },
+    {
+      "source": "issue-5-6",
+      "target": "issue-6-1",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-5-6",
+      "target": "issue-6-2",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-5-6",
+      "target": "issue-6-3",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-5-6",
+      "target": "issue-6-5",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-5-6",
+      "target": "issue-7-1",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-5-6",
+      "target": "issue-7-3",
+      "type": "related",
+      "weight": 0.95
+    },
+    {
+      "source": "issue-5-6",
+      "target": "issue-7-4",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-5-6",
+      "target": "issue-7-5",
+      "type": "related",
+      "weight": 0.45
+    },
+    {
+      "source": "issue-5-6",
+      "target": "issue-7-6",
+      "type": "related",
+      "weight": 0.4
+    },
+    {
+      "source": "issue-5-6",
+      "target": "issue-8-1",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-5-6",
+      "target": "issue-8-2",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-5-6",
+      "target": "issue-8-3",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-5-6",
+      "target": "issue-9-3",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-5-6",
+      "target": "issue-9-4",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-5-7",
+      "target": "issue-6-1",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-5-7",
+      "target": "issue-6-2",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-5-7",
+      "target": "issue-6-3",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-5-7",
+      "target": "issue-6-5",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-5-7",
+      "target": "issue-7-1",
+      "type": "related",
+      "weight": 0.4
+    },
+    {
+      "source": "issue-5-7",
+      "target": "issue-7-3",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-5-7",
+      "target": "issue-7-4",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-5-7",
+      "target": "issue-7-5",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-5-7",
+      "target": "issue-7-6",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-5-7",
+      "target": "issue-8-1",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-5-7",
+      "target": "issue-8-3",
+      "type": "related",
+      "weight": 0.4
+    },
+    {
+      "source": "issue-5-7",
+      "target": "issue-9-3",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-5-7",
+      "target": "issue-9-4",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-5-7",
+      "target": "issue-9-5",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-6-1",
+      "target": "issue-6-2",
+      "type": "related",
+      "weight": 1
+    },
+    {
+      "source": "issue-6-1",
+      "target": "issue-6-3",
+      "type": "related",
+      "weight": 0.5
+    },
+    {
+      "source": "issue-6-1",
+      "target": "issue-6-4",
+      "type": "related",
+      "weight": 0.3
+    },
+    {
+      "source": "issue-6-1",
+      "target": "issue-6-5",
+      "type": "related",
+      "weight": 0.5
+    },
+    {
+      "source": "issue-6-1",
+      "target": "issue-6-6",
+      "type": "related",
+      "weight": 0.3
+    },
+    {
+      "source": "issue-6-1",
+      "target": "issue-7-1",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-6-1",
+      "target": "issue-7-3",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-6-1",
+      "target": "issue-7-4",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-6-1",
+      "target": "issue-7-5",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-6-1",
+      "target": "issue-7-6",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-6-1",
+      "target": "issue-8-1",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-6-1",
+      "target": "issue-8-3",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-6-1",
+      "target": "issue-9-3",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-6-1",
+      "target": "issue-9-4",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-6-1",
+      "target": "issue-9-6",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-6-2",
+      "target": "issue-6-3",
+      "type": "related",
+      "weight": 0.5
+    },
+    {
+      "source": "issue-6-2",
+      "target": "issue-6-4",
+      "type": "related",
+      "weight": 0.3
+    },
+    {
+      "source": "issue-6-2",
+      "target": "issue-6-5",
+      "type": "related",
+      "weight": 0.5
+    },
+    {
+      "source": "issue-6-2",
+      "target": "issue-6-6",
+      "type": "related",
+      "weight": 0.3
+    },
+    {
+      "source": "issue-6-2",
+      "target": "issue-7-1",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-6-2",
+      "target": "issue-7-3",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-6-2",
+      "target": "issue-7-4",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-6-2",
+      "target": "issue-7-5",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-6-2",
+      "target": "issue-7-6",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-6-2",
+      "target": "issue-8-1",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-6-2",
+      "target": "issue-8-3",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-6-2",
+      "target": "issue-9-3",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-6-2",
+      "target": "issue-9-4",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-6-3",
+      "target": "issue-6-4",
+      "type": "related",
+      "weight": 0.5
+    },
+    {
+      "source": "issue-6-3",
+      "target": "issue-6-5",
+      "type": "related",
+      "weight": 0.7
+    },
+    {
+      "source": "issue-6-3",
+      "target": "issue-6-6",
+      "type": "related",
+      "weight": 0.3
+    },
+    {
+      "source": "issue-6-3",
+      "target": "issue-7-1",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-6-3",
+      "target": "issue-7-2",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-6-3",
+      "target": "issue-7-3",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-6-3",
+      "target": "issue-7-4",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-6-3",
+      "target": "issue-7-5",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-6-3",
+      "target": "issue-7-6",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-6-3",
+      "target": "issue-8-1",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-6-3",
+      "target": "issue-8-3",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-6-3",
+      "target": "issue-9-1",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-6-3",
+      "target": "issue-9-2",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-6-3",
+      "target": "issue-9-3",
+      "type": "related",
+      "weight": 0.4
+    },
+    {
+      "source": "issue-6-3",
+      "target": "issue-9-4",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-6-3",
+      "target": "issue-9-5",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-6-4",
+      "target": "issue-6-5",
+      "type": "related",
+      "weight": 0.5
+    },
+    {
+      "source": "issue-6-4",
+      "target": "issue-6-6",
+      "type": "related",
+      "weight": 0.3
+    },
+    {
+      "source": "issue-6-4",
+      "target": "issue-7-2",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-6-4",
+      "target": "issue-7-4",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-6-4",
+      "target": "issue-7-5",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-6-4",
+      "target": "issue-9-1",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-6-4",
+      "target": "issue-9-2",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-6-4",
+      "target": "issue-9-3",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-6-4",
+      "target": "issue-9-5",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-6-5",
+      "target": "issue-6-6",
+      "type": "related",
+      "weight": 0.5
+    },
+    {
+      "source": "issue-6-5",
+      "target": "issue-7-1",
+      "type": "related",
+      "weight": 0.65
+    },
+    {
+      "source": "issue-6-5",
+      "target": "issue-7-2",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-6-5",
+      "target": "issue-7-3",
+      "type": "related",
+      "weight": 0.45
+    },
+    {
+      "source": "issue-6-5",
+      "target": "issue-7-4",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-6-5",
+      "target": "issue-7-5",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-6-5",
+      "target": "issue-7-6",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-6-5",
+      "target": "issue-8-1",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-6-5",
+      "target": "issue-8-3",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-6-5",
+      "target": "issue-9-1",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-6-5",
+      "target": "issue-9-2",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-6-5",
+      "target": "issue-9-3",
+      "type": "related",
+      "weight": 0.4
+    },
+    {
+      "source": "issue-6-5",
+      "target": "issue-9-4",
+      "type": "related",
+      "weight": 0.45
+    },
+    {
+      "source": "issue-6-5",
+      "target": "issue-9-5",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-6-6",
+      "target": "issue-7-1",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-6-6",
+      "target": "issue-7-2",
+      "type": "related",
+      "weight": 0.5
+    },
+    {
+      "source": "issue-7-1",
+      "target": "issue-7-2",
+      "type": "related",
+      "weight": 0.3
+    },
+    {
+      "source": "issue-7-1",
+      "target": "issue-7-3",
+      "type": "related",
+      "weight": 0.5
+    },
+    {
+      "source": "issue-7-1",
+      "target": "issue-7-4",
+      "type": "related",
+      "weight": 0.5
+    },
+    {
+      "source": "issue-7-1",
+      "target": "issue-7-5",
+      "type": "related",
+      "weight": 0.5
+    },
+    {
+      "source": "issue-7-1",
+      "target": "issue-7-6",
+      "type": "related",
+      "weight": 0.5
+    },
+    {
+      "source": "issue-7-1",
+      "target": "issue-8-1",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-7-1",
+      "target": "issue-8-3",
+      "type": "related",
+      "weight": 0.4
+    },
+    {
+      "source": "issue-7-1",
+      "target": "issue-9-1",
+      "type": "related",
+      "weight": 0.4
+    },
+    {
+      "source": "issue-7-1",
+      "target": "issue-9-3",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-7-1",
+      "target": "issue-9-4",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-7-1",
+      "target": "issue-9-5",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-7-2",
+      "target": "issue-7-3",
+      "type": "related",
+      "weight": 0.3
+    },
+    {
+      "source": "issue-7-2",
+      "target": "issue-7-4",
+      "type": "related",
+      "weight": 0.3
+    },
+    {
+      "source": "issue-7-2",
+      "target": "issue-7-5",
+      "type": "related",
+      "weight": 0.3
+    },
+    {
+      "source": "issue-7-2",
+      "target": "issue-7-6",
+      "type": "related",
+      "weight": 0.3
+    },
+    {
+      "source": "issue-7-2",
+      "target": "issue-9-1",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-7-2",
+      "target": "issue-9-2",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-7-2",
+      "target": "issue-9-3",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-7-2",
+      "target": "issue-9-5",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-7-3",
+      "target": "issue-7-4",
+      "type": "related",
+      "weight": 0.5
+    },
+    {
+      "source": "issue-7-3",
+      "target": "issue-7-5",
+      "type": "related",
+      "weight": 0.75
+    },
+    {
+      "source": "issue-7-3",
+      "target": "issue-7-6",
+      "type": "related",
+      "weight": 0.5
+    },
+    {
+      "source": "issue-7-3",
+      "target": "issue-8-1",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-7-3",
+      "target": "issue-8-3",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-7-3",
+      "target": "issue-9-3",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-7-3",
+      "target": "issue-9-4",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-7-4",
+      "target": "issue-7-5",
+      "type": "related",
+      "weight": 0.7
+    },
+    {
+      "source": "issue-7-4",
+      "target": "issue-7-6",
+      "type": "related",
+      "weight": 0.75
+    },
+    {
+      "source": "issue-7-4",
+      "target": "issue-8-1",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-7-4",
+      "target": "issue-8-3",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-7-4",
+      "target": "issue-9-3",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-7-4",
+      "target": "issue-9-4",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-7-5",
+      "target": "issue-7-6",
+      "type": "related",
+      "weight": 0.5
+    },
+    {
+      "source": "issue-7-5",
+      "target": "issue-8-1",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-7-5",
+      "target": "issue-8-3",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-7-5",
+      "target": "issue-9-3",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-7-5",
+      "target": "issue-9-4",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-7-6",
+      "target": "issue-8-1",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-7-6",
+      "target": "issue-8-2",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-7-6",
+      "target": "issue-8-3",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-7-6",
+      "target": "issue-9-3",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-7-6",
+      "target": "issue-9-4",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-8-1",
+      "target": "issue-8-2",
+      "type": "related",
+      "weight": 0.5
+    },
+    {
+      "source": "issue-8-1",
+      "target": "issue-8-3",
+      "type": "related",
+      "weight": 0.5
+    },
+    {
+      "source": "issue-8-1",
+      "target": "issue-9-3",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-8-1",
+      "target": "issue-9-4",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-8-2",
+      "target": "issue-8-3",
+      "type": "related",
+      "weight": 0.3
+    },
+    {
+      "source": "issue-8-2",
+      "target": "issue-9-6",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-8-3",
+      "target": "issue-9-2",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-8-3",
+      "target": "issue-9-3",
+      "type": "related",
+      "weight": 0.4
+    },
+    {
+      "source": "issue-8-3",
+      "target": "issue-9-4",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-8-3",
+      "target": "issue-9-5",
+      "type": "related",
+      "weight": 0.2
+    },
+    {
+      "source": "issue-9-1",
+      "target": "issue-9-2",
+      "type": "related",
+      "weight": 0.5
+    },
+    {
+      "source": "issue-9-1",
+      "target": "issue-9-3",
+      "type": "related",
+      "weight": 0.5
+    },
+    {
+      "source": "issue-9-1",
+      "target": "issue-9-4",
+      "type": "related",
+      "weight": 0.3
+    },
+    {
+      "source": "issue-9-1",
+      "target": "issue-9-5",
+      "type": "related",
+      "weight": 0.5
+    },
+    {
+      "source": "issue-9-1",
+      "target": "issue-9-6",
+      "type": "related",
+      "weight": 0.3
+    },
+    {
+      "source": "issue-9-2",
+      "target": "issue-9-3",
+      "type": "related",
+      "weight": 0.7
+    },
+    {
+      "source": "issue-9-2",
+      "target": "issue-9-4",
+      "type": "related",
+      "weight": 0.3
+    },
+    {
+      "source": "issue-9-2",
+      "target": "issue-9-5",
+      "type": "related",
+      "weight": 0.5
+    },
+    {
+      "source": "issue-9-2",
+      "target": "issue-9-6",
+      "type": "related",
+      "weight": 0.3
+    },
+    {
+      "source": "issue-9-3",
+      "target": "issue-9-4",
+      "type": "related",
+      "weight": 0.5
+    },
+    {
+      "source": "issue-9-3",
+      "target": "issue-9-5",
+      "type": "related",
+      "weight": 0.5
+    },
+    {
+      "source": "issue-9-3",
+      "target": "issue-9-6",
+      "type": "related",
+      "weight": 0.3
+    },
+    {
+      "source": "issue-9-4",
+      "target": "issue-9-5",
+      "type": "related",
+      "weight": 0.3
+    },
+    {
+      "source": "issue-9-4",
+      "target": "issue-9-6",
+      "type": "related",
+      "weight": 0.3
+    },
+    {
+      "source": "issue-9-5",
+      "target": "issue-9-6",
+      "type": "related",
+      "weight": 0.3
+    }
+  ],
+  "citationIndex": [
+    [
+      "3:3",
+      [
+        "issue-1-1"
+      ]
+    ],
+    [
+      "5:43",
+      [
+        "issue-1-1",
+        "issue-1-2"
+      ]
+    ],
+    [
+      "5:47",
+      [
+        "issue-1-1"
+      ]
+    ],
+    [
+      "5:68",
+      [
+        "issue-1-1"
+      ]
+    ],
+    [
+      "10:94",
+      [
+        "issue-1-1",
+        "issue-1-2"
+      ]
+    ],
+    [
+      "6:115",
+      [
+        "issue-1-1"
+      ]
+    ],
+    [
+      "18:27",
+      [
+        "issue-1-1"
+      ]
+    ],
+    [
+      "7:157",
+      [
+        "issue-1-1"
+      ]
+    ],
+    [
+      "4:157",
+      [
+        "issue-1-2",
+        "issue-4-2",
+        "issue-6-3"
+      ]
+    ],
+    [
+      "9:30",
+      [
+        "issue-1-2"
+      ]
+    ],
+    [
+      "53:38",
+      [
+        "issue-1-2",
+        "issue-6-4"
+      ]
+    ],
+    [
+      "112:3",
+      [
+        "issue-1-2"
+      ]
+    ],
+    [
+      "2:79",
+      [
+        "issue-1-2"
+      ]
+    ],
+    [
+      "3:78",
+      [
+        "issue-1-2"
+      ]
+    ],
+    [
+      "4:46",
+      [
+        "issue-1-2"
+      ]
+    ],
+    [
+      "5:13",
+      [
+        "issue-1-2"
+      ]
+    ],
+    [
+      "al-Tabari",
+      [
+        "issue-1-2",
+        "issue-2-1",
+        "issue-4-3",
+        "issue-4-5",
+        "issue-5-3",
+        "issue-7-1",
+        "issue-9-1"
+      ]
+    ],
+    [
+      "Ibn Hazm",
+      [
+        "issue-1-2"
+      ]
+    ],
+    [
+      "al-Razi",
+      [
+        "issue-1-2",
+        "issue-5-3"
+      ]
+    ],
+    [
+      "Muhammad Abduh",
+      [
+        "issue-1-2",
+        "issue-2-8"
+      ]
+    ],
+    [
+      "4:82",
+      [
+        "issue-1-3",
+        "issue-8-3"
+      ]
+    ],
+    [
+      "al-Tabatabai",
+      [
+        "issue-1-3"
+      ]
+    ],
+    [
+      "85:21",
+      [
+        "issue-1-3"
+      ]
+    ],
+    [
+      "2:106",
+      [
+        "issue-1-3",
+        "issue-2-8",
+        "issue-3-4"
+      ]
+    ],
+    [
+      "16:101",
+      [
+        "issue-1-3",
+        "issue-2-8"
+      ]
+    ],
+    [
+      "al-Suyuti",
+      [
+        "issue-1-3",
+        "issue-2-8",
+        "issue-2-9",
+        "issue-3-2",
+        "issue-3-3"
+      ]
+    ],
+    [
+      "Ibn al-Jawzi",
+      [
+        "issue-1-3"
+      ]
+    ],
+    [
+      "7:54",
+      [
+        "issue-2-1"
+      ]
+    ],
+    [
+      "41:9",
+      [
+        "issue-2-1"
+      ]
+    ],
+    [
+      "10:3",
+      [
+        "issue-2-1",
+        "issue-2-5"
+      ]
+    ],
+    [
+      "11:7",
+      [
+        "issue-2-1"
+      ]
+    ],
+    [
+      "25:59",
+      [
+        "issue-2-1"
+      ]
+    ],
+    [
+      "41:10",
+      [
+        "issue-2-1"
+      ]
+    ],
+    [
+      "41:12",
+      [
+        "issue-2-1"
+      ]
+    ],
+    [
+      "12:1",
+      [
+        "issue-2-1"
+      ]
+    ],
+    [
+      "6:14",
+      [
+        "issue-2-2"
+      ]
+    ],
+    [
+      "7:143",
+      [
+        "issue-2-2"
+      ]
+    ],
+    [
+      "2:131",
+      [
+        "issue-2-2"
+      ]
+    ],
+    [
+      "6:163",
+      [
+        "issue-2-2"
+      ]
+    ],
+    [
+      "3:67",
+      [
+        "issue-2-2"
+      ]
+    ],
+    [
+      "7:120",
+      [
+        "issue-2-2"
+      ]
+    ],
+    [
+      "5:111",
+      [
+        "issue-2-2"
+      ]
+    ],
+    [
+      "11:1",
+      [
+        "issue-2-2"
+      ]
+    ],
+    [
+      "22:47",
+      [
+        "issue-2-3",
+        "issue-9-1"
+      ]
+    ],
+    [
+      "70:4",
+      [
+        "issue-2-3"
+      ]
+    ],
+    [
+      "32:5",
+      [
+        "issue-2-3"
+      ]
+    ],
+    [
+      "2:34",
+      [
+        "issue-2-4"
+      ]
+    ],
+    [
+      "18:50",
+      [
+        "issue-2-4"
+      ]
+    ],
+    [
+      "66:6",
+      [
+        "issue-2-4"
+      ]
+    ],
+    [
+      "7:11",
+      [
+        "issue-2-4"
+      ]
+    ],
+    [
+      "15:28",
+      [
+        "issue-2-4"
+      ]
+    ],
+    [
+      "17:61",
+      [
+        "issue-2-4"
+      ]
+    ],
+    [
+      "20:116",
+      [
+        "issue-2-4"
+      ]
+    ],
+    [
+      "38:71",
+      [
+        "issue-2-4"
+      ]
+    ],
+    [
+      "2:254",
+      [
+        "issue-2-5"
+      ]
+    ],
+    [
+      "2:48",
+      [
+        "issue-2-5",
+        "issue-6-4"
+      ]
+    ],
+    [
+      "6:51",
+      [
+        "issue-2-5"
+      ]
+    ],
+    [
+      "19:87",
+      [
+        "issue-2-5"
+      ]
+    ],
+    [
+      "20:109",
+      [
+        "issue-2-5"
+      ]
+    ],
+    [
+      "53:26",
+      [
+        "issue-2-5"
+      ]
+    ],
+    [
+      "Sahih al-Bukhari 7510",
+      [
+        "issue-2-5"
+      ]
+    ],
+    [
+      "Bukhari 7510",
+      [
+        "issue-2-5"
+      ]
+    ],
+    [
+      "39:4",
+      [
+        "issue-2-6"
+      ]
+    ],
+    [
+      "19:35",
+      [
+        "issue-2-6"
+      ]
+    ],
+    [
+      "6:101",
+      [
+        "issue-2-6"
+      ]
+    ],
+    [
+      "5:116",
+      [
+        "issue-2-6",
+        "issue-2-7"
+      ]
+    ],
+    [
+      "5:73",
+      [
+        "issue-2-7"
+      ]
+    ],
+    [
+      "4:171",
+      [
+        "issue-2-7"
+      ]
+    ],
+    [
+      "5:75",
+      [
+        "issue-2-7"
+      ]
+    ],
+    [
+      "2:256",
+      [
+        "issue-2-8",
+        "issue-6-6",
+        "issue-7-2"
+      ]
+    ],
+    [
+      "109:6",
+      [
+        "issue-2-8"
+      ]
+    ],
+    [
+      "9:5",
+      [
+        "issue-2-8",
+        "issue-8-3"
+      ]
+    ],
+    [
+      "9:29",
+      [
+        "issue-2-8",
+        "issue-6-6",
+        "issue-7-2"
+      ]
+    ],
+    [
+      "9:4",
+      [
+        "issue-2-8"
+      ]
+    ],
+    [
+      "9:6",
+      [
+        "issue-2-8"
+      ]
+    ],
+    [
+      "3:7",
+      [
+        "issue-2-8"
+      ]
+    ],
+    [
+      "16:103",
+      [
+        "issue-2-9"
+      ]
+    ],
+    [
+      "26:195",
+      [
+        "issue-2-9"
+      ]
+    ],
+    [
+      "39:28",
+      [
+        "issue-2-9"
+      ]
+    ],
+    [
+      "Sahih al-Bukhari 4986",
+      [
+        "issue-3-1"
+      ]
+    ],
+    [
+      "Bukhari 4986",
+      [
+        "issue-3-1"
+      ]
+    ],
+    [
+      "Sahih al-Bukhari 4987",
+      [
+        "issue-3-2"
+      ]
+    ],
+    [
+      "Bukhari 4987",
+      [
+        "issue-3-2"
+      ]
+    ],
+    [
+      "Sahih al-Bukhari 3808",
+      [
+        "issue-3-3"
+      ]
+    ],
+    [
+      "Bukhari 3808",
+      [
+        "issue-3-3"
+      ]
+    ],
+    [
+      "Sahih al-Bukhari 6829",
+      [
+        "issue-3-4"
+      ]
+    ],
+    [
+      "Bukhari 6829",
+      [
+        "issue-3-4"
+      ]
+    ],
+    [
+      "Sahih Muslim 1452",
+      [
+        "issue-3-4"
+      ]
+    ],
+    [
+      "Sahih Muslim 1050",
+      [
+        "issue-3-4"
+      ]
+    ],
+    [
+      "Muslim 1452",
+      [
+        "issue-3-4"
+      ]
+    ],
+    [
+      "Muslim 1050",
+      [
+        "issue-3-4"
+      ]
+    ],
+    [
+      "Sunan Ibn Majah 1944",
+      [
+        "issue-3-4"
+      ]
+    ],
+    [
+      "Ibn Majah 1944",
+      [
+        "issue-3-4"
+      ]
+    ],
+    [
+      "15:9",
+      [
+        "issue-3-4"
+      ]
+    ],
+    [
+      "1:4",
+      [
+        "issue-3-6"
+      ]
+    ],
+    [
+      "3:146",
+      [
+        "issue-3-6"
+      ]
+    ],
+    [
+      "2:184",
+      [
+        "issue-3-6"
+      ]
+    ],
+    [
+      "28:6",
+      [
+        "issue-4-1"
+      ]
+    ],
+    [
+      "28:38",
+      [
+        "issue-4-1"
+      ]
+    ],
+    [
+      "40:24",
+      [
+        "issue-4-1"
+      ]
+    ],
+    [
+      "40:36",
+      [
+        "issue-4-1"
+      ]
+    ],
+    [
+      "7:124",
+      [
+        "issue-4-2"
+      ]
+    ],
+    [
+      "20:71",
+      [
+        "issue-4-2"
+      ]
+    ],
+    [
+      "26:49",
+      [
+        "issue-4-2"
+      ]
+    ],
+    [
+      "12:41",
+      [
+        "issue-4-2"
+      ]
+    ],
+    [
+      "5:33",
+      [
+        "issue-4-2"
+      ]
+    ],
+    [
+      "12:20",
+      [
+        "issue-4-2"
+      ]
+    ],
+    [
+      "20:85",
+      [
+        "issue-4-3"
+      ]
+    ],
+    [
+      "19:28",
+      [
+        "issue-4-4"
+      ]
+    ],
+    [
+      "66:12",
+      [
+        "issue-4-4"
+      ]
+    ],
+    [
+      "3:35",
+      [
+        "issue-4-4"
+      ]
+    ],
+    [
+      "Sahih Muslim 2135",
+      [
+        "issue-4-4"
+      ]
+    ],
+    [
+      "Muslim 2135",
+      [
+        "issue-4-4"
+      ]
+    ],
+    [
+      "18:86",
+      [
+        "issue-4-5"
+      ]
+    ],
+    [
+      "18:90",
+      [
+        "issue-4-5"
+      ]
+    ],
+    [
+      "86:5",
+      [
+        "issue-4-6"
+      ]
+    ],
+    [
+      "23:13",
+      [
+        "issue-4-7"
+      ]
+    ],
+    [
+      "Sahih al-Bukhari 3208",
+      [
+        "issue-4-7",
+        "issue-6-2"
+      ]
+    ],
+    [
+      "Bukhari 3208",
+      [
+        "issue-4-7",
+        "issue-6-2"
+      ]
+    ],
+    [
+      "67:5",
+      [
+        "issue-4-8"
+      ]
+    ],
+    [
+      "36:38",
+      [
+        "issue-4-8"
+      ]
+    ],
+    [
+      "37:6",
+      [
+        "issue-4-8"
+      ]
+    ],
+    [
+      "72:8",
+      [
+        "issue-4-8"
+      ]
+    ],
+    [
+      "65:12",
+      [
+        "issue-4-8"
+      ]
+    ],
+    [
+      "21:32",
+      [
+        "issue-4-8"
+      ]
+    ],
+    [
+      "31:10",
+      [
+        "issue-4-8"
+      ]
+    ],
+    [
+      "34:9",
+      [
+        "issue-4-8"
+      ]
+    ],
+    [
+      "21:104",
+      [
+        "issue-4-8"
+      ]
+    ],
+    [
+      "2:22",
+      [
+        "issue-4-8"
+      ]
+    ],
+    [
+      "15:19",
+      [
+        "issue-4-8"
+      ]
+    ],
+    [
+      "71:19",
+      [
+        "issue-4-8"
+      ]
+    ],
+    [
+      "88:20",
+      [
+        "issue-4-8"
+      ]
+    ],
+    [
+      "Sahih al-Bukhari 3199",
+      [
+        "issue-4-8"
+      ]
+    ],
+    [
+      "Bukhari 3199",
+      [
+        "issue-4-8"
+      ]
+    ],
+    [
+      "79:30",
+      [
+        "issue-4-8"
+      ]
+    ],
+    [
+      "53:3",
+      [
+        "issue-4-9",
+        "issue-8-1"
+      ]
+    ],
+    [
+      "Sahih al-Bukhari 3320",
+      [
+        "issue-4-9"
+      ]
+    ],
+    [
+      "Bukhari 3320",
+      [
+        "issue-4-9"
+      ]
+    ],
+    [
+      "Bukhari 233",
+      [
+        "issue-4-9"
+      ]
+    ],
+    [
+      "Bukhari 5688",
+      [
+        "issue-4-9"
+      ]
+    ],
+    [
+      "Bukhari 3261",
+      [
+        "issue-4-9"
+      ]
+    ],
+    [
+      "Bukhari 3326",
+      [
+        "issue-4-9"
+      ]
+    ],
+    [
+      "29:50",
+      [
+        "issue-5-1"
+      ]
+    ],
+    [
+      "17:59",
+      [
+        "issue-5-1"
+      ]
+    ],
+    [
+      "17:90",
+      [
+        "issue-5-1"
+      ]
+    ],
+    [
+      "54:1",
+      [
+        "issue-5-1",
+        "issue-9-1"
+      ]
+    ],
+    [
+      "33:37",
+      [
+        "issue-5-2"
+      ]
+    ],
+    [
+      "33:50",
+      [
+        "issue-5-2",
+        "issue-7-3"
+      ]
+    ],
+    [
+      "66:1",
+      [
+        "issue-5-2"
+      ]
+    ],
+    [
+      "33:4",
+      [
+        "issue-5-2"
+      ]
+    ],
+    [
+      "4:3",
+      [
+        "issue-5-2",
+        "issue-6-5",
+        "issue-7-3"
+      ]
+    ],
+    [
+      "33:51",
+      [
+        "issue-5-2"
+      ]
+    ],
+    [
+      "Sahih al-Bukhari 4788",
+      [
+        "issue-5-2"
+      ]
+    ],
+    [
+      "Bukhari 4788",
+      [
+        "issue-5-2"
+      ]
+    ],
+    [
+      "22:52",
+      [
+        "issue-5-3"
+      ]
+    ],
+    [
+      "17:73",
+      [
+        "issue-5-3"
+      ]
+    ],
+    [
+      "25:8",
+      [
+        "issue-5-4"
+      ]
+    ],
+    [
+      "17:47",
+      [
+        "issue-5-4"
+      ]
+    ],
+    [
+      "Sahih al-Bukhari 5763",
+      [
+        "issue-5-4"
+      ]
+    ],
+    [
+      "Bukhari 5763",
+      [
+        "issue-5-4"
+      ]
+    ],
+    [
+      "5:67",
+      [
+        "issue-5-4"
+      ]
+    ],
+    [
+      "65:4",
+      [
+        "issue-5-5",
+        "issue-6-5",
+        "issue-7-1"
+      ]
+    ],
+    [
+      "33:21",
+      [
+        "issue-5-5"
+      ]
+    ],
+    [
+      "68:4",
+      [
+        "issue-5-5"
+      ]
+    ],
+    [
+      "Sahih al-Bukhari 5134",
+      [
+        "issue-5-5"
+      ]
+    ],
+    [
+      "Bukhari 5134",
+      [
+        "issue-5-5"
+      ]
+    ],
+    [
+      "Bukhari 3896",
+      [
+        "issue-5-5"
+      ]
+    ],
+    [
+      "Sahih Muslim 1422",
+      [
+        "issue-5-5"
+      ]
+    ],
+    [
+      "Muslim 1422",
+      [
+        "issue-5-5"
+      ]
+    ],
+    [
+      "Bukhari 3895",
+      [
+        "issue-5-5"
+      ]
+    ],
+    [
+      "33:26",
+      [
+        "issue-5-6"
+      ]
+    ],
+    [
+      "4:24",
+      [
+        "issue-5-6",
+        "issue-7-3",
+        "issue-7-5"
+      ]
+    ],
+    [
+      "Sahih al-Bukhari 4121",
+      [
+        "issue-5-6"
+      ]
+    ],
+    [
+      "Bukhari 4121",
+      [
+        "issue-5-6"
+      ]
+    ],
+    [
+      "Bukhari 371",
+      [
+        "issue-5-6"
+      ]
+    ],
+    [
+      "Sahih Muslim 1456",
+      [
+        "issue-5-6",
+        "issue-7-3"
+      ]
+    ],
+    [
+      "Muslim 1456",
+      [
+        "issue-5-6",
+        "issue-7-3"
+      ]
+    ],
+    [
+      "69:44",
+      [
+        "issue-5-7"
+      ]
+    ],
+    [
+      "Sahih al-Bukhari 4428",
+      [
+        "issue-5-7"
+      ]
+    ],
+    [
+      "Bukhari 4428",
+      [
+        "issue-5-7"
+      ]
+    ],
+    [
+      "3:54",
+      [
+        "issue-6-1"
+      ]
+    ],
+    [
+      "8:30",
+      [
+        "issue-6-1"
+      ]
+    ],
+    [
+      "7:99",
+      [
+        "issue-6-1"
+      ]
+    ],
+    [
+      "4:142",
+      [
+        "issue-6-1"
+      ]
+    ],
+    [
+      "23:19",
+      [
+        "issue-6-1"
+      ]
+    ],
+    [
+      "6:18",
+      [
+        "issue-6-1"
+      ]
+    ],
+    [
+      "14:4",
+      [
+        "issue-6-1",
+        "issue-6-2"
+      ]
+    ],
+    [
+      "74:31",
+      [
+        "issue-6-1",
+        "issue-6-2"
+      ]
+    ],
+    [
+      "7:179",
+      [
+        "issue-6-2"
+      ]
+    ],
+    [
+      "32:13",
+      [
+        "issue-6-2"
+      ]
+    ],
+    [
+      "16:93",
+      [
+        "issue-6-2"
+      ]
+    ],
+    [
+      "81:29",
+      [
+        "issue-6-2"
+      ]
+    ],
+    [
+      "2:26",
+      [
+        "issue-6-2"
+      ]
+    ],
+    [
+      "19:33",
+      [
+        "issue-6-3"
+      ]
+    ],
+    [
+      "3:55",
+      [
+        "issue-6-3"
+      ]
+    ],
+    [
+      "23:102",
+      [
+        "issue-6-4"
+      ]
+    ],
+    [
+      "46:9",
+      [
+        "issue-6-4"
+      ]
+    ],
+    [
+      "19:71",
+      [
+        "issue-6-4"
+      ]
+    ],
+    [
+      "6:164",
+      [
+        "issue-6-4"
+      ]
+    ],
+    [
+      "Sahih al-Bukhari 5673",
+      [
+        "issue-6-4"
+      ]
+    ],
+    [
+      "Bukhari 5673",
+      [
+        "issue-6-4"
+      ]
+    ],
+    [
+      "Sahih Muslim 2767",
+      [
+        "issue-6-4"
+      ]
+    ],
+    [
+      "Muslim 2767",
+      [
+        "issue-6-4"
+      ]
+    ],
+    [
+      "39:53",
+      [
+        "issue-6-4"
+      ]
+    ],
+    [
+      "9:111",
+      [
+        "issue-6-4"
+      ]
+    ],
+    [
+      "4:48",
+      [
+        "issue-6-4"
+      ]
+    ],
+    [
+      "4:34",
+      [
+        "issue-6-5"
+      ]
+    ],
+    [
+      "2:282",
+      [
+        "issue-6-5"
+      ]
+    ],
+    [
+      "4:11",
+      [
+        "issue-6-5",
+        "issue-9-4"
+      ]
+    ],
+    [
+      "2:223",
+      [
+        "issue-6-5"
+      ]
+    ],
+    [
+      "Bukhari 304",
+      [
+        "issue-6-5"
+      ]
+    ],
+    [
+      "Bukhari 5193",
+      [
+        "issue-6-5"
+      ]
+    ],
+    [
+      "33:35",
+      [
+        "issue-6-5"
+      ]
+    ],
+    [
+      "4:56",
+      [
+        "issue-6-6"
+      ]
+    ],
+    [
+      "22:19",
+      [
+        "issue-6-6"
+      ]
+    ],
+    [
+      "Sahih al-Bukhari 6922",
+      [
+        "issue-6-6"
+      ]
+    ],
+    [
+      "Bukhari 6922",
+      [
+        "issue-6-6"
+      ]
+    ],
+    [
+      "5:3",
+      [
+        "issue-7-1"
+      ]
+    ],
+    [
+      "23:5",
+      [
+        "issue-7-3"
+      ]
+    ],
+    [
+      "70:29",
+      [
+        "issue-7-3"
+      ]
+    ],
+    [
+      "90:13",
+      [
+        "issue-7-3"
+      ]
+    ],
+    [
+      "4:92",
+      [
+        "issue-7-3"
+      ]
+    ],
+    [
+      "5:89",
+      [
+        "issue-7-3"
+      ]
+    ],
+    [
+      "58:3",
+      [
+        "issue-7-3"
+      ]
+    ],
+    [
+      "66:2",
+      [
+        "issue-7-4"
+      ]
+    ],
+    [
+      "3:28",
+      [
+        "issue-7-4"
+      ]
+    ],
+    [
+      "9:1",
+      [
+        "issue-7-4"
+      ]
+    ],
+    [
+      "16:106",
+      [
+        "issue-7-4"
+      ]
+    ],
+    [
+      "Sahih al-Bukhari 3030",
+      [
+        "issue-7-4"
+      ]
+    ],
+    [
+      "Bukhari 3030",
+      [
+        "issue-7-4"
+      ]
+    ],
+    [
+      "Bukhari 4037",
+      [
+        "issue-7-4",
+        "issue-7-6"
+      ]
+    ],
+    [
+      "Bukhari 6718",
+      [
+        "issue-7-4"
+      ]
+    ],
+    [
+      "Sahih Muslim 2605",
+      [
+        "issue-7-4"
+      ]
+    ],
+    [
+      "Muslim 2605",
+      [
+        "issue-7-4"
+      ]
+    ],
+    [
+      "Bukhari 3166",
+      [
+        "issue-7-4"
+      ]
+    ],
+    [
+      "Muslim 1735",
+      [
+        "issue-7-4"
+      ]
+    ],
+    [
+      "Sahih al-Bukhari 5117",
+      [
+        "issue-7-5"
+      ]
+    ],
+    [
+      "Bukhari 5117",
+      [
+        "issue-7-5"
+      ]
+    ],
+    [
+      "Sahih Muslim 1404",
+      [
+        "issue-7-5"
+      ]
+    ],
+    [
+      "Muslim 1404",
+      [
+        "issue-7-5"
+      ]
+    ],
+    [
+      "Bukhari 5115",
+      [
+        "issue-7-5"
+      ]
+    ],
+    [
+      "Muslim 1406",
+      [
+        "issue-7-5"
+      ]
+    ],
+    [
+      "2:217",
+      [
+        "issue-7-6"
+      ]
+    ],
+    [
+      "Sahih al-Bukhari 4037",
+      [
+        "issue-7-6"
+      ]
+    ],
+    [
+      "Bukhari 4039",
+      [
+        "issue-7-6"
+      ]
+    ],
+    [
+      "6:114",
+      [
+        "issue-8-1"
+      ]
+    ],
+    [
+      "16:89",
+      [
+        "issue-8-1"
+      ]
+    ],
+    [
+      "4:80",
+      [
+        "issue-8-1"
+      ]
+    ],
+    [
+      "59:7",
+      [
+        "issue-8-1"
+      ]
+    ],
+    [
+      "16:44",
+      [
+        "issue-8-1"
+      ]
+    ],
+    [
+      "Tirmidhi 2167",
+      [
+        "issue-8-3"
+      ]
+    ],
+    [
+      "16:77",
+      [
+        "issue-9-1"
+      ]
+    ],
+    [
+      "33:63",
+      [
+        "issue-9-1"
+      ]
+    ],
+    [
+      "42:17",
+      [
+        "issue-9-1"
+      ]
+    ],
+    [
+      "18:22",
+      [
+        "issue-9-1"
+      ]
+    ],
+    [
+      "30:2",
+      [
+        "issue-9-1"
+      ]
+    ],
+    [
+      "Sahih al-Bukhari 6504",
+      [
+        "issue-9-1"
+      ]
+    ],
+    [
+      "Bukhari 6504",
+      [
+        "issue-9-1"
+      ]
+    ],
+    [
+      "Bukhari 6511",
+      [
+        "issue-9-1"
+      ]
+    ],
+    [
+      "Muslim 2950",
+      [
+        "issue-9-1"
+      ]
+    ],
+    [
+      "Muslim 2953",
+      [
+        "issue-9-1"
+      ]
+    ],
+    [
+      "Muslim 2538",
+      [
+        "issue-9-1"
+      ]
+    ],
+    [
+      "11:13",
+      [
+        "issue-9-2"
+      ]
+    ],
+    [
+      "2:23",
+      [
+        "issue-9-2"
+      ]
+    ],
+    [
+      "10:38",
+      [
+        "issue-9-2"
+      ]
+    ],
+    [
+      "2:24",
+      [
+        "issue-9-2"
+      ]
+    ],
+    [
+      "19:29",
+      [
+        "issue-9-3"
+      ]
+    ],
+    [
+      "11:49",
+      [
+        "issue-9-3"
+      ]
+    ],
+    [
+      "3:49",
+      [
+        "issue-9-3"
+      ]
+    ],
+    [
+      "5:110",
+      [
+        "issue-9-3"
+      ]
+    ],
+    [
+      "18:9",
+      [
+        "issue-9-3"
+      ]
+    ],
+    [
+      "18:83",
+      [
+        "issue-9-3"
+      ]
+    ],
+    [
+      "5:31",
+      [
+        "issue-9-3"
+      ]
+    ],
+    [
+      "4:176",
+      [
+        "issue-9-4"
+      ]
+    ],
+    [
+      "2:158",
+      [
+        "issue-9-5"
+      ]
+    ],
+    [
+      "Sahih al-Bukhari 1597",
+      [
+        "issue-9-5"
+      ]
+    ],
+    [
+      "Bukhari 1597",
+      [
+        "issue-9-5"
+      ]
+    ],
+    [
+      "2:125",
+      [
+        "issue-9-5"
+      ]
+    ],
+    [
+      "22:26",
+      [
+        "issue-9-5"
+      ]
+    ],
+    [
+      "Sahih al-Bukhari 349",
+      [
+        "issue-9-6"
+      ]
+    ],
+    [
+      "Bukhari 349",
+      [
+        "issue-9-6"
+      ]
+    ],
+    [
+      "Bukhari 7517",
+      [
+        "issue-9-6"
+      ]
+    ]
+  ],
+  "conceptIndex": [
+    [
+      "revelation",
+      [
+        "issue-1-1",
+        "issue-1-2",
+        "issue-1-3",
+        "issue-2-2",
+        "issue-2-8",
+        "issue-3-2",
+        "issue-3-6",
+        "issue-4-7",
+        "issue-4-9",
+        "issue-5-2",
+        "issue-5-3",
+        "issue-5-4",
+        "issue-5-5",
+        "issue-5-6",
+        "issue-5-7",
+        "issue-6-1",
+        "issue-6-2",
+        "issue-6-3",
+        "issue-6-5",
+        "issue-7-1",
+        "issue-7-3",
+        "issue-7-4",
+        "issue-7-5",
+        "issue-7-6",
+        "issue-8-1",
+        "issue-8-3",
+        "issue-9-3",
+        "issue-9-4"
+      ]
+    ],
+    [
+      "tahrif",
+      [
+        "issue-1-2"
+      ]
+    ],
+    [
+      "corruption",
+      [
+        "issue-1-2"
+      ]
+    ],
+    [
+      "distortion",
+      [
+        "issue-1-2"
+      ]
+    ],
+    [
+      "preserved",
+      [
+        "issue-1-2",
+        "issue-1-3",
+        "issue-2-8",
+        "issue-3-5",
+        "issue-5-2",
+        "issue-5-7",
+        "issue-7-1",
+        "issue-8-3",
+        "issue-9-5"
+      ]
+    ],
+    [
+      "manuscript",
+      [
+        "issue-1-2",
+        "issue-3-2",
+        "issue-3-5",
+        "issue-3-6"
+      ]
+    ],
+    [
+      "textual",
+      [
+        "issue-1-2",
+        "issue-1-3",
+        "issue-3-4",
+        "issue-3-5",
+        "issue-5-5",
+        "issue-6-5",
+        "issue-6-6",
+        "issue-7-1"
+      ]
+    ],
+    [
+      "variant",
+      [
+        "issue-1-2",
+        "issue-3-2",
+        "issue-3-5",
+        "issue-3-6"
+      ]
+    ],
+    [
+      "deity",
+      [
+        "issue-1-2",
+        "issue-6-1",
+        "issue-9-6"
+      ]
+    ],
+    [
+      "atonement",
+      [
+        "issue-1-2",
+        "issue-6-4"
+      ]
+    ],
+    [
+      "resurrection",
+      [
+        "issue-1-2",
+        "issue-6-4",
+        "issue-7-4",
+        "issue-7-5"
+      ]
+    ],
+    [
+      "crucifixion",
+      [
+        "issue-1-2",
+        "issue-4-2",
+        "issue-6-3"
+      ]
+    ],
+    [
+      "historical",
+      [
+        "issue-1-2",
+        "issue-5-1",
+        "issue-5-3",
+        "issue-5-4",
+        "issue-6-3",
+        "issue-6-4",
+        "issue-6-5",
+        "issue-7-2",
+        "issue-9-1",
+        "issue-9-2",
+        "issue-9-3",
+        "issue-9-5"
+      ]
+    ],
+    [
+      "abrogation",
+      [
+        "issue-1-3",
+        "issue-2-8",
+        "issue-3-4",
+        "issue-7-5"
+      ]
+    ],
+    [
+      "naskh",
+      [
+        "issue-1-3",
+        "issue-3-3",
+        "issue-3-4"
+      ]
+    ],
+    [
+      "contradiction",
+      [
+        "issue-1-3",
+        "issue-2-1",
+        "issue-2-4",
+        "issue-2-6",
+        "issue-2-8",
+        "issue-5-4",
+        "issue-7-1"
+      ]
+    ],
+    [
+      "transmission",
+      [
+        "issue-1-3",
+        "issue-3-5",
+        "issue-3-6",
+        "issue-5-2",
+        "issue-5-5",
+        "issue-8-2",
+        "issue-9-6"
+      ]
+    ],
+    [
+      "harmonization",
+      [
+        "issue-1-3",
+        "issue-2-2",
+        "issue-2-5",
+        "issue-4-6",
+        "issue-5-2",
+        "issue-7-5"
+      ]
+    ],
+    [
+      "miracle",
+      [
+        "issue-2-3",
+        "issue-3-6",
+        "issue-4-7",
+        "issue-4-9",
+        "issue-5-1",
+        "issue-8-3",
+        "issue-9-2",
+        "issue-9-3"
+      ]
+    ],
+    [
+      "authenticity",
+      [
+        "issue-2-9",
+        "issue-3-3"
+      ]
+    ],
+    [
+      "preservation",
+      [
+        "issue-3-1",
+        "issue-3-2",
+        "issue-3-3",
+        "issue-3-4",
+        "issue-3-5",
+        "issue-3-6",
+        "issue-8-1"
+      ]
+    ],
+    [
+      "isnad",
+      [
+        "issue-3-3",
+        "issue-5-3",
+        "issue-8-1",
+        "issue-8-2"
+      ]
+    ],
+    [
+      "scientific",
+      [
+        "issue-4-7",
+        "issue-4-9",
+        "issue-8-3"
+      ]
+    ],
+    [
+      "chain",
+      [
+        "issue-5-3",
+        "issue-5-6",
+        "issue-7-6",
+        "issue-8-2"
+      ]
+    ],
+    [
+      "compilation",
+      [
+        "issue-5-3",
+        "issue-7-6"
+      ]
+    ],
+    [
+      "prophecy",
+      [
+        "issue-5-4",
+        "issue-9-1"
+      ]
+    ],
+    [
+      "anachronism",
+      [
+        "issue-5-5"
+      ]
+    ]
+  ],
+  "issueIndex": [
+    [
+      "islamic-dilemma",
+      [
+        [
+          "what-the-quran-says-about-the-torah-and-the-gospel",
+          {
+            "id": "issue-1-1",
+            "type": "issue",
+            "label": "What the Quran Says About the Torah and the Gospel",
+            "description": "Part 1, Issue 1",
+            "partNum": 1,
+            "issueNum": 1,
+            "partSlug": "islamic-dilemma",
+            "issueSlug": "what-the-quran-says-about-the-torah-and-the-gospel",
+            "href": "/islamic-dilemma/what-the-quran-says-about-the-torah-and-the-gospel",
+            "metadata": {
+              "concepts": [
+                "revelation"
+              ],
+              "citationCount": 8
+            }
+          }
+        ],
+        [
+          "the-dilemma-stated",
+          {
+            "id": "issue-1-2",
+            "type": "issue",
+            "label": "The Dilemma Stated",
+            "description": "Part 1, Issue 2",
+            "partNum": 1,
+            "issueNum": 2,
+            "partSlug": "islamic-dilemma",
+            "issueSlug": "the-dilemma-stated",
+            "href": "/islamic-dilemma/the-dilemma-stated",
+            "metadata": {
+              "concepts": [
+                "tahrif",
+                "corruption",
+                "distortion",
+                "preserved",
+                "manuscript",
+                "textual",
+                "variant",
+                "deity",
+                "atonement",
+                "resurrection",
+                "crucifixion",
+                "revelation",
+                "historical"
+              ],
+              "citationCount": 14
+            }
+          }
+        ],
+        [
+          "the-qurans-own-falsification-test",
+          {
+            "id": "issue-1-3",
+            "type": "issue",
+            "label": "The Quran’s Own Falsification Test",
+            "description": "Part 1, Issue 3",
+            "partNum": 1,
+            "issueNum": 3,
+            "partSlug": "islamic-dilemma",
+            "issueSlug": "the-qurans-own-falsification-test",
+            "href": "/islamic-dilemma/the-qurans-own-falsification-test",
+            "metadata": {
+              "concepts": [
+                "abrogation",
+                "naskh",
+                "contradiction",
+                "preserved",
+                "transmission",
+                "textual",
+                "harmonization",
+                "revelation"
+              ],
+              "citationCount": 7
+            }
+          }
+        ]
+      ]
+    ],
+    [
+      "quran-contradictions",
+      [
+        [
+          "how-many-days-of-creation-six-or-eight",
+          {
+            "id": "issue-2-1",
+            "type": "issue",
+            "label": "How Many Days of Creation — Six or Eight?",
+            "description": "Part 2, Issue 1",
+            "partNum": 2,
+            "issueNum": 1,
+            "partSlug": "quran-contradictions",
+            "issueSlug": "how-many-days-of-creation-six-or-eight",
+            "href": "/quran-contradictions/how-many-days-of-creation-six-or-eight",
+            "metadata": {
+              "concepts": [
+                "contradiction"
+              ],
+              "citationCount": 9
+            }
+          }
+        ],
+        [
+          "who-was-the-first-muslim",
+          {
+            "id": "issue-2-2",
+            "type": "issue",
+            "label": "Who Was the First Muslim?",
+            "description": "Part 2, Issue 2",
+            "partNum": 2,
+            "issueNum": 2,
+            "partSlug": "quran-contradictions",
+            "issueSlug": "who-was-the-first-muslim",
+            "href": "/quran-contradictions/who-was-the-first-muslim",
+            "metadata": {
+              "concepts": [
+                "harmonization",
+                "revelation"
+              ],
+              "citationCount": 8
+            }
+          }
+        ],
+        [
+          "how-long-is-a-day-with-allah-1-000-years-or-50-000",
+          {
+            "id": "issue-2-3",
+            "type": "issue",
+            "label": "How Long Is a Day with Allah — 1,000 Years or 50,000?",
+            "description": "Part 2, Issue 3",
+            "partNum": 2,
+            "issueNum": 3,
+            "partSlug": "quran-contradictions",
+            "issueSlug": "how-long-is-a-day-with-allah-1-000-years-or-50-000",
+            "href": "/quran-contradictions/how-long-is-a-day-with-allah-1-000-years-or-50-000",
+            "metadata": {
+              "concepts": [
+                "miracle"
+              ],
+              "citationCount": 3
+            }
+          }
+        ],
+        [
+          "was-iblis-an-angel-or-a-jinn",
+          {
+            "id": "issue-2-4",
+            "type": "issue",
+            "label": "Was Iblis an Angel or a Jinn?",
+            "description": "Part 2, Issue 4",
+            "partNum": 2,
+            "issueNum": 4,
+            "partSlug": "quran-contradictions",
+            "issueSlug": "was-iblis-an-angel-or-a-jinn",
+            "href": "/quran-contradictions/was-iblis-an-angel-or-a-jinn",
+            "metadata": {
+              "concepts": [
+                "contradiction"
+              ],
+              "citationCount": 8
+            }
+          }
+        ],
+        [
+          "does-intercession-exist-or-not",
+          {
+            "id": "issue-2-5",
+            "type": "issue",
+            "label": "Does Intercession Exist or Not?",
+            "description": "Part 2, Issue 5",
+            "partNum": 2,
+            "issueNum": 5,
+            "partSlug": "quran-contradictions",
+            "issueSlug": "does-intercession-exist-or-not",
+            "href": "/quran-contradictions/does-intercession-exist-or-not",
+            "metadata": {
+              "concepts": [
+                "harmonization"
+              ],
+              "citationCount": 9
+            }
+          }
+        ],
+        [
+          "could-allah-have-a-son",
+          {
+            "id": "issue-2-6",
+            "type": "issue",
+            "label": "Could Allah Have a Son?",
+            "description": "Part 2, Issue 6",
+            "partNum": 2,
+            "issueNum": 6,
+            "partSlug": "quran-contradictions",
+            "issueSlug": "could-allah-have-a-son",
+            "href": "/quran-contradictions/could-allah-have-a-son",
+            "metadata": {
+              "concepts": [
+                "contradiction"
+              ],
+              "citationCount": 4
+            }
+          }
+        ],
+        [
+          "does-the-quran-misdescribe-the-trinity",
+          {
+            "id": "issue-2-7",
+            "type": "issue",
+            "label": "Does the Quran Misdescribe the Trinity?",
+            "description": "Part 2, Issue 7",
+            "partNum": 2,
+            "issueNum": 7,
+            "partSlug": "quran-contradictions",
+            "issueSlug": "does-the-quran-misdescribe-the-trinity",
+            "href": "/quran-contradictions/does-the-quran-misdescribe-the-trinity",
+            "metadata": {
+              "concepts": [],
+              "citationCount": 4
+            }
+          }
+        ],
+        [
+          "tolerance-verses-versus-sword-verses-and-the-problem-of-abro",
+          {
+            "id": "issue-2-8",
+            "type": "issue",
+            "label": "Tolerance Verses Versus Sword Verses, and the Problem of Abrogation",
+            "description": "Part 2, Issue 8",
+            "partNum": 2,
+            "issueNum": 8,
+            "partSlug": "quran-contradictions",
+            "issueSlug": "tolerance-verses-versus-sword-verses-and-the-problem-of-abro",
+            "href": "/quran-contradictions/tolerance-verses-versus-sword-verses-and-the-problem-of-abro",
+            "metadata": {
+              "concepts": [
+                "abrogation",
+                "contradiction",
+                "preserved",
+                "revelation"
+              ],
+              "citationCount": 11
+            }
+          }
+        ],
+        [
+          "pure-arabic-with-foreign-loanwords",
+          {
+            "id": "issue-2-9",
+            "type": "issue",
+            "label": "Pure Arabic — With Foreign Loanwords",
+            "description": "Part 2, Issue 9",
+            "partNum": 2,
+            "issueNum": 9,
+            "partSlug": "quran-contradictions",
+            "issueSlug": "pure-arabic-with-foreign-loanwords",
+            "href": "/quran-contradictions/pure-arabic-with-foreign-loanwords",
+            "metadata": {
+              "concepts": [
+                "authenticity"
+              ],
+              "citationCount": 4
+            }
+          }
+        ]
+      ]
+    ],
+    [
+      "preservation",
+      [
+        [
+          "the-quran-was-compiled-after-muhammads-death-and-parts-were",
+          {
+            "id": "issue-3-1",
+            "type": "issue",
+            "label": "The Quran Was Compiled After Muhammad’s Death — and Parts Were Nearly Lost",
+            "description": "Part 3, Issue 1",
+            "partNum": 3,
+            "issueNum": 1,
+            "partSlug": "preservation",
+            "issueSlug": "the-quran-was-compiled-after-muhammads-death-and-parts-were",
+            "href": "/preservation/the-quran-was-compiled-after-muhammads-death-and-parts-were",
+            "metadata": {
+              "concepts": [
+                "preservation"
+              ],
+              "citationCount": 2
+            }
+          }
+        ],
+        [
+          "uthman-burned-the-competing-codices",
+          {
+            "id": "issue-3-2",
+            "type": "issue",
+            "label": "Uthman Burned the Competing Codices",
+            "description": "Part 3, Issue 2",
+            "partNum": 3,
+            "issueNum": 2,
+            "partSlug": "preservation",
+            "issueSlug": "uthman-burned-the-competing-codices",
+            "href": "/preservation/uthman-burned-the-competing-codices",
+            "metadata": {
+              "concepts": [
+                "preservation",
+                "manuscript",
+                "variant",
+                "revelation"
+              ],
+              "citationCount": 3
+            }
+          }
+        ],
+        [
+          "ibn-masud-and-ubayy-the-master-reciters-disagreed-about-the",
+          {
+            "id": "issue-3-3",
+            "type": "issue",
+            "label": "Ibn Mas‘ud and Ubayy: The Master Reciters Disagreed About the Canon",
+            "description": "Part 3, Issue 3",
+            "partNum": 3,
+            "issueNum": 3,
+            "partSlug": "preservation",
+            "issueSlug": "ibn-masud-and-ubayy-the-master-reciters-disagreed-about-the",
+            "href": "/preservation/ibn-masud-and-ubayy-the-master-reciters-disagreed-about-the",
+            "metadata": {
+              "concepts": [
+                "naskh",
+                "preservation",
+                "authenticity",
+                "isnad"
+              ],
+              "citationCount": 3
+            }
+          }
+        ],
+        [
+          "missing-verses-stoning-adult-suckling-and-the-sheep",
+          {
+            "id": "issue-3-4",
+            "type": "issue",
+            "label": "Missing Verses: Stoning, Adult Suckling, and the Sheep",
+            "description": "Part 3, Issue 4",
+            "partNum": 3,
+            "issueNum": 4,
+            "partSlug": "preservation",
+            "issueSlug": "missing-verses-stoning-adult-suckling-and-the-sheep",
+            "href": "/preservation/missing-verses-stoning-adult-suckling-and-the-sheep",
+            "metadata": {
+              "concepts": [
+                "abrogation",
+                "naskh",
+                "preservation",
+                "textual"
+              ],
+              "citationCount": 10
+            }
+          }
+        ],
+        [
+          "the-sanaa-palimpsest-physical-evidence-of-a-different-text",
+          {
+            "id": "issue-3-5",
+            "type": "issue",
+            "label": "The Sanaa Palimpsest: Physical Evidence of a Different Text",
+            "description": "Part 3, Issue 5",
+            "partNum": 3,
+            "issueNum": 5,
+            "partSlug": "preservation",
+            "issueSlug": "the-sanaa-palimpsest-physical-evidence-of-a-different-text",
+            "href": "/preservation/the-sanaa-palimpsest-physical-evidence-of-a-different-text",
+            "metadata": {
+              "concepts": [
+                "preserved",
+                "preservation",
+                "manuscript",
+                "transmission",
+                "textual",
+                "variant"
+              ],
+              "citationCount": 0
+            }
+          }
+        ],
+        [
+          "the-qiraat-todays-qurans-differ-from-each-other",
+          {
+            "id": "issue-3-6",
+            "type": "issue",
+            "label": "The Qira’at: Today’s Qurans Differ From Each Other",
+            "description": "Part 3, Issue 6",
+            "partNum": 3,
+            "issueNum": 6,
+            "partSlug": "preservation",
+            "issueSlug": "the-qiraat-todays-qurans-differ-from-each-other",
+            "href": "/preservation/the-qiraat-todays-qurans-differ-from-each-other",
+            "metadata": {
+              "concepts": [
+                "preservation",
+                "manuscript",
+                "transmission",
+                "variant",
+                "revelation",
+                "miracle"
+              ],
+              "citationCount": 3
+            }
+          }
+        ]
+      ]
+    ],
+    [
+      "history-science",
+      [
+        [
+          "haman-in-pharaohs-egypt",
+          {
+            "id": "issue-4-1",
+            "type": "issue",
+            "label": "Haman in Pharaoh’s Egypt",
+            "description": "Part 4, Issue 1",
+            "partNum": 4,
+            "issueNum": 1,
+            "partSlug": "history-science",
+            "issueSlug": "haman-in-pharaohs-egypt",
+            "href": "/history-science/haman-in-pharaohs-egypt",
+            "metadata": {
+              "concepts": [],
+              "citationCount": 4
+            }
+          }
+        ],
+        [
+          "crucifixion-before-crucifixion-existed",
+          {
+            "id": "issue-4-2",
+            "type": "issue",
+            "label": "Crucifixion Before Crucifixion Existed",
+            "description": "Part 4, Issue 2",
+            "partNum": 4,
+            "issueNum": 2,
+            "partSlug": "history-science",
+            "issueSlug": "crucifixion-before-crucifixion-existed",
+            "href": "/history-science/crucifixion-before-crucifixion-existed",
+            "metadata": {
+              "concepts": [
+                "crucifixion"
+              ],
+              "citationCount": 7
+            }
+          }
+        ],
+        [
+          "the-samaritan-at-sinai",
+          {
+            "id": "issue-4-3",
+            "type": "issue",
+            "label": "The Samaritan at Sinai",
+            "description": "Part 4, Issue 3",
+            "partNum": 4,
+            "issueNum": 3,
+            "partSlug": "history-science",
+            "issueSlug": "the-samaritan-at-sinai",
+            "href": "/history-science/the-samaritan-at-sinai",
+            "metadata": {
+              "concepts": [],
+              "citationCount": 2
+            }
+          }
+        ],
+        [
+          "mary-the-sister-of-aaron-daughter-of-amram",
+          {
+            "id": "issue-4-4",
+            "type": "issue",
+            "label": "Mary the Sister of Aaron, Daughter of Amram",
+            "description": "Part 4, Issue 4",
+            "partNum": 4,
+            "issueNum": 4,
+            "partSlug": "history-science",
+            "issueSlug": "mary-the-sister-of-aaron-daughter-of-amram",
+            "href": "/history-science/mary-the-sister-of-aaron-daughter-of-amram",
+            "metadata": {
+              "concepts": [],
+              "citationCount": 5
+            }
+          }
+        ],
+        [
+          "the-sun-sets-in-a-muddy-spring",
+          {
+            "id": "issue-4-5",
+            "type": "issue",
+            "label": "The Sun Sets in a Muddy Spring",
+            "description": "Part 4, Issue 5",
+            "partNum": 4,
+            "issueNum": 5,
+            "partSlug": "history-science",
+            "issueSlug": "the-sun-sets-in-a-muddy-spring",
+            "href": "/history-science/the-sun-sets-in-a-muddy-spring",
+            "metadata": {
+              "concepts": [],
+              "citationCount": 3
+            }
+          }
+        ],
+        [
+          "semen-from-between-the-backbone-and-the-ribs",
+          {
+            "id": "issue-4-6",
+            "type": "issue",
+            "label": "Semen From Between the Backbone and the Ribs",
+            "description": "Part 4, Issue 6",
+            "partNum": 4,
+            "issueNum": 6,
+            "partSlug": "history-science",
+            "issueSlug": "semen-from-between-the-backbone-and-the-ribs",
+            "href": "/history-science/semen-from-between-the-backbone-and-the-ribs",
+            "metadata": {
+              "concepts": [
+                "harmonization"
+              ],
+              "citationCount": 1
+            }
+          }
+        ],
+        [
+          "embryology-the-clot-and-the-bones-then-flesh-sequence",
+          {
+            "id": "issue-4-7",
+            "type": "issue",
+            "label": "Embryology: The Clot and the Bones-Then-Flesh Sequence",
+            "description": "Part 4, Issue 7",
+            "partNum": 4,
+            "issueNum": 7,
+            "partSlug": "history-science",
+            "issueSlug": "embryology-the-clot-and-the-bones-then-flesh-sequence",
+            "href": "/history-science/embryology-the-clot-and-the-bones-then-flesh-sequence",
+            "metadata": {
+              "concepts": [
+                "revelation",
+                "miracle",
+                "scientific"
+              ],
+              "citationCount": 3
+            }
+          }
+        ],
+        [
+          "stars-as-missiles-seven-earths-and-the-solid-sky",
+          {
+            "id": "issue-4-8",
+            "type": "issue",
+            "label": "Stars as Missiles, Seven Earths, and the Solid Sky",
+            "description": "Part 4, Issue 8",
+            "partNum": 4,
+            "issueNum": 8,
+            "partSlug": "history-science",
+            "issueSlug": "stars-as-missiles-seven-earths-and-the-solid-sky",
+            "href": "/history-science/stars-as-missiles-seven-earths-and-the-solid-sky",
+            "metadata": {
+              "concepts": [],
+              "citationCount": 16
+            }
+          }
+        ],
+        [
+          "hadith-science-the-fly-the-camel-urine-and-adams-height",
+          {
+            "id": "issue-4-9",
+            "type": "issue",
+            "label": "Hadith Science: The Fly, the Camel Urine, and Adam’s Height",
+            "description": "Part 4, Issue 9",
+            "partNum": 4,
+            "issueNum": 9,
+            "partSlug": "history-science",
+            "issueSlug": "hadith-science-the-fly-the-camel-urine-and-adams-height",
+            "href": "/history-science/hadith-science-the-fly-the-camel-urine-and-adams-height",
+            "metadata": {
+              "concepts": [
+                "revelation",
+                "miracle",
+                "scientific"
+              ],
+              "citationCount": 7
+            }
+          }
+        ]
+      ]
+    ],
+    [
+      "muhammad",
+      [
+        [
+          "a-messenger-without-signs-who-later-has-thousands",
+          {
+            "id": "issue-5-1",
+            "type": "issue",
+            "label": "A Messenger Without Signs — Who Later Has Thousands",
+            "description": "Part 5, Issue 1",
+            "partNum": 5,
+            "issueNum": 1,
+            "partSlug": "muhammad",
+            "issueSlug": "a-messenger-without-signs-who-later-has-thousands",
+            "href": "/muhammad/a-messenger-without-signs-who-later-has-thousands",
+            "metadata": {
+              "concepts": [
+                "miracle",
+                "historical"
+              ],
+              "citationCount": 4
+            }
+          }
+        ],
+        [
+          "convenient-revelations-zaynab-the-wives-and-aishas-observati",
+          {
+            "id": "issue-5-2",
+            "type": "issue",
+            "label": "Convenient Revelations: Zaynab, the Wives, and Aisha’s Observation",
+            "description": "Part 5, Issue 2",
+            "partNum": 5,
+            "issueNum": 2,
+            "partSlug": "muhammad",
+            "issueSlug": "convenient-revelations-zaynab-the-wives-and-aishas-observati",
+            "href": "/muhammad/convenient-revelations-zaynab-the-wives-and-aishas-observati",
+            "metadata": {
+              "concepts": [
+                "preserved",
+                "transmission",
+                "harmonization",
+                "revelation"
+              ],
+              "citationCount": 8
+            }
+          }
+        ],
+        [
+          "the-satanic-verses-incident",
+          {
+            "id": "issue-5-3",
+            "type": "issue",
+            "label": "The Satanic Verses Incident",
+            "description": "Part 5, Issue 3",
+            "partNum": 5,
+            "issueNum": 3,
+            "partSlug": "muhammad",
+            "issueSlug": "the-satanic-verses-incident",
+            "href": "/muhammad/the-satanic-verses-incident",
+            "metadata": {
+              "concepts": [
+                "chain",
+                "isnad",
+                "compilation",
+                "revelation",
+                "historical"
+              ],
+              "citationCount": 4
+            }
+          }
+        ],
+        [
+          "the-bewitchment-of-the-prophet",
+          {
+            "id": "issue-5-4",
+            "type": "issue",
+            "label": "The Bewitchment of the Prophet",
+            "description": "Part 5, Issue 4",
+            "partNum": 5,
+            "issueNum": 4,
+            "partSlug": "muhammad",
+            "issueSlug": "the-bewitchment-of-the-prophet",
+            "href": "/muhammad/the-bewitchment-of-the-prophet",
+            "metadata": {
+              "concepts": [
+                "contradiction",
+                "revelation",
+                "prophecy",
+                "historical"
+              ],
+              "citationCount": 5
+            }
+          }
+        ],
+        [
+          "aishas-age",
+          {
+            "id": "issue-5-5",
+            "type": "issue",
+            "label": "Aisha’s Age",
+            "description": "Part 5, Issue 5",
+            "partNum": 5,
+            "issueNum": 5,
+            "partSlug": "muhammad",
+            "issueSlug": "aishas-age",
+            "href": "/muhammad/aishas-age",
+            "metadata": {
+              "concepts": [
+                "transmission",
+                "textual",
+                "revelation",
+                "anachronism"
+              ],
+              "citationCount": 9
+            }
+          }
+        ],
+        [
+          "banu-qurayza-and-the-captives",
+          {
+            "id": "issue-5-6",
+            "type": "issue",
+            "label": "Banu Qurayza and the Captives",
+            "description": "Part 5, Issue 6",
+            "partNum": 5,
+            "issueNum": 6,
+            "partSlug": "muhammad",
+            "issueSlug": "banu-qurayza-and-the-captives",
+            "href": "/muhammad/banu-qurayza-and-the-captives",
+            "metadata": {
+              "concepts": [
+                "chain",
+                "revelation"
+              ],
+              "citationCount": 7
+            }
+          }
+        ],
+        [
+          "the-aorta-test-quran-69-44-46-and-the-prophets-death",
+          {
+            "id": "issue-5-7",
+            "type": "issue",
+            "label": "The Aorta Test: Quran 69:44–46 and the Prophet’s Death",
+            "description": "Part 5, Issue 7",
+            "partNum": 5,
+            "issueNum": 7,
+            "partSlug": "muhammad",
+            "issueSlug": "the-aorta-test-quran-69-44-46-and-the-prophets-death",
+            "href": "/muhammad/the-aorta-test-quran-69-44-46-and-the-prophets-death",
+            "metadata": {
+              "concepts": [
+                "preserved",
+                "revelation"
+              ],
+              "citationCount": 3
+            }
+          }
+        ]
+      ]
+    ],
+    [
+      "theology-ethics",
+      [
+        [
+          "allah-the-best-of-schemers",
+          {
+            "id": "issue-6-1",
+            "type": "issue",
+            "label": "Allah, the Best of Schemers",
+            "description": "Part 6, Issue 1",
+            "partNum": 6,
+            "issueNum": 1,
+            "partSlug": "theology-ethics",
+            "issueSlug": "allah-the-best-of-schemers",
+            "href": "/theology-ethics/allah-the-best-of-schemers",
+            "metadata": {
+              "concepts": [
+                "deity",
+                "revelation"
+              ],
+              "citationCount": 8
+            }
+          }
+        ],
+        [
+          "predestination-versus-accountability",
+          {
+            "id": "issue-6-2",
+            "type": "issue",
+            "label": "Predestination Versus Accountability",
+            "description": "Part 6, Issue 2",
+            "partNum": 6,
+            "issueNum": 2,
+            "partSlug": "theology-ethics",
+            "issueSlug": "predestination-versus-accountability",
+            "href": "/theology-ethics/predestination-versus-accountability",
+            "metadata": {
+              "concepts": [
+                "revelation"
+              ],
+              "citationCount": 9
+            }
+          }
+        ],
+        [
+          "the-crucifixion-denial",
+          {
+            "id": "issue-6-3",
+            "type": "issue",
+            "label": "The Crucifixion Denial",
+            "description": "Part 6, Issue 3",
+            "partNum": 6,
+            "issueNum": 3,
+            "partSlug": "theology-ethics",
+            "issueSlug": "the-crucifixion-denial",
+            "href": "/theology-ethics/the-crucifixion-denial",
+            "metadata": {
+              "concepts": [
+                "crucifixion",
+                "revelation",
+                "historical"
+              ],
+              "citationCount": 3
+            }
+          }
+        ],
+        [
+          "salvation-without-atonement-and-the-transferred-sins-hadith",
+          {
+            "id": "issue-6-4",
+            "type": "issue",
+            "label": "Salvation Without Atonement — and the Transferred Sins Hadith",
+            "description": "Part 6, Issue 4",
+            "partNum": 6,
+            "issueNum": 4,
+            "partSlug": "theology-ethics",
+            "issueSlug": "salvation-without-atonement-and-the-transferred-sins-hadith",
+            "href": "/theology-ethics/salvation-without-atonement-and-the-transferred-sins-hadith",
+            "metadata": {
+              "concepts": [
+                "atonement",
+                "resurrection",
+                "historical"
+              ],
+              "citationCount": 13
+            }
+          }
+        ],
+        [
+          "women-in-the-quran-and-sahih-hadith",
+          {
+            "id": "issue-6-5",
+            "type": "issue",
+            "label": "Women in the Quran and Sahih Hadith",
+            "description": "Part 6, Issue 5",
+            "partNum": 6,
+            "issueNum": 5,
+            "partSlug": "theology-ethics",
+            "issueSlug": "women-in-the-quran-and-sahih-hadith",
+            "href": "/theology-ethics/women-in-the-quran-and-sahih-hadith",
+            "metadata": {
+              "concepts": [
+                "textual",
+                "revelation",
+                "historical"
+              ],
+              "citationCount": 9
+            }
+          }
+        ],
+        [
+          "eternal-hell-the-treatment-of-unbelief-and-compulsion-in-pra",
+          {
+            "id": "issue-6-6",
+            "type": "issue",
+            "label": "Eternal Hell, the Treatment of Unbelief, and Compulsion in Practice",
+            "description": "Part 6, Issue 6",
+            "partNum": 6,
+            "issueNum": 6,
+            "partSlug": "theology-ethics",
+            "issueSlug": "eternal-hell-the-treatment-of-unbelief-and-compulsion-in-pra",
+            "href": "/theology-ethics/eternal-hell-the-treatment-of-unbelief-and-compulsion-in-pra",
+            "metadata": {
+              "concepts": [
+                "textual"
+              ],
+              "citationCount": 6
+            }
+          }
+        ]
+      ]
+    ],
+    [
+      "sharia-morality",
+      [
+        [
+          "child-marriage-quran-65-4-and-the-juristic-consensus",
+          {
+            "id": "issue-7-1",
+            "type": "issue",
+            "label": "Child Marriage: Quran 65:4 and the Juristic Consensus",
+            "description": "Part 7, Issue 1",
+            "partNum": 7,
+            "issueNum": 1,
+            "partSlug": "sharia-morality",
+            "issueSlug": "child-marriage-quran-65-4-and-the-juristic-consensus",
+            "href": "/sharia-morality/child-marriage-quran-65-4-and-the-juristic-consensus",
+            "metadata": {
+              "concepts": [
+                "contradiction",
+                "preserved",
+                "textual",
+                "revelation"
+              ],
+              "citationCount": 3
+            }
+          }
+        ],
+        [
+          "the-jizya-and-the-dhimma-system",
+          {
+            "id": "issue-7-2",
+            "type": "issue",
+            "label": "The Jizya and the Dhimma System",
+            "description": "Part 7, Issue 2",
+            "partNum": 7,
+            "issueNum": 2,
+            "partSlug": "sharia-morality",
+            "issueSlug": "the-jizya-and-the-dhimma-system",
+            "href": "/sharia-morality/the-jizya-and-the-dhimma-system",
+            "metadata": {
+              "concepts": [
+                "historical"
+              ],
+              "citationCount": 2
+            }
+          }
+        ],
+        [
+          "slavery-and-concubinage",
+          {
+            "id": "issue-7-3",
+            "type": "issue",
+            "label": "Slavery and Concubinage",
+            "description": "Part 7, Issue 3",
+            "partNum": 7,
+            "issueNum": 3,
+            "partSlug": "sharia-morality",
+            "issueSlug": "slavery-and-concubinage",
+            "href": "/sharia-morality/slavery-and-concubinage",
+            "metadata": {
+              "concepts": [
+                "revelation"
+              ],
+              "citationCount": 11
+            }
+          }
+        ],
+        [
+          "sanctioned-deception-and-the-dissolution-of-oaths",
+          {
+            "id": "issue-7-4",
+            "type": "issue",
+            "label": "Sanctioned Deception and the Dissolution of Oaths",
+            "description": "Part 7, Issue 4",
+            "partNum": 7,
+            "issueNum": 4,
+            "partSlug": "sharia-morality",
+            "issueSlug": "sanctioned-deception-and-the-dissolution-of-oaths",
+            "href": "/sharia-morality/sanctioned-deception-and-the-dissolution-of-oaths",
+            "metadata": {
+              "concepts": [
+                "resurrection",
+                "revelation"
+              ],
+              "citationCount": 12
+            }
+          }
+        ],
+        [
+          "temporary-marriage-mutah-the-revocable-sexual-contract",
+          {
+            "id": "issue-7-5",
+            "type": "issue",
+            "label": "Temporary Marriage (Mut‘ah): The Revocable Sexual Contract",
+            "description": "Part 7, Issue 5",
+            "partNum": 7,
+            "issueNum": 5,
+            "partSlug": "sharia-morality",
+            "issueSlug": "temporary-marriage-mutah-the-revocable-sexual-contract",
+            "href": "/sharia-morality/temporary-marriage-mutah-the-revocable-sexual-contract",
+            "metadata": {
+              "concepts": [
+                "abrogation",
+                "harmonization",
+                "resurrection",
+                "revelation"
+              ],
+              "citationCount": 7
+            }
+          }
+        ],
+        [
+          "assassinations-of-critics-and-the-nakhla-precedent",
+          {
+            "id": "issue-7-6",
+            "type": "issue",
+            "label": "Assassinations of Critics and the Nakhla Precedent",
+            "description": "Part 7, Issue 6",
+            "partNum": 7,
+            "issueNum": 6,
+            "partSlug": "sharia-morality",
+            "issueSlug": "assassinations-of-critics-and-the-nakhla-precedent",
+            "href": "/sharia-morality/assassinations-of-critics-and-the-nakhla-precedent",
+            "metadata": {
+              "concepts": [
+                "chain",
+                "compilation",
+                "revelation"
+              ],
+              "citationCount": 4
+            }
+          }
+        ]
+      ]
+    ],
+    [
+      "hadith-problem",
+      [
+        [
+          "islam-is-unworkable-without-hadith",
+          {
+            "id": "issue-8-1",
+            "type": "issue",
+            "label": "Islam Is Unworkable Without Hadith",
+            "description": "Part 8, Issue 1",
+            "partNum": 8,
+            "issueNum": 1,
+            "partSlug": "hadith-problem",
+            "issueSlug": "islam-is-unworkable-without-hadith",
+            "href": "/hadith-problem/islam-is-unworkable-without-hadith",
+            "metadata": {
+              "concepts": [
+                "preservation",
+                "isnad",
+                "revelation"
+              ],
+              "citationCount": 6
+            }
+          }
+        ],
+        [
+          "the-hadith-corpus-late-sifted-and-self-confessedly-polluted",
+          {
+            "id": "issue-8-2",
+            "type": "issue",
+            "label": "The Hadith Corpus: Late, Sifted, and Self-Confessedly Polluted",
+            "description": "Part 8, Issue 2",
+            "partNum": 8,
+            "issueNum": 2,
+            "partSlug": "hadith-problem",
+            "issueSlug": "the-hadith-corpus-late-sifted-and-self-confessedly-polluted",
+            "href": "/hadith-problem/the-hadith-corpus-late-sifted-and-self-confessedly-polluted",
+            "metadata": {
+              "concepts": [
+                "chain",
+                "isnad",
+                "transmission"
+              ],
+              "citationCount": 0
+            }
+          }
+        ],
+        [
+          "the-consensus-trap",
+          {
+            "id": "issue-8-3",
+            "type": "issue",
+            "label": "The Consensus Trap",
+            "description": "Part 8, Issue 3",
+            "partNum": 8,
+            "issueNum": 3,
+            "partSlug": "hadith-problem",
+            "issueSlug": "the-consensus-trap",
+            "href": "/hadith-problem/the-consensus-trap",
+            "metadata": {
+              "concepts": [
+                "preserved",
+                "revelation",
+                "miracle",
+                "scientific"
+              ],
+              "citationCount": 3
+            }
+          }
+        ]
+      ]
+    ],
+    [
+      "prophecy-miracle",
+      [
+        [
+          "failed-and-unfulfilled-prophecies",
+          {
+            "id": "issue-9-1",
+            "type": "issue",
+            "label": "Failed and Unfulfilled Prophecies",
+            "description": "Part 9, Issue 1",
+            "partNum": 9,
+            "issueNum": 1,
+            "partSlug": "prophecy-miracle",
+            "issueSlug": "failed-and-unfulfilled-prophecies",
+            "href": "/prophecy-miracle/failed-and-unfulfilled-prophecies",
+            "metadata": {
+              "concepts": [
+                "prophecy",
+                "historical"
+              ],
+              "citationCount": 14
+            }
+          }
+        ],
+        [
+          "the-literary-challenge-ijaz-and-its-unfalsifiability",
+          {
+            "id": "issue-9-2",
+            "type": "issue",
+            "label": "The Literary Challenge (I‘jaz) and Its Unfalsifiability",
+            "description": "Part 9, Issue 2",
+            "partNum": 9,
+            "issueNum": 2,
+            "partSlug": "prophecy-miracle",
+            "issueSlug": "the-literary-challenge-ijaz-and-its-unfalsifiability",
+            "href": "/prophecy-miracle/the-literary-challenge-ijaz-and-its-unfalsifiability",
+            "metadata": {
+              "concepts": [
+                "miracle",
+                "historical"
+              ],
+              "citationCount": 4
+            }
+          }
+        ],
+        [
+          "borrowed-apocryphal-and-legendary-sources",
+          {
+            "id": "issue-9-3",
+            "type": "issue",
+            "label": "Borrowed Apocryphal and Legendary Sources",
+            "description": "Part 9, Issue 3",
+            "partNum": 9,
+            "issueNum": 3,
+            "partSlug": "prophecy-miracle",
+            "issueSlug": "borrowed-apocryphal-and-legendary-sources",
+            "href": "/prophecy-miracle/borrowed-apocryphal-and-legendary-sources",
+            "metadata": {
+              "concepts": [
+                "revelation",
+                "miracle",
+                "historical"
+              ],
+              "citationCount": 7
+            }
+          }
+        ],
+        [
+          "the-inheritance-arithmetic-the-awl-problem",
+          {
+            "id": "issue-9-4",
+            "type": "issue",
+            "label": "The Inheritance Arithmetic (the ‘Awl Problem)",
+            "description": "Part 9, Issue 4",
+            "partNum": 9,
+            "issueNum": 4,
+            "partSlug": "prophecy-miracle",
+            "issueSlug": "the-inheritance-arithmetic-the-awl-problem",
+            "href": "/prophecy-miracle/the-inheritance-arithmetic-the-awl-problem",
+            "metadata": {
+              "concepts": [
+                "revelation"
+              ],
+              "citationCount": 2
+            }
+          }
+        ],
+        [
+          "pagan-continuity-in-islamic-ritual",
+          {
+            "id": "issue-9-5",
+            "type": "issue",
+            "label": "Pagan Continuity in Islamic Ritual",
+            "description": "Part 9, Issue 5",
+            "partNum": 9,
+            "issueNum": 5,
+            "partSlug": "prophecy-miracle",
+            "issueSlug": "pagan-continuity-in-islamic-ritual",
+            "href": "/prophecy-miracle/pagan-continuity-in-islamic-ritual",
+            "metadata": {
+              "concepts": [
+                "preserved",
+                "historical"
+              ],
+              "citationCount": 5
+            }
+          }
+        ],
+        [
+          "the-night-journey-and-the-negotiated-prayers",
+          {
+            "id": "issue-9-6",
+            "type": "issue",
+            "label": "The Night Journey and the Negotiated Prayers",
+            "description": "Part 9, Issue 6",
+            "partNum": 9,
+            "issueNum": 6,
+            "partSlug": "prophecy-miracle",
+            "issueSlug": "the-night-journey-and-the-negotiated-prayers",
+            "href": "/prophecy-miracle/the-night-journey-and-the-negotiated-prayers",
+            "metadata": {
+              "concepts": [
+                "transmission",
+                "deity"
+              ],
+              "citationCount": 3
+            }
+          }
+        ]
+      ]
+    ]
+  ]
+}

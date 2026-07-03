@@ -6,6 +6,7 @@ import Stance from "@/components/Stance";
 import InPageToc from "@/components/InPageToc";
 import IssueTools from "@/components/IssueTools";
 import ArgumentWorkbench from "@/components/ArgumentWorkbench";
+import RelatedIssuesWidget from "@/components/RelatedIssuesWidget";
 
 export const dynamicParams = false;
 
@@ -38,7 +39,7 @@ export default async function IssuePage({ params }) {
     { id: "responses", label: "Common Muslim Responses" },
     { id: "rebuttal", label: "Counter-Rebuttal" },
     { id: "workbench", label: "Argument Workbench" },
-    ...(related.length > 0 ? [{ id: "related", label: "Related Issues" }] : []),
+    { id: "related", label: "Related Issues" },
   ];
 
   // Shared across the article so each glossary term is annotated only on its
@@ -126,31 +127,11 @@ export default async function IssuePage({ params }) {
           audit={item.audit}
         />
 
-        {related.length > 0 && (
-          <section id="related" className="issue-related mt-12 scroll-mt-24 border-t border-line pt-6">
-            <h2 className="mb-4 flex items-center gap-3 font-ui text-xs font-bold uppercase tracking-[0.18em] text-cite">
-              <span className="rule-grad h-px w-10" />
-              Related Issues
-            </h2>
-            <ul className="grid gap-3 sm:grid-cols-2">
-              {related.map((r) => (
-                <li key={r.href}>
-                  <Link
-                    href={r.href}
-                    className="group block h-full rounded-lg border border-line bg-surface p-4 shadow-sm transition hover:border-accent/50 hover:shadow-md"
-                  >
-                    <div className="font-ui text-[11px] uppercase tracking-wider text-muted">
-                      Part {roman[r.partNum - 1]} · {r.partShort}
-                    </div>
-                    <div className="mt-1 text-sm font-semibold text-heading transition-colors group-hover:text-accent">
-                      {r.title}
-                    </div>
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </section>
-        )}
+        <RelatedIssuesWidget
+          issueId={`issue-${part.num}-${item.num}`}
+          partSlug={part.slug}
+          issueSlug={item.slug}
+        />
 
         <nav className="mt-12 grid gap-4 border-t border-line pt-6 sm:grid-cols-2">
           {prev ? (
