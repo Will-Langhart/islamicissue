@@ -548,6 +548,117 @@ details.cv[open] > summary .chev {
   opacity: 0.5;
 }
 
+/* Part landing header — a soft warm bloom behind the numeral, lighter than the
+   full hero glow, masked to fade out toward the reading column */
+.part-head {
+  position: relative;
+}
+.part-head::before {
+  content: "";
+  position: absolute;
+  left: -12%;
+  top: -40%;
+  width: 46%;
+  height: 190%;
+  z-index: 0;
+  pointer-events: none;
+  background: radial-gradient(50% 45% at 30% 30%, rgba(253, 197, 55, 0.18), transparent 72%);
+  -webkit-mask-image: radial-gradient(60% 60% at 30% 40%, #000, transparent 78%);
+  mask-image: radial-gradient(60% 60% at 30% 40%, #000, transparent 78%);
+}
+
+/* Oversized Roman numeral badge for the part header */
+.part-numeral {
+  position: relative;
+  display: grid;
+  place-items: center;
+  border-radius: 1rem;
+  border: 1px solid color-mix(in oklab, var(--c-accent) 30%, var(--c-line));
+  background:
+    linear-gradient(160deg, var(--c-surface), var(--c-accentbg));
+  color: var(--c-cite);
+  font-family: var(--font-body);
+  font-weight: 700;
+  box-shadow: 0 12px 30px -18px rgba(154, 109, 12, 0.55);
+}
+.part-numeral::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 1px;
+  background: var(--grad-brand);
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  opacity: 0.4;
+}
+
+/* Cumulative-case progress rail — 9 segments, current filled with the brand
+   gradient, past filled solid, future faint */
+.case-progress {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+.case-progress-seg {
+  flex: 1;
+  padding-block: 6px; /* enlarge the hit target above/below the 5px bar */
+}
+.case-progress-seg > span {
+  display: block;
+  height: 5px;
+  border-radius: 999px;
+  background: var(--c-line);
+  transition: transform 0.25s ease, background 0.25s ease;
+}
+.case-progress-seg > span[data-state="past"] {
+  background: color-mix(in oklab, var(--c-accent) 45%, var(--c-line));
+}
+.case-progress-seg > span[data-state="current"] {
+  background-image: var(--grad-brand);
+  transform: scaleY(1.8);
+}
+.case-progress-seg:hover > span {
+  transform: scaleY(1.8);
+  background: color-mix(in oklab, var(--c-accent) 60%, var(--c-line));
+}
+
+/* Part issue card — numeral rail + arrow affordance, matching the home cards */
+.part-issue-card {
+  position: relative;
+  display: flex;
+  gap: 1.15rem;
+  align-items: flex-start;
+  border: 1px solid var(--c-line);
+  border-radius: 0.85rem;
+  background: var(--c-surface);
+  padding: 1.15rem 1.25rem;
+  box-shadow: 0 1px 2px rgb(0 0 0 / 0.04);
+  transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
+}
+.part-issue-card::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.9rem;
+  bottom: 0.9rem;
+  width: 3px;
+  border-radius: 999px;
+  background-image: var(--grad-brand);
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: transform 0.3s ease;
+}
+.part-issue-card:hover {
+  transform: translateY(-2px);
+  border-color: color-mix(in oklab, var(--c-accent) 50%, var(--c-line));
+  box-shadow: 0 14px 30px -20px rgba(0, 0, 0, 0.45);
+}
+.part-issue-card:hover::before {
+  transform: scaleY(1);
+}
+
 /* Subtle scroll-reveal (used by components/Reveal.js) */
 .reveal {
   opacity: 0;

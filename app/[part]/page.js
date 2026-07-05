@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { site, getPart, roman, blockText } from "@/lib/structure.mjs";
 import Sidebar from "@/components/Sidebar";
+import Reveal from "@/components/Reveal";
 
 export const dynamicParams = false;
 
@@ -36,38 +37,92 @@ export default async function PartPage({ params }) {
       </aside>
 
       <article className="min-w-0 flex-1">
-        <p className="mb-3 font-ui text-xs font-bold uppercase tracking-[0.22em] text-cite">
-          Part {roman[part.num - 1]} of {site.length}
-        </p>
-        <h1 className="mb-6 text-3xl font-bold leading-tight text-heading sm:text-4xl">
-          {part.title.split(" — ")[1]}
-        </h1>
+        {/* Part header — numeral badge, warm bloom, and a cumulative-case rail */}
+        <header className="part-head mb-10">
+          <div className="relative flex items-start gap-5 sm:gap-6">
+            <Reveal className="shrink-0">
+              <div className="part-numeral h-16 w-16 text-3xl sm:h-20 sm:w-20 sm:text-4xl">
+                {roman[part.num - 1]}
+              </div>
+            </Reveal>
+            <div className="min-w-0 flex-1 pt-1">
+              <Reveal as="p" className="mb-2 flex items-center gap-3 font-ui text-xs font-bold uppercase tracking-[0.22em] text-cite">
+                Part {roman[part.num - 1]} of {site.length}
+                <span aria-hidden="true" className="rule-grad h-px flex-1" />
+              </Reveal>
+              <Reveal as="h1" delay={60} className="text-3xl font-bold leading-tight text-heading sm:text-4xl">
+                {part.title.split(" — ")[1]}
+              </Reveal>
+            </div>
+          </div>
+
+          {/* Where this part sits in the nine-part cumulative case */}
+          <Reveal delay={120} className="mt-7">
+            <div className="case-progress" role="list" aria-label="Position in the cumulative case">
+              {site.map((p) => {
+                const state = p.num < part.num ? "past" : p.num === part.num ? "current" : "future";
+                return (
+                  <Link
+                    key={p.slug}
+                    href={`/${p.slug}`}
+                    className="case-progress-seg"
+                    role="listitem"
+                    aria-current={state === "current" ? "step" : undefined}
+                    title={`Part ${roman[p.num - 1]}: ${p.short}`}
+                  >
+                    <span data-state={state} />
+                  </Link>
+                );
+              })}
+            </div>
+          </Reveal>
+        </header>
+
         {part.intro.map((t, i) => (
-          <p key={i} className="mb-4 text-lg leading-relaxed text-ink">
+          <Reveal as="p" key={i} delay={i * 40} className="mb-4 text-lg leading-relaxed text-ink">
             {t}
-          </p>
+          </Reveal>
         ))}
 
-        <h2 className="mt-10 mb-5 text-xl font-bold text-heading">Issues in this part</h2>
+        <div className="mt-10 mb-5 flex items-center gap-3">
+          <h2 className="text-xl font-bold text-heading">Issues in this part</h2>
+          <span className="font-ui text-xs font-semibold text-muted">
+            {part.items.length} {part.items.length === 1 ? "issue" : "issues"}
+          </span>
+          <span aria-hidden="true" className="rule-grad h-px flex-1" />
+        </div>
         <ol className="space-y-4">
-          {part.items.map((item) => (
+          {part.items.map((item, i) => (
             <li key={item.slug}>
-              <Link
-                href={`/${part.slug}/${item.slug}`}
-                className="group flex gap-5 rounded-lg border border-line bg-surface p-5 shadow-sm transition hover:-translate-y-0.5 hover:border-accent/50 hover:shadow-md"
-              >
-                <span className="w-7 shrink-0 text-right text-2xl font-bold leading-none text-cite/70">
-                  {item.num}
-                </span>
-                <span className="min-w-0">
-                  <h3 className="mb-1.5 font-bold leading-snug text-heading transition-colors group-hover:text-accent">
-                    {item.title}
-                  </h3>
-                  <p className="line-clamp-2 text-sm leading-relaxed text-muted">
-                    {blockText(item.critique).slice(0, 220)}…
-                  </p>
-                </span>
-              </Link>
+              <Reveal delay={Math.min(i, 8) * 40}>
+                <Link href={`/${part.slug}/${item.slug}`} className="part-issue-card group">
+                  <span className="numeral-badge flex h-11 w-11 shrink-0 items-center justify-center rounded-lg border border-line bg-accentbg font-body text-lg font-bold text-cite">
+                    {item.num}
+                  </span>
+                  <span className="min-w-0 flex-1">
+                    <h3 className="mb-1.5 font-bold leading-snug text-heading transition-colors group-hover:text-accent">
+                      {item.title}
+                    </h3>
+                    <p className="line-clamp-2 text-sm leading-relaxed text-muted">
+                      {blockText(item.critique).slice(0, 220)}…
+                    </p>
+                  </span>
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2.5"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    aria-hidden="true"
+                    className="mt-1 hidden shrink-0 self-center text-muted/40 transition group-hover:translate-x-0.5 group-hover:text-accent sm:block"
+                  >
+                    <path d="m9 18 6-6-6-6" />
+                  </svg>
+                </Link>
+              </Reveal>
             </li>
           ))}
         </ol>
