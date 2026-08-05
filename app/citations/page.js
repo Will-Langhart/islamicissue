@@ -5,6 +5,8 @@ export const metadata = {
   title: "Citation Validation Report",
   description:
     "Build-time citation analytics and validation for Quran, Hadith, and scholar references across all issues.",
+  // A research tool, not reading content — kept out of search indexes.
+  robots: { index: false, follow: true },
 };
 
 export default function CitationsPage() {

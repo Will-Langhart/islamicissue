@@ -1,4 +1,8 @@
-export const metadata = { title: "Corrections and Revision Log" };
+export const metadata = {
+  title: "Corrections and Revision Log",
+  // Editorial apparatus, not reading content — kept out of search indexes.
+  robots: { index: false, follow: true },
+};
 
 export default function CorrectionsPage() {
   return <div className="mx-auto max-w-3xl px-4 py-12 sm:px-6">

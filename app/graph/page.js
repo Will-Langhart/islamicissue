@@ -6,6 +6,8 @@ export const metadata = {
   title: "Knowledge Graph",
   description:
     "Explore the argument network behind the compendium: connected issues, concept frequencies, and relationship strength.",
+  // A research tool, not reading content — kept out of search indexes.
+  robots: { index: false, follow: true },
 };
 
 export default function GraphPage() {
