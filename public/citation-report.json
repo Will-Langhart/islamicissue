@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generatedAt": "2026-07-03T00:35:05.583Z",
+  "generatedAt": "2026-08-07T14:16:25.648Z",
   "summary": {
     "totalCitations": 297,
     "byType": {
@@ -18,9 +18,9 @@
     "graphEdges": 650,
     "reviewCoverage": {
       "citation": {
-        "reviewed": 3,
+        "reviewed": 55,
         "in_review": 0,
-        "unreviewed": 52
+        "unreviewed": 0
       },
       "proof": {
         "reviewed": 2,

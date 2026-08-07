@@ -1,47 +1,16 @@
-export const issueReviewStatus = {
-  "islamic-dilemma/what-the-quran-says-about-the-torah-and-the-gospel": {
-    citation: {
-      status: "reviewed",
-      reviewer: "Editorial Board",
-      reviewedAt: "2026-07-03",
-      notes: "Verse references and historical framing checked against source register.",
-    },
-    proof: {
-      status: "reviewed",
-      reviewer: "Editorial Board",
-      reviewedAt: "2026-07-03",
-      notes: "Premise structure accepted with explicit assumptions documented.",
-    },
-  },
-  "islamic-dilemma/the-dilemma-stated": {
-    citation: {
-      status: "reviewed",
-      reviewer: "Research Team",
-      reviewedAt: "2026-07-03",
-      notes: "Core Quran and manuscript references audited.",
-    },
-    proof: {
-      status: "in_review",
-      reviewer: "Research Team",
-      reviewedAt: "2026-07-03",
-      notes: "Counter-response implications under secondary review.",
-    },
-  },
-  "islamic-dilemma/the-qurans-own-falsification-test": {
-    citation: {
-      status: "reviewed",
-      reviewer: "Editorial Board",
-      reviewedAt: "2026-07-03",
-      notes: "Cross-part references verified.",
-    },
-    proof: {
-      status: "reviewed",
-      reviewer: "Editorial Board",
-      reviewedAt: "2026-07-03",
-      notes: "Formal premise chain accepted for publication.",
-    },
-  },
-};
+// Review status is data, not code: it lives in review-status.json so the editorial
+// pipeline (verifier/apply-review.mjs) can merge machine-assisted reviews into it
+// without rewriting this module. Read via fs so it works identically under the
+// Next.js bundler and raw `node` scripts (build-graph.mjs, build-doc.mjs).
+import { readFileSync } from "fs";
+import { fileURLToPath } from "url";
+import { dirname, join } from "path";
+
+const here = dirname(fileURLToPath(import.meta.url));
+
+export const issueReviewStatus = JSON.parse(
+  readFileSync(join(here, "review-status.json"), "utf8")
+);
 
 export const defaultReviewStatus = {
   citation: {
@@ -67,4 +36,3 @@ export function reviewForIssue(partSlug, issueSlug) {
     proof: { ...defaultReviewStatus.proof, ...(value.proof || {}) },
   };
 }
-

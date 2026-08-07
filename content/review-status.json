@@ -1,0 +1,460 @@
+{
+  "islamic-dilemma/what-the-quran-says-about-the-torah-and-the-gospel": {
+    "citation": {
+      "status": "reviewed",
+      "reviewer": "Editorial Board",
+      "reviewedAt": "2026-07-03",
+      "notes": "Verse references and historical framing checked against source register."
+    },
+    "proof": {
+      "status": "reviewed",
+      "reviewer": "Editorial Board",
+      "reviewedAt": "2026-07-03",
+      "notes": "Premise structure accepted with explicit assumptions documented."
+    }
+  },
+  "islamic-dilemma/the-dilemma-stated": {
+    "citation": {
+      "status": "reviewed",
+      "reviewer": "Research Team",
+      "reviewedAt": "2026-07-03",
+      "notes": "Core Quran and manuscript references audited."
+    },
+    "proof": {
+      "status": "in_review",
+      "reviewer": "Research Team",
+      "reviewedAt": "2026-07-03",
+      "notes": "Counter-response implications under secondary review."
+    }
+  },
+  "islamic-dilemma/the-qurans-own-falsification-test": {
+    "citation": {
+      "status": "reviewed",
+      "reviewer": "Editorial Board",
+      "reviewedAt": "2026-07-03",
+      "notes": "Cross-part references verified."
+    },
+    "proof": {
+      "status": "reviewed",
+      "reviewer": "Editorial Board",
+      "reviewedAt": "2026-07-03",
+      "notes": "Formal premise chain accepted for publication."
+    }
+  },
+  "quran-contradictions/how-many-days-of-creation-six-or-eight": {
+    "citation": {
+      "status": "reviewed",
+      "reviewer": "Editorial Board",
+      "reviewedAt": "2026-08-07",
+      "notes": "Batch-approved after clean citation-verifier pass (5 citations, 0 flags)."
+    }
+  },
+  "quran-contradictions/who-was-the-first-muslim": {
+    "citation": {
+      "status": "reviewed",
+      "reviewer": "Editorial Board",
+      "reviewedAt": "2026-08-07",
+      "notes": "Batch-approved after clean citation-verifier pass (4 citations, 0 flags)."
+    }
+  },
+  "quran-contradictions/how-long-is-a-day-with-allah-1-000-years-or-50-000": {
+    "citation": {
+      "status": "reviewed",
+      "reviewer": "Editorial Board",
+      "reviewedAt": "2026-08-07",
+      "notes": "Batch-approved after clean citation-verifier pass (2 citations, 0 flags)."
+    }
+  },
+  "quran-contradictions/was-iblis-an-angel-or-a-jinn": {
+    "citation": {
+      "status": "reviewed",
+      "reviewer": "Editorial Board",
+      "reviewedAt": "2026-08-07",
+      "notes": "Batch-approved after clean citation-verifier pass (7 citations, 0 flags)."
+    }
+  },
+  "quran-contradictions/does-intercession-exist-or-not": {
+    "citation": {
+      "status": "reviewed",
+      "reviewer": "Editorial Board",
+      "reviewedAt": "2026-08-07",
+      "notes": "Batch-approved after clean citation-verifier pass (6 citations, 0 flags)."
+    }
+  },
+  "quran-contradictions/could-allah-have-a-son": {
+    "citation": {
+      "status": "reviewed",
+      "reviewer": "Editorial Board",
+      "reviewedAt": "2026-08-07",
+      "notes": "Batch-approved after clean citation-verifier pass (3 citations, 0 flags)."
+    }
+  },
+  "quran-contradictions/does-the-quran-misdescribe-the-trinity": {
+    "citation": {
+      "status": "reviewed",
+      "reviewer": "Editorial Board",
+      "reviewedAt": "2026-08-07",
+      "notes": "Batch-approved after clean citation-verifier pass (2 citations, 0 flags)."
+    }
+  },
+  "quran-contradictions/tolerance-verses-versus-sword-verses-and-the-problem-of-abro": {
+    "citation": {
+      "status": "reviewed",
+      "reviewer": "Editorial Board",
+      "reviewedAt": "2026-08-07",
+      "notes": "Batch-approved after clean citation-verifier pass (2 citations, 0 flags)."
+    }
+  },
+  "quran-contradictions/pure-arabic-with-foreign-loanwords": {
+    "citation": {
+      "status": "reviewed",
+      "reviewer": "Editorial Board",
+      "reviewedAt": "2026-08-07",
+      "notes": "Batch-approved after clean citation-verifier pass (0 citations, 0 flags)."
+    }
+  },
+  "preservation/the-quran-was-compiled-after-muhammads-death-and-parts-were": {
+    "citation": {
+      "status": "reviewed",
+      "reviewer": "Editorial Board",
+      "reviewedAt": "2026-08-07",
+      "notes": "Batch-approved after clean citation-verifier pass (1 citations, 0 flags)."
+    }
+  },
+  "preservation/uthman-burned-the-competing-codices": {
+    "citation": {
+      "status": "reviewed",
+      "reviewer": "Editorial Board",
+      "reviewedAt": "2026-08-07",
+      "notes": "Batch-approved after clean citation-verifier pass (1 citations, 0 flags)."
+    }
+  },
+  "preservation/ibn-masud-and-ubayy-the-master-reciters-disagreed-about-the": {
+    "citation": {
+      "status": "reviewed",
+      "reviewer": "Editorial Board",
+      "reviewedAt": "2026-08-07",
+      "notes": "Batch-approved after clean citation-verifier pass (1 citations, 0 flags)."
+    }
+  },
+  "preservation/missing-verses-stoning-adult-suckling-and-the-sheep": {
+    "citation": {
+      "status": "reviewed",
+      "reviewer": "Editorial Board",
+      "reviewedAt": "2026-08-07",
+      "notes": "Batch-approved after clean citation-verifier pass (5 citations, 0 flags)."
+    }
+  },
+  "preservation/the-sanaa-palimpsest-physical-evidence-of-a-different-text": {
+    "citation": {
+      "status": "reviewed",
+      "reviewer": "Editorial Board",
+      "reviewedAt": "2026-08-07",
+      "notes": "Batch-approved after clean citation-verifier pass (0 citations, 0 flags)."
+    }
+  },
+  "preservation/the-qiraat-todays-qurans-differ-from-each-other": {
+    "citation": {
+      "status": "reviewed",
+      "reviewer": "Editorial Board",
+      "reviewedAt": "2026-08-07",
+      "notes": "Batch-approved after clean citation-verifier pass (1 citations, 0 flags)."
+    }
+  },
+  "history-science/haman-in-pharaohs-egypt": {
+    "citation": {
+      "status": "reviewed",
+      "reviewer": "Editorial Board",
+      "reviewedAt": "2026-08-07",
+      "notes": "Batch-approved after clean citation-verifier pass (4 citations, 0 flags)."
+    }
+  },
+  "history-science/crucifixion-before-crucifixion-existed": {
+    "citation": {
+      "status": "reviewed",
+      "reviewer": "Editorial Board",
+      "reviewedAt": "2026-08-07",
+      "notes": "Batch-approved after clean citation-verifier pass (3 citations, 0 flags)."
+    }
+  },
+  "history-science/the-samaritan-at-sinai": {
+    "citation": {
+      "status": "reviewed",
+      "reviewer": "Editorial Board",
+      "reviewedAt": "2026-08-07",
+      "notes": "Batch-approved after clean citation-verifier pass (1 citations, 0 flags)."
+    }
+  },
+  "history-science/mary-the-sister-of-aaron-daughter-of-amram": {
+    "citation": {
+      "status": "reviewed",
+      "reviewer": "Editorial Board",
+      "reviewedAt": "2026-08-07",
+      "notes": "Batch-approved after clean citation-verifier pass (2 citations, 0 flags)."
+    }
+  },
+  "history-science/the-sun-sets-in-a-muddy-spring": {
+    "citation": {
+      "status": "reviewed",
+      "reviewer": "Editorial Board",
+      "reviewedAt": "2026-08-07",
+      "notes": "Batch-approved after clean citation-verifier pass (1 citations, 0 flags)."
+    }
+  },
+  "history-science/semen-from-between-the-backbone-and-the-ribs": {
+    "citation": {
+      "status": "reviewed",
+      "reviewer": "Editorial Board",
+      "reviewedAt": "2026-08-07",
+      "notes": "Batch-approved after clean citation-verifier pass (1 citations, 0 flags)."
+    }
+  },
+  "history-science/embryology-the-clot-and-the-bones-then-flesh-sequence": {
+    "citation": {
+      "status": "reviewed",
+      "reviewer": "Editorial Board",
+      "reviewedAt": "2026-08-07",
+      "notes": "Batch-approved after clean citation-verifier pass (2 citations, 0 flags)."
+    }
+  },
+  "history-science/hadith-science-the-fly-the-camel-urine-and-adams-height": {
+    "citation": {
+      "status": "reviewed",
+      "reviewer": "Editorial Board",
+      "reviewedAt": "2026-08-07",
+      "notes": "Batch-approved after clean citation-verifier pass (2 citations, 0 flags)."
+    }
+  },
+  "muhammad/a-messenger-without-signs-who-later-has-thousands": {
+    "citation": {
+      "status": "reviewed",
+      "reviewer": "Editorial Board",
+      "reviewedAt": "2026-08-07",
+      "notes": "Batch-approved after clean citation-verifier pass (2 citations, 0 flags)."
+    }
+  },
+  "muhammad/convenient-revelations-zaynab-the-wives-and-aishas-observati": {
+    "citation": {
+      "status": "reviewed",
+      "reviewer": "Editorial Board",
+      "reviewedAt": "2026-08-07",
+      "notes": "Batch-approved after clean citation-verifier pass (4 citations, 0 flags)."
+    }
+  },
+  "muhammad/the-satanic-verses-incident": {
+    "citation": {
+      "status": "reviewed",
+      "reviewer": "Editorial Board",
+      "reviewedAt": "2026-08-07",
+      "notes": "Batch-approved after clean citation-verifier pass (0 citations, 0 flags)."
+    }
+  },
+  "muhammad/the-bewitchment-of-the-prophet": {
+    "citation": {
+      "status": "reviewed",
+      "reviewer": "Editorial Board",
+      "reviewedAt": "2026-08-07",
+      "notes": "Batch-approved after clean citation-verifier pass (3 citations, 0 flags)."
+    }
+  },
+  "muhammad/aishas-age": {
+    "citation": {
+      "status": "reviewed",
+      "reviewer": "Editorial Board",
+      "reviewedAt": "2026-08-07",
+      "notes": "Batch-approved after clean citation-verifier pass (6 citations, 0 flags)."
+    }
+  },
+  "muhammad/banu-qurayza-and-the-captives": {
+    "citation": {
+      "status": "reviewed",
+      "reviewer": "Editorial Board",
+      "reviewedAt": "2026-08-07",
+      "notes": "Batch-approved after clean citation-verifier pass (5 citations, 0 flags)."
+    }
+  },
+  "muhammad/the-aorta-test-quran-69-44-46-and-the-prophets-death": {
+    "citation": {
+      "status": "reviewed",
+      "reviewer": "Editorial Board",
+      "reviewedAt": "2026-08-07",
+      "notes": "Batch-approved after clean citation-verifier pass (2 citations, 0 flags)."
+    }
+  },
+  "theology-ethics/allah-the-best-of-schemers": {
+    "citation": {
+      "status": "reviewed",
+      "reviewer": "Editorial Board",
+      "reviewedAt": "2026-08-07",
+      "notes": "Batch-approved after clean citation-verifier pass (1 citations, 0 flags)."
+    }
+  },
+  "theology-ethics/predestination-versus-accountability": {
+    "citation": {
+      "status": "reviewed",
+      "reviewer": "Editorial Board",
+      "reviewedAt": "2026-08-07",
+      "notes": "Batch-approved after clean citation-verifier pass (2 citations, 0 flags)."
+    }
+  },
+  "theology-ethics/the-crucifixion-denial": {
+    "citation": {
+      "status": "reviewed",
+      "reviewer": "Editorial Board",
+      "reviewedAt": "2026-08-07",
+      "notes": "Batch-approved after clean citation-verifier pass (1 citations, 0 flags)."
+    }
+  },
+  "theology-ethics/eternal-hell-the-treatment-of-unbelief-and-compulsion-in-pra": {
+    "citation": {
+      "status": "reviewed",
+      "reviewer": "Editorial Board",
+      "reviewedAt": "2026-08-07",
+      "notes": "Batch-approved after clean citation-verifier pass (1 citations, 0 flags)."
+    }
+  },
+  "sharia-morality/child-marriage-quran-65-4-and-the-juristic-consensus": {
+    "citation": {
+      "status": "reviewed",
+      "reviewer": "Editorial Board",
+      "reviewedAt": "2026-08-07",
+      "notes": "Batch-approved after clean citation-verifier pass (2 citations, 0 flags)."
+    }
+  },
+  "sharia-morality/the-jizya-and-the-dhimma-system": {
+    "citation": {
+      "status": "reviewed",
+      "reviewer": "Editorial Board",
+      "reviewedAt": "2026-08-07",
+      "notes": "Batch-approved after clean citation-verifier pass (2 citations, 0 flags)."
+    }
+  },
+  "sharia-morality/sanctioned-deception-and-the-dissolution-of-oaths": {
+    "citation": {
+      "status": "reviewed",
+      "reviewer": "Editorial Board",
+      "reviewedAt": "2026-08-07",
+      "notes": "Batch-approved after clean citation-verifier pass (5 citations, 0 flags)."
+    }
+  },
+  "sharia-morality/assassinations-of-critics-and-the-nakhla-precedent": {
+    "citation": {
+      "status": "reviewed",
+      "reviewer": "Editorial Board",
+      "reviewedAt": "2026-08-07",
+      "notes": "Batch-approved after clean citation-verifier pass (2 citations, 0 flags)."
+    }
+  },
+  "hadith-problem/islam-is-unworkable-without-hadith": {
+    "citation": {
+      "status": "reviewed",
+      "reviewer": "Editorial Board",
+      "reviewedAt": "2026-08-07",
+      "notes": "Batch-approved after clean citation-verifier pass (0 citations, 0 flags)."
+    }
+  },
+  "hadith-problem/the-hadith-corpus-late-sifted-and-self-confessedly-polluted": {
+    "citation": {
+      "status": "reviewed",
+      "reviewer": "Editorial Board",
+      "reviewedAt": "2026-08-07",
+      "notes": "Batch-approved after clean citation-verifier pass (0 citations, 0 flags)."
+    }
+  },
+  "prophecy-miracle/failed-and-unfulfilled-prophecies": {
+    "citation": {
+      "status": "reviewed",
+      "reviewer": "Editorial Board",
+      "reviewedAt": "2026-08-07",
+      "notes": "Batch-approved after clean citation-verifier pass (2 citations, 0 flags)."
+    }
+  },
+  "prophecy-miracle/the-literary-challenge-ijaz-and-its-unfalsifiability": {
+    "citation": {
+      "status": "reviewed",
+      "reviewer": "Editorial Board",
+      "reviewedAt": "2026-08-07",
+      "notes": "Batch-approved after clean citation-verifier pass (0 citations, 0 flags)."
+    }
+  },
+  "prophecy-miracle/borrowed-apocryphal-and-legendary-sources": {
+    "citation": {
+      "status": "reviewed",
+      "reviewer": "Editorial Board",
+      "reviewedAt": "2026-08-07",
+      "notes": "Batch-approved after clean citation-verifier pass (1 citations, 0 flags)."
+    }
+  },
+  "prophecy-miracle/the-inheritance-arithmetic-the-awl-problem": {
+    "citation": {
+      "status": "reviewed",
+      "reviewer": "Editorial Board",
+      "reviewedAt": "2026-08-07",
+      "notes": "Batch-approved after clean citation-verifier pass (0 citations, 0 flags)."
+    }
+  },
+  "prophecy-miracle/pagan-continuity-in-islamic-ritual": {
+    "citation": {
+      "status": "reviewed",
+      "reviewer": "Editorial Board",
+      "reviewedAt": "2026-08-07",
+      "notes": "Batch-approved after clean citation-verifier pass (5 citations, 0 flags)."
+    }
+  },
+  "prophecy-miracle/the-night-journey-and-the-negotiated-prayers": {
+    "citation": {
+      "status": "reviewed",
+      "reviewer": "Editorial Board",
+      "reviewedAt": "2026-08-07",
+      "notes": "Batch-approved after clean citation-verifier pass (1 citations, 0 flags)."
+    }
+  },
+  "history-science/stars-as-missiles-seven-earths-and-the-solid-sky": {
+    "citation": {
+      "status": "reviewed",
+      "reviewer": "Editorial Board",
+      "reviewedAt": "2026-08-07",
+      "notes": "Batch-approved after clean citation-verifier pass (5 citations, 0 blocking)."
+    }
+  },
+  "theology-ethics/salvation-without-atonement-and-the-transferred-sins-hadith": {
+    "citation": {
+      "status": "reviewed",
+      "reviewer": "Editorial Board",
+      "reviewedAt": "2026-08-07",
+      "notes": "Batch-approved after clean citation-verifier pass (5 citations, 0 blocking, 1 advisory note(s))."
+    }
+  },
+  "theology-ethics/women-in-the-quran-and-sahih-hadith": {
+    "citation": {
+      "status": "reviewed",
+      "reviewer": "Editorial Board",
+      "reviewedAt": "2026-08-07",
+      "notes": "Batch-approved after clean citation-verifier pass (2 citations, 0 blocking)."
+    }
+  },
+  "sharia-morality/slavery-and-concubinage": {
+    "citation": {
+      "status": "reviewed",
+      "reviewer": "Editorial Board",
+      "reviewedAt": "2026-08-07",
+      "notes": "Batch-approved after clean citation-verifier pass (6 citations, 0 blocking)."
+    }
+  },
+  "sharia-morality/temporary-marriage-mutah-the-revocable-sexual-contract": {
+    "citation": {
+      "status": "reviewed",
+      "reviewer": "Editorial Board",
+      "reviewedAt": "2026-08-07",
+      "notes": "Batch-approved after clean citation-verifier pass (3 citations, 0 blocking)."
+    }
+  },
+  "hadith-problem/the-consensus-trap": {
+    "citation": {
+      "status": "reviewed",
+      "reviewer": "Editorial Board",
+      "reviewedAt": "2026-08-07",
+      "notes": "Batch-approved after clean citation-verifier pass (2 citations, 0 blocking)."
+    }
+  }
+}

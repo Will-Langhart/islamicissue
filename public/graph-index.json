@@ -1,6 +1,6 @@
 {
   "version": "1.1",
-  "generatedAt": "2026-07-03T00:35:05.584Z",
+  "generatedAt": "2026-08-07T14:16:25.648Z",
   "stats": {
     "nodeCount": 82,
     "edgeCount": 650,
@@ -118,7 +118,7 @@
           "citationCount": 9,
           "warningCount": 0,
           "structuredProof": false,
-          "citationReviewStatus": "unreviewed",
+          "citationReviewStatus": "reviewed",
           "proofReviewStatus": "unreviewed"
         }
       }
@@ -143,7 +143,7 @@
           "citationCount": 8,
           "warningCount": 0,
           "structuredProof": false,
-          "citationReviewStatus": "unreviewed",
+          "citationReviewStatus": "reviewed",
           "proofReviewStatus": "unreviewed"
         }
       }
@@ -167,7 +167,7 @@
           "citationCount": 3,
           "warningCount": 0,
           "structuredProof": false,
-          "citationReviewStatus": "unreviewed",
+          "citationReviewStatus": "reviewed",
           "proofReviewStatus": "unreviewed"
         }
       }
@@ -191,7 +191,7 @@
           "citationCount": 8,
           "warningCount": 0,
           "structuredProof": false,
-          "citationReviewStatus": "unreviewed",
+          "citationReviewStatus": "reviewed",
           "proofReviewStatus": "unreviewed"
         }
       }
@@ -215,7 +215,7 @@
           "citationCount": 8,
           "warningCount": 0,
           "structuredProof": false,
-          "citationReviewStatus": "unreviewed",
+          "citationReviewStatus": "reviewed",
           "proofReviewStatus": "unreviewed"
         }
       }
@@ -239,7 +239,7 @@
           "citationCount": 4,
           "warningCount": 0,
           "structuredProof": false,
-          "citationReviewStatus": "unreviewed",
+          "citationReviewStatus": "reviewed",
           "proofReviewStatus": "unreviewed"
         }
       }
@@ -261,7 +261,7 @@
           "citationCount": 4,
           "warningCount": 0,
           "structuredProof": false,
-          "citationReviewStatus": "unreviewed",
+          "citationReviewStatus": "reviewed",
           "proofReviewStatus": "unreviewed"
         }
       }
@@ -288,7 +288,7 @@
           "citationCount": 11,
           "warningCount": 0,
           "structuredProof": false,
-          "citationReviewStatus": "unreviewed",
+          "citationReviewStatus": "reviewed",
           "proofReviewStatus": "unreviewed"
         }
       }
@@ -312,7 +312,7 @@
           "citationCount": 4,
           "warningCount": 0,
           "structuredProof": false,
-          "citationReviewStatus": "unreviewed",
+          "citationReviewStatus": "reviewed",
           "proofReviewStatus": "unreviewed"
         }
       }
@@ -336,7 +336,7 @@
           "citationCount": 1,
           "warningCount": 0,
           "structuredProof": false,
-          "citationReviewStatus": "unreviewed",
+          "citationReviewStatus": "reviewed",
           "proofReviewStatus": "unreviewed"
         }
       }
@@ -363,7 +363,7 @@
           "citationCount": 2,
           "warningCount": 0,
           "structuredProof": false,
-          "citationReviewStatus": "unreviewed",
+          "citationReviewStatus": "reviewed",
           "proofReviewStatus": "unreviewed"
         }
       }
@@ -390,7 +390,7 @@
           "citationCount": 2,
           "warningCount": 0,
           "structuredProof": false,
-          "citationReviewStatus": "unreviewed",
+          "citationReviewStatus": "reviewed",
           "proofReviewStatus": "unreviewed"
         }
       }
@@ -417,7 +417,7 @@
           "citationCount": 6,
           "warningCount": 0,
           "structuredProof": false,
-          "citationReviewStatus": "unreviewed",
+          "citationReviewStatus": "reviewed",
           "proofReviewStatus": "unreviewed"
         }
       }
@@ -446,7 +446,7 @@
           "citationCount": 0,
           "warningCount": 0,
           "structuredProof": false,
-          "citationReviewStatus": "unreviewed",
+          "citationReviewStatus": "reviewed",
           "proofReviewStatus": "unreviewed"
         }
       }
@@ -475,7 +475,7 @@
           "citationCount": 3,
           "warningCount": 0,
           "structuredProof": false,
-          "citationReviewStatus": "unreviewed",
+          "citationReviewStatus": "reviewed",
           "proofReviewStatus": "unreviewed"
         }
       }
@@ -497,7 +497,7 @@
           "citationCount": 4,
           "warningCount": 0,
           "structuredProof": false,
-          "citationReviewStatus": "unreviewed",
+          "citationReviewStatus": "reviewed",
           "proofReviewStatus": "unreviewed"
         }
       }
@@ -521,7 +521,7 @@
           "citationCount": 7,
           "warningCount": 0,
           "structuredProof": false,
-          "citationReviewStatus": "unreviewed",
+          "citationReviewStatus": "reviewed",
           "proofReviewStatus": "unreviewed"
         }
       }
@@ -543,7 +543,7 @@
           "citationCount": 2,
           "warningCount": 0,
           "structuredProof": false,
-          "citationReviewStatus": "unreviewed",
+          "citationReviewStatus": "reviewed",
           "proofReviewStatus": "unreviewed"
         }
       }
@@ -565,7 +565,7 @@
           "citationCount": 4,
           "warningCount": 0,
           "structuredProof": false,
-          "citationReviewStatus": "unreviewed",
+          "citationReviewStatus": "reviewed",
           "proofReviewStatus": "unreviewed"
         }
       }
@@ -587,7 +587,7 @@
           "citationCount": 3,
           "warningCount": 0,
           "structuredProof": false,
-          "citationReviewStatus": "unreviewed",
+          "citationReviewStatus": "reviewed",
           "proofReviewStatus": "unreviewed"
         }
       }
@@ -611,7 +611,7 @@
           "citationCount": 1,
           "warningCount": 0,
           "structuredProof": false,
-          "citationReviewStatus": "unreviewed",
+          "citationReviewStatus": "reviewed",
           "proofReviewStatus": "unreviewed"
         }
       }
@@ -637,7 +637,7 @@
           "citationCount": 2,
           "warningCount": 0,
           "structuredProof": false,
-          "citationReviewStatus": "unreviewed",
+          "citationReviewStatus": "reviewed",
           "proofReviewStatus": "unreviewed"
         }
       }
@@ -659,7 +659,7 @@
           "citationCount": 15,
           "warningCount": 0,
           "structuredProof": false,
-          "citationReviewStatus": "unreviewed",
+          "citationReviewStatus": "reviewed",
           "proofReviewStatus": "unreviewed"
         }
       }
@@ -685,7 +685,7 @@
           "citationCount": 6,
           "warningCount": 0,
           "structuredProof": false,
-          "citationReviewStatus": "unreviewed",
+          "citationReviewStatus": "reviewed",
           "proofReviewStatus": "unreviewed"
         }
       }
@@ -710,7 +710,7 @@
           "citationCount": 4,
           "warningCount": 0,
           "structuredProof": false,
-          "citationReviewStatus": "unreviewed",
+          "citationReviewStatus": "reviewed",
           "proofReviewStatus": "unreviewed"
         }
       }
@@ -737,7 +737,7 @@
           "citationCount": 7,
           "warningCount": 0,
           "structuredProof": false,
-          "citationReviewStatus": "unreviewed",
+          "citationReviewStatus": "reviewed",
           "proofReviewStatus": "unreviewed"
         }
       }
@@ -765,7 +765,7 @@
           "citationCount": 4,
           "warningCount": 0,
           "structuredProof": false,
-          "citationReviewStatus": "unreviewed",
+          "citationReviewStatus": "reviewed",
           "proofReviewStatus": "unreviewed"
         }
       }
@@ -792,7 +792,7 @@
           "citationCount": 4,
           "warningCount": 0,
           "structuredProof": false,
-          "citationReviewStatus": "unreviewed",
+          "citationReviewStatus": "reviewed",
           "proofReviewStatus": "unreviewed"
         }
       }
@@ -819,7 +819,7 @@
           "citationCount": 7,
           "warningCount": 0,
           "structuredProof": false,
-          "citationReviewStatus": "unreviewed",
+          "citationReviewStatus": "reviewed",
           "proofReviewStatus": "unreviewed"
         }
       }
@@ -844,7 +844,7 @@
           "citationCount": 5,
           "warningCount": 0,
           "structuredProof": false,
-          "citationReviewStatus": "unreviewed",
+          "citationReviewStatus": "reviewed",
           "proofReviewStatus": "unreviewed"
         }
       }
@@ -869,7 +869,7 @@
           "citationCount": 2,
           "warningCount": 0,
           "structuredProof": false,
-          "citationReviewStatus": "unreviewed",
+          "citationReviewStatus": "reviewed",
           "proofReviewStatus": "unreviewed"
         }
       }
@@ -894,7 +894,7 @@
           "citationCount": 8,
           "warningCount": 0,
           "structuredProof": false,
-          "citationReviewStatus": "unreviewed",
+          "citationReviewStatus": "reviewed",
           "proofReviewStatus": "unreviewed"
         }
       }
@@ -918,7 +918,7 @@
           "citationCount": 8,
           "warningCount": 0,
           "structuredProof": false,
-          "citationReviewStatus": "unreviewed",
+          "citationReviewStatus": "reviewed",
           "proofReviewStatus": "unreviewed"
         }
       }
@@ -944,7 +944,7 @@
           "citationCount": 3,
           "warningCount": 0,
           "structuredProof": false,
-          "citationReviewStatus": "unreviewed",
+          "citationReviewStatus": "reviewed",
           "proofReviewStatus": "unreviewed"
         }
       }
@@ -970,7 +970,7 @@
           "citationCount": 11,
           "warningCount": 0,
           "structuredProof": false,
-          "citationReviewStatus": "unreviewed",
+          "citationReviewStatus": "reviewed",
           "proofReviewStatus": "unreviewed"
         }
       }
@@ -996,7 +996,7 @@
           "citationCount": 9,
           "warningCount": 0,
           "structuredProof": false,
-          "citationReviewStatus": "unreviewed",
+          "citationReviewStatus": "reviewed",
           "proofReviewStatus": "unreviewed"
         }
       }
@@ -1020,7 +1020,7 @@
           "citationCount": 5,
           "warningCount": 0,
           "structuredProof": false,
-          "citationReviewStatus": "unreviewed",
+          "citationReviewStatus": "reviewed",
           "proofReviewStatus": "unreviewed"
         }
       }
@@ -1047,7 +1047,7 @@
           "citationCount": 3,
           "warningCount": 0,
           "structuredProof": false,
-          "citationReviewStatus": "unreviewed",
+          "citationReviewStatus": "reviewed",
           "proofReviewStatus": "unreviewed"
         }
       }
@@ -1071,7 +1071,7 @@
           "citationCount": 2,
           "warningCount": 0,
           "structuredProof": false,
-          "citationReviewStatus": "unreviewed",
+          "citationReviewStatus": "reviewed",
           "proofReviewStatus": "unreviewed"
         }
       }
@@ -1095,7 +1095,7 @@
           "citationCount": 10,
           "warningCount": 0,
           "structuredProof": false,
-          "citationReviewStatus": "unreviewed",
+          "citationReviewStatus": "reviewed",
           "proofReviewStatus": "unreviewed"
         }
       }
@@ -1120,7 +1120,7 @@
           "citationCount": 10,
           "warningCount": 0,
           "structuredProof": false,
-          "citationReviewStatus": "unreviewed",
+          "citationReviewStatus": "reviewed",
           "proofReviewStatus": "unreviewed"
         }
       }
@@ -1147,7 +1147,7 @@
           "citationCount": 5,
           "warningCount": 0,
           "structuredProof": false,
-          "citationReviewStatus": "unreviewed",
+          "citationReviewStatus": "reviewed",
           "proofReviewStatus": "unreviewed"
         }
       }
@@ -1173,7 +1173,7 @@
           "citationCount": 3,
           "warningCount": 0,
           "structuredProof": false,
-          "citationReviewStatus": "unreviewed",
+          "citationReviewStatus": "reviewed",
           "proofReviewStatus": "unreviewed"
         }
       }
@@ -1199,7 +1199,7 @@
           "citationCount": 6,
           "warningCount": 0,
           "structuredProof": false,
-          "citationReviewStatus": "unreviewed",
+          "citationReviewStatus": "reviewed",
           "proofReviewStatus": "unreviewed"
         }
       }
@@ -1225,7 +1225,7 @@
           "citationCount": 0,
           "warningCount": 0,
           "structuredProof": false,
-          "citationReviewStatus": "unreviewed",
+          "citationReviewStatus": "reviewed",
           "proofReviewStatus": "unreviewed"
         }
       }
@@ -1252,7 +1252,7 @@
           "citationCount": 3,
           "warningCount": 0,
           "structuredProof": false,
-          "citationReviewStatus": "unreviewed",
+          "citationReviewStatus": "reviewed",
           "proofReviewStatus": "unreviewed"
         }
       }
@@ -1277,7 +1277,7 @@
           "citationCount": 13,
           "warningCount": 0,
           "structuredProof": false,
-          "citationReviewStatus": "unreviewed",
+          "citationReviewStatus": "reviewed",
           "proofReviewStatus": "unreviewed"
         }
       }
@@ -1302,7 +1302,7 @@
           "citationCount": 4,
           "warningCount": 0,
           "structuredProof": false,
-          "citationReviewStatus": "unreviewed",
+          "citationReviewStatus": "reviewed",
           "proofReviewStatus": "unreviewed"
         }
       }
@@ -1328,7 +1328,7 @@
           "citationCount": 7,
           "warningCount": 0,
           "structuredProof": false,
-          "citationReviewStatus": "unreviewed",
+          "citationReviewStatus": "reviewed",
           "proofReviewStatus": "unreviewed"
         }
       }
@@ -1352,7 +1352,7 @@
           "citationCount": 2,
           "warningCount": 0,
           "structuredProof": false,
-          "citationReviewStatus": "unreviewed",
+          "citationReviewStatus": "reviewed",
           "proofReviewStatus": "unreviewed"
         }
       }
@@ -1377,7 +1377,7 @@
           "citationCount": 4,
           "warningCount": 0,
           "structuredProof": false,
-          "citationReviewStatus": "unreviewed",
+          "citationReviewStatus": "reviewed",
           "proofReviewStatus": "unreviewed"
         }
       }
@@ -1402,7 +1402,7 @@
           "citationCount": 2,
           "warningCount": 0,
           "structuredProof": false,
-          "citationReviewStatus": "unreviewed",
+          "citationReviewStatus": "reviewed",
           "proofReviewStatus": "unreviewed"
         }
       }
@@ -7712,7 +7712,7 @@
               "citationCount": 9,
               "warningCount": 0,
               "structuredProof": false,
-              "citationReviewStatus": "unreviewed",
+              "citationReviewStatus": "reviewed",
               "proofReviewStatus": "unreviewed"
             }
           }
@@ -7737,7 +7737,7 @@
               "citationCount": 8,
               "warningCount": 0,
               "structuredProof": false,
-              "citationReviewStatus": "unreviewed",
+              "citationReviewStatus": "reviewed",
               "proofReviewStatus": "unreviewed"
             }
           }
@@ -7761,7 +7761,7 @@
               "citationCount": 3,
               "warningCount": 0,
               "structuredProof": false,
-              "citationReviewStatus": "unreviewed",
+              "citationReviewStatus": "reviewed",
               "proofReviewStatus": "unreviewed"
             }
           }
@@ -7785,7 +7785,7 @@
               "citationCount": 8,
               "warningCount": 0,
               "structuredProof": false,
-              "citationReviewStatus": "unreviewed",
+              "citationReviewStatus": "reviewed",
               "proofReviewStatus": "unreviewed"
             }
           }
@@ -7809,7 +7809,7 @@
               "citationCount": 8,
               "warningCount": 0,
               "structuredProof": false,
-              "citationReviewStatus": "unreviewed",
+              "citationReviewStatus": "reviewed",
               "proofReviewStatus": "unreviewed"
             }
           }
@@ -7833,7 +7833,7 @@
               "citationCount": 4,
               "warningCount": 0,
               "structuredProof": false,
-              "citationReviewStatus": "unreviewed",
+              "citationReviewStatus": "reviewed",
               "proofReviewStatus": "unreviewed"
             }
           }
@@ -7855,7 +7855,7 @@
               "citationCount": 4,
               "warningCount": 0,
               "structuredProof": false,
-              "citationReviewStatus": "unreviewed",
+              "citationReviewStatus": "reviewed",
               "proofReviewStatus": "unreviewed"
             }
           }
@@ -7882,7 +7882,7 @@
               "citationCount": 11,
               "warningCount": 0,
               "structuredProof": false,
-              "citationReviewStatus": "unreviewed",
+              "citationReviewStatus": "reviewed",
               "proofReviewStatus": "unreviewed"
             }
           }
@@ -7906,7 +7906,7 @@
               "citationCount": 4,
               "warningCount": 0,
               "structuredProof": false,
-              "citationReviewStatus": "unreviewed",
+              "citationReviewStatus": "reviewed",
               "proofReviewStatus": "unreviewed"
             }
           }
@@ -7935,7 +7935,7 @@
               "citationCount": 1,
               "warningCount": 0,
               "structuredProof": false,
-              "citationReviewStatus": "unreviewed",
+              "citationReviewStatus": "reviewed",
               "proofReviewStatus": "unreviewed"
             }
           }
@@ -7962,7 +7962,7 @@
               "citationCount": 2,
               "warningCount": 0,
               "structuredProof": false,
-              "citationReviewStatus": "unreviewed",
+              "citationReviewStatus": "reviewed",
               "proofReviewStatus": "unreviewed"
             }
           }
@@ -7989,7 +7989,7 @@
               "citationCount": 2,
               "warningCount": 0,
               "structuredProof": false,
-              "citationReviewStatus": "unreviewed",
+              "citationReviewStatus": "reviewed",
               "proofReviewStatus": "unreviewed"
             }
           }
@@ -8016,7 +8016,7 @@
               "citationCount": 6,
               "warningCount": 0,
               "structuredProof": false,
-              "citationReviewStatus": "unreviewed",
+              "citationReviewStatus": "reviewed",
               "proofReviewStatus": "unreviewed"
             }
           }
@@ -8045,7 +8045,7 @@
               "citationCount": 0,
               "warningCount": 0,
               "structuredProof": false,
-              "citationReviewStatus": "unreviewed",
+              "citationReviewStatus": "reviewed",
               "proofReviewStatus": "unreviewed"
             }
           }
@@ -8074,7 +8074,7 @@
               "citationCount": 3,
               "warningCount": 0,
               "structuredProof": false,
-              "citationReviewStatus": "unreviewed",
+              "citationReviewStatus": "reviewed",
               "proofReviewStatus": "unreviewed"
             }
           }
@@ -8101,7 +8101,7 @@
               "citationCount": 4,
               "warningCount": 0,
               "structuredProof": false,
-              "citationReviewStatus": "unreviewed",
+              "citationReviewStatus": "reviewed",
               "proofReviewStatus": "unreviewed"
             }
           }
@@ -8125,7 +8125,7 @@
               "citationCount": 7,
               "warningCount": 0,
               "structuredProof": false,
-              "citationReviewStatus": "unreviewed",
+              "citationReviewStatus": "reviewed",
               "proofReviewStatus": "unreviewed"
             }
           }
@@ -8147,7 +8147,7 @@
               "citationCount": 2,
               "warningCount": 0,
               "structuredProof": false,
-              "citationReviewStatus": "unreviewed",
+              "citationReviewStatus": "reviewed",
               "proofReviewStatus": "unreviewed"
             }
           }
@@ -8169,7 +8169,7 @@
               "citationCount": 4,
               "warningCount": 0,
               "structuredProof": false,
-              "citationReviewStatus": "unreviewed",
+              "citationReviewStatus": "reviewed",
               "proofReviewStatus": "unreviewed"
             }
           }
@@ -8191,7 +8191,7 @@
               "citationCount": 3,
               "warningCount": 0,
               "structuredProof": false,
-              "citationReviewStatus": "unreviewed",
+              "citationReviewStatus": "reviewed",
               "proofReviewStatus": "unreviewed"
             }
           }
@@ -8215,7 +8215,7 @@
               "citationCount": 1,
               "warningCount": 0,
               "structuredProof": false,
-              "citationReviewStatus": "unreviewed",
+              "citationReviewStatus": "reviewed",
               "proofReviewStatus": "unreviewed"
             }
           }
@@ -8241,7 +8241,7 @@
               "citationCount": 2,
               "warningCount": 0,
               "structuredProof": false,
-              "citationReviewStatus": "unreviewed",
+              "citationReviewStatus": "reviewed",
               "proofReviewStatus": "unreviewed"
             }
           }
@@ -8263,7 +8263,7 @@
               "citationCount": 15,
               "warningCount": 0,
               "structuredProof": false,
-              "citationReviewStatus": "unreviewed",
+              "citationReviewStatus": "reviewed",
               "proofReviewStatus": "unreviewed"
             }
           }
@@ -8289,7 +8289,7 @@
               "citationCount": 6,
               "warningCount": 0,
               "structuredProof": false,
-              "citationReviewStatus": "unreviewed",
+              "citationReviewStatus": "reviewed",
               "proofReviewStatus": "unreviewed"
             }
           }
@@ -8319,7 +8319,7 @@
               "citationCount": 4,
               "warningCount": 0,
               "structuredProof": false,
-              "citationReviewStatus": "unreviewed",
+              "citationReviewStatus": "reviewed",
               "proofReviewStatus": "unreviewed"
             }
           }
@@ -8346,7 +8346,7 @@
               "citationCount": 7,
               "warningCount": 0,
               "structuredProof": false,
-              "citationReviewStatus": "unreviewed",
+              "citationReviewStatus": "reviewed",
               "proofReviewStatus": "unreviewed"
             }
           }
@@ -8374,7 +8374,7 @@
               "citationCount": 4,
               "warningCount": 0,
               "structuredProof": false,
-              "citationReviewStatus": "unreviewed",
+              "citationReviewStatus": "reviewed",
               "proofReviewStatus": "unreviewed"
             }
           }
@@ -8401,7 +8401,7 @@
               "citationCount": 4,
               "warningCount": 0,
               "structuredProof": false,
-              "citationReviewStatus": "unreviewed",
+              "citationReviewStatus": "reviewed",
               "proofReviewStatus": "unreviewed"
             }
           }
@@ -8428,7 +8428,7 @@
               "citationCount": 7,
               "warningCount": 0,
               "structuredProof": false,
-              "citationReviewStatus": "unreviewed",
+              "citationReviewStatus": "reviewed",
               "proofReviewStatus": "unreviewed"
             }
           }
@@ -8453,7 +8453,7 @@
               "citationCount": 5,
               "warningCount": 0,
               "structuredProof": false,
-              "citationReviewStatus": "unreviewed",
+              "citationReviewStatus": "reviewed",
               "proofReviewStatus": "unreviewed"
             }
           }
@@ -8478,7 +8478,7 @@
               "citationCount": 2,
               "warningCount": 0,
               "structuredProof": false,
-              "citationReviewStatus": "unreviewed",
+              "citationReviewStatus": "reviewed",
               "proofReviewStatus": "unreviewed"
             }
           }
@@ -8508,7 +8508,7 @@
               "citationCount": 8,
               "warningCount": 0,
               "structuredProof": false,
-              "citationReviewStatus": "unreviewed",
+              "citationReviewStatus": "reviewed",
               "proofReviewStatus": "unreviewed"
             }
           }
@@ -8532,7 +8532,7 @@
               "citationCount": 8,
               "warningCount": 0,
               "structuredProof": false,
-              "citationReviewStatus": "unreviewed",
+              "citationReviewStatus": "reviewed",
               "proofReviewStatus": "unreviewed"
             }
           }
@@ -8558,7 +8558,7 @@
               "citationCount": 3,
               "warningCount": 0,
               "structuredProof": false,
-              "citationReviewStatus": "unreviewed",
+              "citationReviewStatus": "reviewed",
               "proofReviewStatus": "unreviewed"
             }
           }
@@ -8584,7 +8584,7 @@
               "citationCount": 11,
               "warningCount": 0,
               "structuredProof": false,
-              "citationReviewStatus": "unreviewed",
+              "citationReviewStatus": "reviewed",
               "proofReviewStatus": "unreviewed"
             }
           }
@@ -8610,7 +8610,7 @@
               "citationCount": 9,
               "warningCount": 0,
               "structuredProof": false,
-              "citationReviewStatus": "unreviewed",
+              "citationReviewStatus": "reviewed",
               "proofReviewStatus": "unreviewed"
             }
           }
@@ -8634,7 +8634,7 @@
               "citationCount": 5,
               "warningCount": 0,
               "structuredProof": false,
-              "citationReviewStatus": "unreviewed",
+              "citationReviewStatus": "reviewed",
               "proofReviewStatus": "unreviewed"
             }
           }
@@ -8666,7 +8666,7 @@
               "citationCount": 3,
               "warningCount": 0,
               "structuredProof": false,
-              "citationReviewStatus": "unreviewed",
+              "citationReviewStatus": "reviewed",
               "proofReviewStatus": "unreviewed"
             }
           }
@@ -8690,7 +8690,7 @@
               "citationCount": 2,
               "warningCount": 0,
               "structuredProof": false,
-              "citationReviewStatus": "unreviewed",
+              "citationReviewStatus": "reviewed",
               "proofReviewStatus": "unreviewed"
             }
           }
@@ -8714,7 +8714,7 @@
               "citationCount": 10,
               "warningCount": 0,
               "structuredProof": false,
-              "citationReviewStatus": "unreviewed",
+              "citationReviewStatus": "reviewed",
               "proofReviewStatus": "unreviewed"
             }
           }
@@ -8739,7 +8739,7 @@
               "citationCount": 10,
               "warningCount": 0,
               "structuredProof": false,
-              "citationReviewStatus": "unreviewed",
+              "citationReviewStatus": "reviewed",
               "proofReviewStatus": "unreviewed"
             }
           }
@@ -8766,7 +8766,7 @@
               "citationCount": 5,
               "warningCount": 0,
               "structuredProof": false,
-              "citationReviewStatus": "unreviewed",
+              "citationReviewStatus": "reviewed",
               "proofReviewStatus": "unreviewed"
             }
           }
@@ -8792,7 +8792,7 @@
               "citationCount": 3,
               "warningCount": 0,
               "structuredProof": false,
-              "citationReviewStatus": "unreviewed",
+              "citationReviewStatus": "reviewed",
               "proofReviewStatus": "unreviewed"
             }
           }
@@ -8823,7 +8823,7 @@
               "citationCount": 6,
               "warningCount": 0,
               "structuredProof": false,
-              "citationReviewStatus": "unreviewed",
+              "citationReviewStatus": "reviewed",
               "proofReviewStatus": "unreviewed"
             }
           }
@@ -8849,7 +8849,7 @@
               "citationCount": 0,
               "warningCount": 0,
               "structuredProof": false,
-              "citationReviewStatus": "unreviewed",
+              "citationReviewStatus": "reviewed",
               "proofReviewStatus": "unreviewed"
             }
           }
@@ -8876,7 +8876,7 @@
               "citationCount": 3,
               "warningCount": 0,
               "structuredProof": false,
-              "citationReviewStatus": "unreviewed",
+              "citationReviewStatus": "reviewed",
               "proofReviewStatus": "unreviewed"
             }
           }
@@ -8906,7 +8906,7 @@
               "citationCount": 13,
               "warningCount": 0,
               "structuredProof": false,
-              "citationReviewStatus": "unreviewed",
+              "citationReviewStatus": "reviewed",
               "proofReviewStatus": "unreviewed"
             }
           }
@@ -8931,7 +8931,7 @@
               "citationCount": 4,
               "warningCount": 0,
               "structuredProof": false,
-              "citationReviewStatus": "unreviewed",
+              "citationReviewStatus": "reviewed",
               "proofReviewStatus": "unreviewed"
             }
           }
@@ -8957,7 +8957,7 @@
               "citationCount": 7,
               "warningCount": 0,
               "structuredProof": false,
-              "citationReviewStatus": "unreviewed",
+              "citationReviewStatus": "reviewed",
               "proofReviewStatus": "unreviewed"
             }
           }
@@ -8981,7 +8981,7 @@
               "citationCount": 2,
               "warningCount": 0,
               "structuredProof": false,
-              "citationReviewStatus": "unreviewed",
+              "citationReviewStatus": "reviewed",
               "proofReviewStatus": "unreviewed"
             }
           }
@@ -9006,7 +9006,7 @@
               "citationCount": 4,
               "warningCount": 0,
               "structuredProof": false,
-              "citationReviewStatus": "unreviewed",
+              "citationReviewStatus": "reviewed",
               "proofReviewStatus": "unreviewed"
             }
           }
@@ -9031,7 +9031,7 @@
               "citationCount": 2,
               "warningCount": 0,
               "structuredProof": false,
-              "citationReviewStatus": "unreviewed",
+              "citationReviewStatus": "reviewed",
               "proofReviewStatus": "unreviewed"
             }
           }
