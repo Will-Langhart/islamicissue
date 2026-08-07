@@ -118,10 +118,17 @@ Make quote/existence flags **blocking** (gate `reviewed`); make prose-relevance
 prose blocking and let a human clear the handful each run.
 Also optional: clause-level claim slicing to fix the `46:9`-type compound-sentence artifact.
 
-### Phase 2 — Steelman + Rebuttal (generative, `proof` dimension)
-- [ ] `verifier/steelman.py` — assess → draft (charity-biased, named sources)
+### Phase 2 — Steelman + Rebuttal (generative, `proof` dimension) — IN PROGRESS
+- [x] `verifier/steelman.py` — assess → draft (charity-biased, named sources), gate,
+      `assess_landscape()` (assess-only corpus map). Model `claude-sonnet-5` (opus-5 upgradable).
+- [x] Validated on 3 issues (2026-08-07): trinity (drafted 5-para response: Griffith,
+      Reynolds, Ibn Taymiyyah), slavery → `adequate` (missing maqasid/siyar/2014 letter),
+      dilemma-stated → `strawman` (tahrif al-ma'na smuggled into the rebuttal — real finding).
+      Guardrails held: named sources, no invented refs, self-flagged "PLEASE VERIFY".
+- [ ] Assess-only landscape scan (55 issues) → verdict distribution
 - [ ] `propose_rebut` — counter-rebuttal draft conditioned on steelman
-- [ ] Suggestions land in `steelman-suggestions.json` (never `content.mjs`)
+- [ ] Draft selectively on weakest; proof-review loop → `steelman-suggestions.json`
+      (never `content.mjs`); only `keep` reaches proof:reviewed; no bless for generative verdicts
 
 ### Phase 3 — Graph Linker + Orchestrator
 - [ ] `verifier/linker.py` — `graph-index.json` corpus singleton, edge deltas
