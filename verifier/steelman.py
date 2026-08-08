@@ -167,6 +167,44 @@ def draft_steelman(state: SteelmanState) -> dict:
     return {"suggestion": s.model_dump()}
 
 
+class Rebuttal(BaseModel):
+    blocks: list[str]            # proposed counter-rebuttal paragraphs
+    note_to_editor: str
+
+
+_REBUT = None
+
+
+def _rebutter():
+    global _REBUT
+    if _REBUT is None:
+        _REBUT = ChatAnthropic(model=DRAFT_MODEL, timeout=90, max_retries=2
+                               ).with_structured_output(Rebuttal)
+    return _REBUT
+
+
+REBUT_SYSTEM = (
+    "You write the compendium's COUNTER-REBUTTAL: the critical reply that answers the strongest "
+    "Muslim response. Given the CRITIQUE and the STRONGEST MUSLIM RESPONSE (possibly just "
+    "strengthened by the steelman), write a fair, scholarly counter-rebuttal that engages the "
+    "response in its STRONGEST form — never a strawman. Concede what is genuinely conceded; press "
+    "where the response is weakest. Attribute claims to named sources; do NOT invent Qur'an or "
+    "hadith reference numbers. Return counter-rebuttal paragraphs in `blocks` and a short "
+    "`note_to_editor` on what to verify."
+)
+
+
+def propose_rebut(state: dict) -> dict:
+    """Draft a counter-rebuttal answering the strongest (possibly strengthened) response.
+    Conditioned on the steelman suggestion when present, else the existing response."""
+    strongest = (state.get("suggestion", {}) or {}).get("strengthened_response") \
+        or [state.get("response", "")]
+    r = _rebutter().invoke([("system", REBUT_SYSTEM), ("human",
+        f"CRITIQUE:\n{state.get('critique', '')}\n\n"
+        f"STRONGEST MUSLIM RESPONSE:\n" + "\n\n".join(p for p in strongest if p))])
+    return {"rebuttal_draft": r.model_dump()}
+
+
 def steelman_gate(state: SteelmanState) -> dict:
     a = state["assessment"]
     if a["verdict"] == "strong":

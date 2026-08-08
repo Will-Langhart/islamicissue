@@ -149,11 +149,25 @@ build ("Can't resolve fs"). Use a JSON import attribute, and run a full `npm run
 not fire; ~40% of long draft calls hung). Mitigated by a SIGALRM hard cap + incremental
 resumable writes, so runs never hang or lose work — but drafting needs a few retry passes.
 
-### Phase 3 — Graph Linker + Orchestrator
-- [ ] `verifier/linker.py` — `graph-index.json` corpus singleton, edge deltas
-- [ ] `verifier/orchestrator.py` — `plan` (content-hash incremental), `Send`
-      fan-out + join, consolidated `editorial_gate`, `writer`
-- [ ] `build-graph.mjs` folds accepted edges from `proposed-edges.json`
+### Phase 3 — Graph Linker + Orchestrator — ✅ core done (2026-08-07)
+- [x] `verifier/linker.py` — `graph-index.json` corpus singleton, edge deltas.
+      **Finding: 0 deltas** — `build-graph.mjs` already computes the full structural
+      co-occurrence graph (650 edges). A deterministic linker is redundant; a SEMANTIC
+      (LLM) linker is the only version worth running, deferred (hang-prone).
+- [x] `propose_rebut` (steelman.py) — counter-rebuttal conditioned on the steelman.
+- [x] `verifier/orchestrator.py` — `plan` (content-hash incremental) → verify ∥
+      (steelman→rebut) ∥ link → consolidated `editorial_gate` → `writer`. Uses the
+      bulletproof always-run/early-return join (deadlock-free on any LangGraph version)
+      instead of `Send`. Node LLM calls wrapped in the SIGALRM hard timeout; `run()`
+      driver is per-issue error-isolated + resumable.
+- [x] Validated: graph compiles; `plan` skips reviewed dims (fully-reviewed → `['link']`);
+      zero-LLM traversal on reviewed issues; a hung steelman call was caught + isolated
+      without stalling the run.
+- [ ] Full generative orchestrator run — operational, deferred: standalone nodes already
+      delivered 55/55 citation-reviewed + 29 steelman drafts, so a full run is redundant
+      now and hang-heavy. The incremental `plan` + resume make it safe to run anytime.
+- [ ] `build-graph.mjs` folds accepted edges (only once a semantic linker produces any)
+- [ ] Consolidated `cli_review` for the orchestrator's single gate (sketched earlier)
 
 ### Phase 4 — Human surface + ops
 - [ ] `verifier/review_cli.py` — consolidated one-prompt reviewer
