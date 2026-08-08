@@ -133,10 +133,17 @@ Also optional: clause-level claim slicing to fix the `46:9`-type compound-senten
       `steelman-suggestions.json` (proposals; never `content.mjs`). Incremental,
       resumable (skip-if-drafted), hard-timeout. First pass: **16/28 drafted, 12
       errored** (socket-wedge hangs on long draft calls; retryable).
-- [ ] Retry the 12 draft stragglers + 1 assess error (resumable — skip logic added)
+- [x] All 29 strawman+missing drafted (via retry passes — socket-wedge hangs, ~40%/pass,
+      cleared over 4 passes). `verifier/export_suggestions.py` → `steelman-review.md`
+      (readable review doc; drafts JSON stays gitignored).
 - [ ] `propose_rebut` — counter-rebuttal draft conditioned on steelman
 - [ ] Proof-review loop (keep/adopt/revise/defer); only `keep` reaches proof:reviewed;
       no bless for generative verdicts
+
+**Deploy lesson (fixed a9db914):** `structure.mjs` is imported by CLIENT components
+(Sidebar), so `content/review-workflow.mjs` must not use `fs` — it broke the Turbopack
+build ("Can't resolve fs"). Use a JSON import attribute, and run a full `npm run build`
+(not just `node script.mjs`) to catch bundler-only failures before pushing.
 
 **Infra note:** the Anthropic connection wedges intermittently (SDK read-timeout does
 not fire; ~40% of long draft calls hung). Mitigated by a SIGALRM hard cap + incremental
