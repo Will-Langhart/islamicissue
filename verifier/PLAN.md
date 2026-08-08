@@ -172,10 +172,20 @@ resumable writes, so runs never hang or lose work — but drafting needs a few r
 - [ ] `build-graph.mjs` folds accepted edges (only once a semantic linker produces any)
 - [ ] Consolidated `cli_review` for the orchestrator's single gate (sketched earlier)
 
-### Phase 4 — Human surface + ops
-- [ ] `verifier/review_cli.py` — consolidated one-prompt reviewer
-- [ ] Dry-run mode + `SqliteSaver` (compute once, review later, no recompute)
-- [ ] `npm` targets: `ai:export`, `ai:dryrun`, `ai:review`, `ai:apply`
+### Phase 4 — Human surface + ops — ✅ core done (2026-08-07)
+- [x] Consolidated `cli_review` (in `orchestrator.py`) — ONE prompt per issue (citation
+      flags + proof + rebuttal + edges); wired as `python -m verifier.orchestrator review`.
+- [x] `npm` targets: `ai:export`/`verify`/`steelman`/`orchestrate`/`review`/`proof`/`patches`/`apply`.
+- [x] `verifier/README.md` — full system documentation.
+- [ ] Dry-run mode + `SqliteSaver` (compute once, review later, no recompute) — deferred (optional).
+
+---
+
+## Status: the editorial AI layer is functionally complete.
+Phases 0–4 built, validated, committed, deployed. Standalone results: 55/55 citation-reviewed,
+29 steelman drafts staged (28 proof:in_review). The orchestrator composes all agents with one
+consolidated human gate + incremental planning. Remaining work is optional (SqliteSaver dry-run,
+semantic linker) or inherently human (verify + adopt individual steelman drafts).
 
 ## Dependencies (installed into existing `.venv`)
 - Phase 0: `pytest` only (feeder is stdlib)

@@ -13,7 +13,15 @@
     "content:contracts": "node scripts/content-pipeline.mjs contracts",
     "content:cite": "node scripts/content-pipeline.mjs cite",
     "content:suggest": "node scripts/content-pipeline.mjs suggest",
-    "content:release-check": "node scripts/content-pipeline.mjs release-check"
+    "content:release-check": "node scripts/content-pipeline.mjs release-check",
+    "ai:export": "node scripts/export-claims.mjs",
+    "ai:verify": ".venv/bin/python -m verifier.resume scan",
+    "ai:steelman": ".venv/bin/python -m verifier.steelman",
+    "ai:orchestrate": ".venv/bin/python -m verifier.orchestrator",
+    "ai:review": ".venv/bin/python -m verifier.orchestrator review",
+    "ai:proof": ".venv/bin/python -m verifier.review_proof",
+    "ai:patches": ".venv/bin/python -m verifier.review_proof patches",
+    "ai:apply": "node scripts/apply-review.mjs verifier/review-decisions.json && npm run graph:build"
   },
   "keywords": [],
   "author": "",

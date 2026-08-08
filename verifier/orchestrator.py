@@ -240,11 +240,68 @@ def run(review_fn=None, issues_path="verifier/issues.json", limit=None, checkpoi
     return {"total": len(log), "needs_review": needs_review, "errors": errors}
 
 
+# === consolidated reviewer — ONE prompt for the whole issue =================
+def cli_review(package: dict) -> dict:
+    """Render the gate's whole package (citation flags + proof + rebuttal + edges) as one
+    reviewer prompt. Returns the decision bundle the writer fans out. Swap for a UI/queue."""
+    import textwrap
+    w = lambda t, i="     ": textwrap.fill(str(t), 88, initial_indent=i, subsequent_indent=i)
+
+    def choose(prompt, opts):
+        while True:
+            c = input(f"{prompt} [{'/'.join(opts)}]: ").strip().lower()
+            for o in opts:
+                if c in (o, o[0]):
+                    return o
+            print("     choose one of:", "/".join(opts))
+
+    print("\n" + "=" * 90)
+    print(f"  EDITORIAL REVIEW — {package.get('issue_title') or package['issue']}")
+    print("=" * 90)
+    reviewer = ""
+    while not reviewer:
+        reviewer = input("Reviewer name (required): ").strip()
+    bundle = {"reviewer": reviewer, "citation": {}, "proof": {}, "edges": {"accept": []}}
+
+    for v in package.get("citation_flags", []):
+        print(f"\n▐ CITATION {v.get('reference')} [{v.get('locus')}] → {v['status']} (conf {v['confidence']:.2f})")
+        for d in v.get("divergences", []):
+            print(w(f"↳ {d}"))
+        print(w(f"reason: {v['reason']}"))
+        print(w(f"claim: {v.get('claim', '')}"))
+        bundle["citation"][v["id"]] = {"decision": choose("     decision", ["approve", "flag", "defer"]),
+                                       "notes": input("     notes: ").strip()}
+
+    a = package.get("proof_assessment", {})
+    if a:
+        print(f"\n▐ PROOF — verdict {a.get('verdict')} (conf {a.get('confidence', 0):.2f})")
+        print(w(a.get("reason", ""), "  "))
+        for p in package.get("proposed_response", {}).get("strengthened_response", []):
+            print(w(p, "    "))
+        for p in package.get("proposed_rebuttal", {}).get("blocks", []):
+            print(w("[rebuttal] " + p, "    "))
+        bundle["proof"] = {"action": choose("  decision", ["keep", "adopt", "revise", "defer"]),
+                           "notes": input("  notes: ").strip()}
+
+    edges = package.get("proposed_edges", [])
+    if edges:
+        print(f"\n▐ GRAPH LINKS — {len(edges)}")
+        for i, e in enumerate(edges, 1):
+            print(f"  {i}. → {e.get('targetLabel', e['target'])} (w={e['weight']})")
+        raw = input("  accept which? ('1 3'/'all'/'none'): ").strip().lower()
+        chosen = (edges if raw == "all" else [] if raw in ("", "none")
+                  else [e for i, e in enumerate(edges, 1) if str(i) in raw.split()])
+        bundle["edges"]["accept"] = [e["target"] for e in chosen]
+    return bundle
+
+
 if __name__ == "__main__":
     import sys
-    limit = int(sys.argv[1]) if len(sys.argv) > 1 and sys.argv[1].isdigit() else None
-    out = run(limit=limit)
-    print(f"Orchestrated {out['total']} issues · {len(out['needs_review'])} need review · "
+    args = sys.argv[1:]
+    review = "review" in args
+    limit = next((int(a) for a in args if a.isdigit()), None)
+    out = run(review_fn=cli_review if review else None, limit=limit)
+    print(f"\nOrchestrated {out['total']} issues · {len(out['needs_review'])} need review · "
           f"{len(out['errors'])} errored")
     for s in out["needs_review"]:
         print(f"  ⚠ review  {s}")
