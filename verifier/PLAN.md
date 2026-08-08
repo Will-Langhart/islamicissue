@@ -136,9 +136,12 @@ Also optional: clause-level claim slicing to fix the `46:9`-type compound-senten
 - [x] All 29 strawman+missing drafted (via retry passes — socket-wedge hangs, ~40%/pass,
       cleared over 4 passes). `verifier/export_suggestions.py` → `steelman-review.md`
       (readable review doc; drafts JSON stays gitignored).
-- [ ] `propose_rebut` — counter-rebuttal draft conditioned on steelman
-- [ ] Proof-review loop (keep/adopt/revise/defer); only `keep` reaches proof:reviewed;
-      no bless for generative verdicts
+- [x] `propose_rebut` (see Phase 3) — counter-rebuttal conditioned on the steelman.
+- [x] Proof apply tooling (`verifier/review_proof.py`): interactive keep/adopt/revise/defer
+      → `steelman-decisions.json` (merged by `apply-review.mjs`); `patches` mode emits
+      `content-patches.md` (ready-to-paste `response:` blocks + per-issue verify checklists).
+      HUMAN-GATED: never writes content.mjs, never auto-flips proof:reviewed. The editorial
+      board verifies each attribution, pastes the block, then applies the proof status.
 
 **Deploy lesson (fixed a9db914):** `structure.mjs` is imported by CLIENT components
 (Sidebar), so `content/review-workflow.mjs` must not use `fs` — it broke the Turbopack
