@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generatedAt": "2026-08-07T14:16:25.648Z",
+  "generatedAt": "2026-08-08T01:52:22.343Z",
   "summary": {
     "totalCitations": 297,
     "byType": {
@@ -24,8 +24,8 @@
       },
       "proof": {
         "reviewed": 2,
-        "in_review": 1,
-        "unreviewed": 52
+        "in_review": 28,
+        "unreviewed": 25
       }
     }
   },

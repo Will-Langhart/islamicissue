@@ -22,9 +22,9 @@
     },
     "proof": {
       "status": "in_review",
-      "reviewer": "Research Team",
-      "reviewedAt": "2026-07-03",
-      "notes": "Counter-response implications under secondary review."
+      "reviewer": "will",
+      "reviewedAt": "2026-08-07",
+      "notes": "AI-drafted strengthened response (missing) pending citation verification — see steelman-review.md / content-patches.md."
     }
   },
   "islamic-dilemma/the-qurans-own-falsification-test": {
@@ -55,6 +55,12 @@
       "reviewer": "Editorial Board",
       "reviewedAt": "2026-08-07",
       "notes": "Batch-approved after clean citation-verifier pass (4 citations, 0 flags)."
+    },
+    "proof": {
+      "status": "in_review",
+      "reviewer": "will",
+      "reviewedAt": "2026-08-07",
+      "notes": "AI-drafted strengthened response (missing) pending citation verification — see steelman-review.md / content-patches.md."
     }
   },
   "quran-contradictions/how-long-is-a-day-with-allah-1-000-years-or-50-000": {
@@ -87,6 +93,12 @@
       "reviewer": "Editorial Board",
       "reviewedAt": "2026-08-07",
       "notes": "Batch-approved after clean citation-verifier pass (3 citations, 0 flags)."
+    },
+    "proof": {
+      "status": "in_review",
+      "reviewer": "will",
+      "reviewedAt": "2026-08-07",
+      "notes": "AI-drafted strengthened response (missing) pending citation verification — see steelman-review.md / content-patches.md."
     }
   },
   "quran-contradictions/does-the-quran-misdescribe-the-trinity": {
@@ -103,6 +115,12 @@
       "reviewer": "Editorial Board",
       "reviewedAt": "2026-08-07",
       "notes": "Batch-approved after clean citation-verifier pass (2 citations, 0 flags)."
+    },
+    "proof": {
+      "status": "in_review",
+      "reviewer": "will",
+      "reviewedAt": "2026-08-07",
+      "notes": "AI-drafted strengthened response (missing) pending citation verification — see steelman-review.md / content-patches.md."
     }
   },
   "quran-contradictions/pure-arabic-with-foreign-loanwords": {
@@ -111,6 +129,12 @@
       "reviewer": "Editorial Board",
       "reviewedAt": "2026-08-07",
       "notes": "Batch-approved after clean citation-verifier pass (0 citations, 0 flags)."
+    },
+    "proof": {
+      "status": "in_review",
+      "reviewer": "will",
+      "reviewedAt": "2026-08-07",
+      "notes": "AI-drafted strengthened response (missing) pending citation verification — see steelman-review.md / content-patches.md."
     }
   },
   "preservation/the-quran-was-compiled-after-muhammads-death-and-parts-were": {
@@ -127,6 +151,12 @@
       "reviewer": "Editorial Board",
       "reviewedAt": "2026-08-07",
       "notes": "Batch-approved after clean citation-verifier pass (1 citations, 0 flags)."
+    },
+    "proof": {
+      "status": "in_review",
+      "reviewer": "will",
+      "reviewedAt": "2026-08-07",
+      "notes": "AI-drafted strengthened response (strawman) pending citation verification — see steelman-review.md / content-patches.md."
     }
   },
   "preservation/ibn-masud-and-ubayy-the-master-reciters-disagreed-about-the": {
@@ -143,6 +173,12 @@
       "reviewer": "Editorial Board",
       "reviewedAt": "2026-08-07",
       "notes": "Batch-approved after clean citation-verifier pass (5 citations, 0 flags)."
+    },
+    "proof": {
+      "status": "in_review",
+      "reviewer": "will",
+      "reviewedAt": "2026-08-07",
+      "notes": "AI-drafted strengthened response (strawman) pending citation verification — see steelman-review.md / content-patches.md."
     }
   },
   "preservation/the-sanaa-palimpsest-physical-evidence-of-a-different-text": {
@@ -151,6 +187,12 @@
       "reviewer": "Editorial Board",
       "reviewedAt": "2026-08-07",
       "notes": "Batch-approved after clean citation-verifier pass (0 citations, 0 flags)."
+    },
+    "proof": {
+      "status": "in_review",
+      "reviewer": "will",
+      "reviewedAt": "2026-08-07",
+      "notes": "AI-drafted strengthened response (missing) pending citation verification — see steelman-review.md / content-patches.md."
     }
   },
   "preservation/the-qiraat-todays-qurans-differ-from-each-other": {
@@ -159,6 +201,12 @@
       "reviewer": "Editorial Board",
       "reviewedAt": "2026-08-07",
       "notes": "Batch-approved after clean citation-verifier pass (1 citations, 0 flags)."
+    },
+    "proof": {
+      "status": "in_review",
+      "reviewer": "will",
+      "reviewedAt": "2026-08-07",
+      "notes": "AI-drafted strengthened response (strawman) pending citation verification — see steelman-review.md / content-patches.md."
     }
   },
   "history-science/haman-in-pharaohs-egypt": {
@@ -175,6 +223,12 @@
       "reviewer": "Editorial Board",
       "reviewedAt": "2026-08-07",
       "notes": "Batch-approved after clean citation-verifier pass (3 citations, 0 flags)."
+    },
+    "proof": {
+      "status": "in_review",
+      "reviewer": "will",
+      "reviewedAt": "2026-08-07",
+      "notes": "AI-drafted strengthened response (missing) pending citation verification — see steelman-review.md / content-patches.md."
     }
   },
   "history-science/the-samaritan-at-sinai": {
@@ -183,6 +237,12 @@
       "reviewer": "Editorial Board",
       "reviewedAt": "2026-08-07",
       "notes": "Batch-approved after clean citation-verifier pass (1 citations, 0 flags)."
+    },
+    "proof": {
+      "status": "in_review",
+      "reviewer": "will",
+      "reviewedAt": "2026-08-07",
+      "notes": "AI-drafted strengthened response (adequate) pending citation verification — see steelman-review.md / content-patches.md."
     }
   },
   "history-science/mary-the-sister-of-aaron-daughter-of-amram": {
@@ -199,6 +259,12 @@
       "reviewer": "Editorial Board",
       "reviewedAt": "2026-08-07",
       "notes": "Batch-approved after clean citation-verifier pass (1 citations, 0 flags)."
+    },
+    "proof": {
+      "status": "in_review",
+      "reviewer": "will",
+      "reviewedAt": "2026-08-07",
+      "notes": "AI-drafted strengthened response (strawman) pending citation verification — see steelman-review.md / content-patches.md."
     }
   },
   "history-science/semen-from-between-the-backbone-and-the-ribs": {
@@ -215,6 +281,12 @@
       "reviewer": "Editorial Board",
       "reviewedAt": "2026-08-07",
       "notes": "Batch-approved after clean citation-verifier pass (2 citations, 0 flags)."
+    },
+    "proof": {
+      "status": "in_review",
+      "reviewer": "will",
+      "reviewedAt": "2026-08-07",
+      "notes": "AI-drafted strengthened response (strawman) pending citation verification — see steelman-review.md / content-patches.md."
     }
   },
   "history-science/hadith-science-the-fly-the-camel-urine-and-adams-height": {
@@ -223,6 +295,12 @@
       "reviewer": "Editorial Board",
       "reviewedAt": "2026-08-07",
       "notes": "Batch-approved after clean citation-verifier pass (2 citations, 0 flags)."
+    },
+    "proof": {
+      "status": "in_review",
+      "reviewer": "will",
+      "reviewedAt": "2026-08-07",
+      "notes": "AI-drafted strengthened response (strawman) pending citation verification — see steelman-review.md / content-patches.md."
     }
   },
   "muhammad/a-messenger-without-signs-who-later-has-thousands": {
@@ -239,6 +317,12 @@
       "reviewer": "Editorial Board",
       "reviewedAt": "2026-08-07",
       "notes": "Batch-approved after clean citation-verifier pass (4 citations, 0 flags)."
+    },
+    "proof": {
+      "status": "in_review",
+      "reviewer": "will",
+      "reviewedAt": "2026-08-07",
+      "notes": "AI-drafted strengthened response (strawman) pending citation verification — see steelman-review.md / content-patches.md."
     }
   },
   "muhammad/the-satanic-verses-incident": {
@@ -247,6 +331,12 @@
       "reviewer": "Editorial Board",
       "reviewedAt": "2026-08-07",
       "notes": "Batch-approved after clean citation-verifier pass (0 citations, 0 flags)."
+    },
+    "proof": {
+      "status": "in_review",
+      "reviewer": "will",
+      "reviewedAt": "2026-08-07",
+      "notes": "AI-drafted strengthened response (adequate) pending citation verification — see steelman-review.md / content-patches.md."
     }
   },
   "muhammad/the-bewitchment-of-the-prophet": {
@@ -271,6 +361,12 @@
       "reviewer": "Editorial Board",
       "reviewedAt": "2026-08-07",
       "notes": "Batch-approved after clean citation-verifier pass (5 citations, 0 flags)."
+    },
+    "proof": {
+      "status": "in_review",
+      "reviewer": "will",
+      "reviewedAt": "2026-08-07",
+      "notes": "AI-drafted strengthened response (strawman) pending citation verification — see steelman-review.md / content-patches.md."
     }
   },
   "muhammad/the-aorta-test-quran-69-44-46-and-the-prophets-death": {
@@ -287,6 +383,12 @@
       "reviewer": "Editorial Board",
       "reviewedAt": "2026-08-07",
       "notes": "Batch-approved after clean citation-verifier pass (1 citations, 0 flags)."
+    },
+    "proof": {
+      "status": "in_review",
+      "reviewer": "will",
+      "reviewedAt": "2026-08-07",
+      "notes": "AI-drafted strengthened response (adequate) pending citation verification — see steelman-review.md / content-patches.md."
     }
   },
   "theology-ethics/predestination-versus-accountability": {
@@ -295,6 +397,12 @@
       "reviewer": "Editorial Board",
       "reviewedAt": "2026-08-07",
       "notes": "Batch-approved after clean citation-verifier pass (2 citations, 0 flags)."
+    },
+    "proof": {
+      "status": "in_review",
+      "reviewer": "will",
+      "reviewedAt": "2026-08-07",
+      "notes": "AI-drafted strengthened response (adequate) pending citation verification — see steelman-review.md / content-patches.md."
     }
   },
   "theology-ethics/the-crucifixion-denial": {
@@ -303,6 +411,12 @@
       "reviewer": "Editorial Board",
       "reviewedAt": "2026-08-07",
       "notes": "Batch-approved after clean citation-verifier pass (1 citations, 0 flags)."
+    },
+    "proof": {
+      "status": "in_review",
+      "reviewer": "will",
+      "reviewedAt": "2026-08-07",
+      "notes": "AI-drafted strengthened response (strawman) pending citation verification — see steelman-review.md / content-patches.md."
     }
   },
   "theology-ethics/eternal-hell-the-treatment-of-unbelief-and-compulsion-in-pra": {
@@ -327,6 +441,12 @@
       "reviewer": "Editorial Board",
       "reviewedAt": "2026-08-07",
       "notes": "Batch-approved after clean citation-verifier pass (2 citations, 0 flags)."
+    },
+    "proof": {
+      "status": "in_review",
+      "reviewer": "will",
+      "reviewedAt": "2026-08-07",
+      "notes": "AI-drafted strengthened response (strawman) pending citation verification — see steelman-review.md / content-patches.md."
     }
   },
   "sharia-morality/sanctioned-deception-and-the-dissolution-of-oaths": {
@@ -359,6 +479,12 @@
       "reviewer": "Editorial Board",
       "reviewedAt": "2026-08-07",
       "notes": "Batch-approved after clean citation-verifier pass (0 citations, 0 flags)."
+    },
+    "proof": {
+      "status": "in_review",
+      "reviewer": "will",
+      "reviewedAt": "2026-08-07",
+      "notes": "AI-drafted strengthened response (missing) pending citation verification — see steelman-review.md / content-patches.md."
     }
   },
   "prophecy-miracle/failed-and-unfulfilled-prophecies": {
@@ -375,6 +501,12 @@
       "reviewer": "Editorial Board",
       "reviewedAt": "2026-08-07",
       "notes": "Batch-approved after clean citation-verifier pass (0 citations, 0 flags)."
+    },
+    "proof": {
+      "status": "in_review",
+      "reviewer": "will",
+      "reviewedAt": "2026-08-07",
+      "notes": "AI-drafted strengthened response (missing) pending citation verification — see steelman-review.md / content-patches.md."
     }
   },
   "prophecy-miracle/borrowed-apocryphal-and-legendary-sources": {
@@ -383,6 +515,12 @@
       "reviewer": "Editorial Board",
       "reviewedAt": "2026-08-07",
       "notes": "Batch-approved after clean citation-verifier pass (1 citations, 0 flags)."
+    },
+    "proof": {
+      "status": "in_review",
+      "reviewer": "will",
+      "reviewedAt": "2026-08-07",
+      "notes": "AI-drafted strengthened response (missing) pending citation verification — see steelman-review.md / content-patches.md."
     }
   },
   "prophecy-miracle/the-inheritance-arithmetic-the-awl-problem": {
@@ -407,6 +545,12 @@
       "reviewer": "Editorial Board",
       "reviewedAt": "2026-08-07",
       "notes": "Batch-approved after clean citation-verifier pass (1 citations, 0 flags)."
+    },
+    "proof": {
+      "status": "in_review",
+      "reviewer": "will",
+      "reviewedAt": "2026-08-07",
+      "notes": "AI-drafted strengthened response (missing) pending citation verification — see steelman-review.md / content-patches.md."
     }
   },
   "history-science/stars-as-missiles-seven-earths-and-the-solid-sky": {
@@ -415,6 +559,12 @@
       "reviewer": "Editorial Board",
       "reviewedAt": "2026-08-07",
       "notes": "Batch-approved after clean citation-verifier pass (5 citations, 0 blocking)."
+    },
+    "proof": {
+      "status": "in_review",
+      "reviewer": "will",
+      "reviewedAt": "2026-08-07",
+      "notes": "AI-drafted strengthened response (strawman) pending citation verification — see steelman-review.md / content-patches.md."
     }
   },
   "theology-ethics/salvation-without-atonement-and-the-transferred-sins-hadith": {
@@ -431,6 +581,12 @@
       "reviewer": "Editorial Board",
       "reviewedAt": "2026-08-07",
       "notes": "Batch-approved after clean citation-verifier pass (2 citations, 0 blocking)."
+    },
+    "proof": {
+      "status": "in_review",
+      "reviewer": "will",
+      "reviewedAt": "2026-08-07",
+      "notes": "AI-drafted strengthened response (adequate) pending citation verification — see steelman-review.md / content-patches.md."
     }
   },
   "sharia-morality/slavery-and-concubinage": {
@@ -455,6 +611,12 @@
       "reviewer": "Editorial Board",
       "reviewedAt": "2026-08-07",
       "notes": "Batch-approved after clean citation-verifier pass (2 citations, 0 blocking)."
+    },
+    "proof": {
+      "status": "in_review",
+      "reviewer": "will",
+      "reviewedAt": "2026-08-07",
+      "notes": "AI-drafted strengthened response (adequate) pending citation verification — see steelman-review.md / content-patches.md."
     }
   }
 }

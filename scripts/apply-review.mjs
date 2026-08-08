@@ -30,6 +30,10 @@ function merge() {
       if (d.status === "reviewed" && !d.reviewer?.trim()) {
         console.warn(`Refusing 'reviewed' without reviewer: ${key}/${dim}`); blocked++; continue;
       }
+      if (status[key]?.[dim]?.status === "reviewed" && d.status !== "reviewed") {
+        console.warn(`Refusing to downgrade a human 'reviewed' → '${d.status}': ${key}/${dim}`);
+        blocked++; continue;   // never silently clobber a sign-off
+      }
       status[key] = { ...(status[key] || {}), [dim]: d };  // preserve the other dimension
       applied++;
     }
