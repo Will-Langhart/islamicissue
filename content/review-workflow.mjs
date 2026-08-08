@@ -1,16 +1,12 @@
 // Review status is data, not code: it lives in review-status.json so the editorial
 // pipeline (verifier/apply-review.mjs) can merge machine-assisted reviews into it
-// without rewriting this module. Read via fs so it works identically under the
-// Next.js bundler and raw `node` scripts (build-graph.mjs, build-doc.mjs).
-import { readFileSync } from "fs";
-import { fileURLToPath } from "url";
-import { dirname, join } from "path";
+// without rewriting this module. A JSON import (with import attribute) is bundled
+// safely by Next.js/Turbopack — including into client components via structure.mjs —
+// and is valid in raw `node` scripts (build-graph.mjs, build-doc.mjs) on Node >= 22.
+// (Do NOT use fs here: structure.mjs is imported by client components, where fs is absent.)
+import issueReviewStatus from "./review-status.json" with { type: "json" };
 
-const here = dirname(fileURLToPath(import.meta.url));
-
-export const issueReviewStatus = JSON.parse(
-  readFileSync(join(here, "review-status.json"), "utf8")
-);
+export { issueReviewStatus };
 
 export const defaultReviewStatus = {
   citation: {
