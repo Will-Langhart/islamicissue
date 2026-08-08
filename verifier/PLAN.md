@@ -125,10 +125,22 @@ Also optional: clause-level claim slicing to fix the `46:9`-type compound-senten
       Reynolds, Ibn Taymiyyah), slavery → `adequate` (missing maqasid/siyar/2014 letter),
       dilemma-stated → `strawman` (tahrif al-ma'na smuggled into the rebuttal — real finding).
       Guardrails held: named sources, no invented refs, self-flagged "PLEASE VERIFY".
-- [ ] Assess-only landscape scan (55 issues) → verdict distribution
+- [x] Assess-only landscape scan (55 issues, incremental + resumable + hard 150s
+      SIGALRM timeout). Distribution: adequate 26, missing 16, strawman 12, error 1,
+      **strong 0** (every response section has room to strengthen). Flagship issue
+      `what-the-quran-says.../torah-and-the-gospel` had an EMPTY response section.
+- [x] `draft_for_issues` / `draft-weak` — drafts strawman+missing into
+      `steelman-suggestions.json` (proposals; never `content.mjs`). Incremental,
+      resumable (skip-if-drafted), hard-timeout. First pass: **16/28 drafted, 12
+      errored** (socket-wedge hangs on long draft calls; retryable).
+- [ ] Retry the 12 draft stragglers + 1 assess error (resumable — skip logic added)
 - [ ] `propose_rebut` — counter-rebuttal draft conditioned on steelman
-- [ ] Draft selectively on weakest; proof-review loop → `steelman-suggestions.json`
-      (never `content.mjs`); only `keep` reaches proof:reviewed; no bless for generative verdicts
+- [ ] Proof-review loop (keep/adopt/revise/defer); only `keep` reaches proof:reviewed;
+      no bless for generative verdicts
+
+**Infra note:** the Anthropic connection wedges intermittently (SDK read-timeout does
+not fire; ~40% of long draft calls hung). Mitigated by a SIGALRM hard cap + incremental
+resumable writes, so runs never hang or lose work — but drafting needs a few retry passes.
 
 ### Phase 3 — Graph Linker + Orchestrator
 - [ ] `verifier/linker.py` — `graph-index.json` corpus singleton, edge deltas

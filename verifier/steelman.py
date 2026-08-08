@@ -11,6 +11,7 @@ Generative and UNGROUNDED (unlike the citation verifier), so the guardrails are 
 Governs the `proof` review dimension (the citation verifier governs `citation`).
 """
 import json
+import signal
 from pathlib import Path
 from typing import Literal, TypedDict
 
@@ -26,6 +27,25 @@ load_dotenv()
 
 ASSESS_MODEL = "claude-sonnet-5"
 DRAFT_MODEL = "claude-sonnet-5"   # upgrade to "claude-opus-5" for stronger drafting
+
+
+class _HardTimeout(Exception):
+    pass
+
+
+def _with_timeout(fn, seconds: int):
+    """Backstop wall-clock timeout via SIGALRM — abandons a wedged socket read that the
+    SDK's own read-timeout fails to catch (observed: connection stalls for hours). Main
+    thread only. This is why the scans below run single-threaded in __main__."""
+    def _handler(signum, frame):
+        raise _HardTimeout(f"hard timeout after {seconds}s")
+    old = signal.signal(signal.SIGALRM, _handler)
+    signal.alarm(seconds)
+    try:
+        return fn()
+    finally:
+        signal.alarm(0)
+        signal.signal(signal.SIGALRM, old)
 
 
 def section_text(blocks: list[dict]) -> str:
@@ -87,7 +107,7 @@ _DRAFT = None
 def _assessor():
     global _ASSESS
     if _ASSESS is None:
-        _ASSESS = ChatAnthropic(model=ASSESS_MODEL, timeout=90, max_retries=3
+        _ASSESS = ChatAnthropic(model=ASSESS_MODEL, timeout=60, max_retries=2
                                 ).with_structured_output(Assessment)
     return _ASSESS
 
@@ -95,7 +115,7 @@ def _assessor():
 def _drafter():
     global _DRAFT
     if _DRAFT is None:
-        _DRAFT = ChatAnthropic(model=DRAFT_MODEL, timeout=120, max_retries=3
+        _DRAFT = ChatAnthropic(model=DRAFT_MODEL, timeout=90, max_retries=2
                                ).with_structured_output(Suggestion)
     return _DRAFT
 
@@ -187,32 +207,80 @@ def assess_landscape(issues_path: str = "verifier/issues.json") -> dict:
     from collections import Counter
     from datetime import date
 
-    out, errors, today = {}, [], date.today().isoformat()
+    path = Path("verifier/steelman-landscape.json")
+    out = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
+    errors, today = [], date.today().isoformat()
     for st in feed_steelman(issues_path):
         slug = st["issue_slug"]
+        prev = out.get(slug)
+        if prev and prev.get("verdict") not in (None, "error") \
+                and prev.get("contentHash") == st.get("content_hash"):
+            continue  # already assessed this exact content — resume, don't re-spend
         try:
-            st.update(assess_response(st))
-        except Exception as e:  # transient failure — record, keep going
+            st.update(_with_timeout(lambda: assess_response(st), 150))
+            a = st["assessment"]
+            out[slug] = {"verdict": a["verdict"], "confidence": a["confidence"],
+                         "missing_count": len(a.get("missing_responses", [])),
+                         "reason": a["reason"], "checkedAt": today,
+                         "contentHash": st.get("content_hash", "")}
+        except Exception as e:  # hard-timeout or transient failure — record, keep going
             errors.append(slug)
-            out[slug] = {"verdict": "error", "error": str(e)[:200]}
-            continue
-        a = st["assessment"]
-        out[slug] = {"verdict": a["verdict"], "confidence": a["confidence"],
-                     "missing_count": len(a.get("missing_responses", [])),
-                     "reason": a["reason"], "checkedAt": today,
-                     "contentHash": st.get("content_hash", "")}
-    Path("verifier/steelman-landscape.json").write_text(
-        json.dumps(out, indent=2, ensure_ascii=False), encoding="utf-8")
+            out[slug] = {"verdict": "error", "error": str(e)[:200],
+                         "contentHash": st.get("content_hash", "")}
+        path.write_text(json.dumps(out, indent=2, ensure_ascii=False), encoding="utf-8")  # incremental
     return {"total": len(out), "distribution": dict(Counter(v["verdict"] for v in out.values())),
             "errors": errors}
 
 
+def draft_for_issues(slugs: list[str], issues_path: str = "verifier/issues.json") -> dict:
+    """Assess + draft the given issues; MERGE results into steelman-suggestions.json.
+    These are PROPOSALS for human review — never merged into content.mjs automatically."""
+    from datetime import date
+
+    want = set(slugs)
+    states = {s["issue_slug"]: s for s in feed_steelman(issues_path) if s["issue_slug"] in want}
+    path = Path("verifier/steelman-suggestions.json")
+    out = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
+    drafted, errors, today = [], [], date.today().isoformat()
+    for slug in slugs:
+        st = states.get(slug)
+        if not st:
+            continue
+        prev = out.get(slug)
+        if prev and prev.get("status") == "proposed" and prev.get("contentHash") == st.get("content_hash"):
+            continue  # already drafted this content — skip on retry
+        try:
+            st.update(_with_timeout(lambda: assess_response(st), 150))
+            st.update(_with_timeout(lambda: draft_steelman(st), 200))
+        except Exception:
+            errors.append(slug)
+            continue
+        a, s = st["assessment"], st["suggestion"]
+        out[slug] = {"verdict": a["verdict"], "confidence": a["confidence"],
+                     "assessment_reason": a["reason"], "missing_responses": a["missing_responses"],
+                     "gaps": a["gaps"], "suggestion": s, "checkedAt": today,
+                     "contentHash": st.get("content_hash", ""), "status": "proposed"}
+        drafted.append(slug)
+        path.write_text(json.dumps(out, indent=2, ensure_ascii=False), encoding="utf-8")  # incremental
+    return {"drafted": drafted, "errors": errors}
+
+
 if __name__ == "__main__":
-    r = assess_landscape()
-    print(f"\nAssessed {r['total']} issues (proof dimension):")
-    for verdict in ("strong", "adequate", "strawman", "missing", "error"):
-        n = r["distribution"].get(verdict, 0)
-        if n:
-            print(f"  {verdict:9} {n}")
-    if r["errors"]:
-        print("errored:", r["errors"])
+    import sys
+
+    if len(sys.argv) > 1 and sys.argv[1] == "draft-weak":
+        land = json.loads(Path("verifier/steelman-landscape.json").read_text(encoding="utf-8"))
+        targets = [s for s, v in land.items() if v["verdict"] in ("strawman", "missing")]
+        print(f"Drafting {len(targets)} weak issues (strawman/missing)...")
+        r = draft_for_issues(targets)
+        print(f"Drafted {len(r['drafted'])} → verifier/steelman-suggestions.json"
+              + (f"  ({len(r['errors'])} errored: {r['errors']})" if r["errors"] else ""))
+    else:
+        r = assess_landscape()
+        print(f"\nAssessed {r['total']} issues (proof dimension):")
+        for verdict in ("strong", "adequate", "strawman", "missing", "error"):
+            n = r["distribution"].get(verdict, 0)
+            if n:
+                print(f"  {verdict:9} {n}")
+        if r["errors"]:
+            print("errored:", r["errors"])
