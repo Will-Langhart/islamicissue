@@ -50,6 +50,12 @@ export default function Header() {
             Citations
           </Link>
           <Link href="/methodology" className="nav-link hidden text-sm text-muted transition-colors hover:text-accent lg:inline">Method</Link>
+          <Link
+            href="/chat"
+            className="rounded-full border border-brand-2/40 bg-accentbg px-3 py-1 text-sm font-semibold text-accent transition-colors hover:bg-brand-2/15"
+          >
+            Ask
+          </Link>
           <SearchDialog />
         </nav>
       </div>
