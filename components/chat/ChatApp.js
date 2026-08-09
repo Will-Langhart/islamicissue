@@ -28,10 +28,38 @@ export default function ChatApp() {
   const [input, setInput] = useState("");
   const [busy, setBusy] = useState(false);
   const [sidebarOpen, setSidebarOpen] = useState(false);
+  const [collapsed, setCollapsed] = useState(true); // collapsed by default
   const [toastUntil, setToastUntil] = useState(null);
   const scrollRef = useRef(null);
 
   const closeToast = useCallback(() => setToastUntil(null), []);
+
+  // Desktop sidebar collapse, persisted; defaults to collapsed for new visitors.
+  useEffect(() => {
+    const v = localStorage.getItem("eiw-chat-sidebar-collapsed");
+    if (v !== null) setCollapsed(v === "1");
+  }, []);
+  const toggleCollapsed = useCallback(() => {
+    setCollapsed((c) => {
+      const next = !c;
+      try {
+        localStorage.setItem("eiw-chat-sidebar-collapsed", next ? "1" : "0");
+      } catch {
+        /* ignore */
+      }
+      return next;
+    });
+  }, []);
+
+  // Lock page scroll so the chat is a self-contained viewport (no scroll to footer).
+  useEffect(() => {
+    const html = document.documentElement;
+    const prev = html.style.overflow;
+    html.style.overflow = "hidden";
+    return () => {
+      html.style.overflow = prev;
+    };
+  }, []);
 
   const messages = active?.messages ?? [];
 
@@ -118,7 +146,7 @@ export default function ChatApp() {
   }
 
   return (
-    <div className="flex h-[calc(100vh-3.5rem)] overflow-hidden">
+    <div className="flex h-[calc(100dvh-61px)] overflow-hidden">
       <ChatSidebar
         conversations={conversations}
         activeId={activeId}
@@ -133,21 +161,47 @@ export default function ChatApp() {
         onDelete={deleteChat}
         open={sidebarOpen}
         onClose={() => setSidebarOpen(false)}
+        collapsed={collapsed}
       />
 
       <div className="flex min-w-0 flex-1 flex-col">
-        {/* Mobile bar */}
-        <div className="flex items-center gap-2 border-b border-line px-3 py-2 md:hidden">
+        {/* Top bar */}
+        <div className="flex items-center gap-2 border-b border-line px-3 py-2">
+          {/* Mobile: open the conversation drawer */}
           <button
             onClick={() => setSidebarOpen(true)}
             aria-label="Open conversations"
-            className="rounded p-1.5 text-ink hover:bg-page"
+            className="rounded p-1.5 text-ink hover:bg-page md:hidden"
           >
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
               <path d="M3 6h18M3 12h18M3 18h18" strokeLinecap="round" />
             </svg>
           </button>
+          {/* Desktop: collapse / expand the sidebar */}
+          <button
+            onClick={toggleCollapsed}
+            aria-label={collapsed ? "Expand sidebar" : "Collapse sidebar"}
+            className="hidden rounded p-1.5 text-ink hover:bg-page md:inline-flex"
+          >
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+              <rect x="3" y="4" width="18" height="16" rx="2" />
+              <path d="M9 4v16" strokeLinecap="round" />
+            </svg>
+          </button>
           <span className="text-sm font-semibold text-heading">Ask the compendium</span>
+          <button
+            onClick={() => {
+              newChat();
+              setSidebarOpen(false);
+            }}
+            aria-label="New chat"
+            title="New chat"
+            className="ml-auto rounded p-1.5 text-ink hover:bg-page"
+          >
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+              <path d="M12 5v14M5 12h14" strokeLinecap="round" />
+            </svg>
+          </button>
         </div>
 
         {/* Messages */}

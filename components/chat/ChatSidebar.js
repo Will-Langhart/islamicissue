@@ -8,6 +8,7 @@ export default function ChatSidebar({
   onDelete,
   open,
   onClose,
+  collapsed,
 }) {
   return (
     <>
@@ -20,9 +21,9 @@ export default function ChatSidebar({
         />
       )}
       <aside
-        className={`fixed z-30 flex h-full w-72 flex-col border-r border-line bg-surface transition-transform md:static md:z-auto md:translate-x-0 ${
+        className={`fixed z-30 flex h-full w-72 shrink-0 flex-col overflow-hidden border-r border-line bg-surface transition-all duration-200 md:static md:z-auto md:translate-x-0 ${
           open ? "translate-x-0" : "-translate-x-full"
-        }`}
+        } ${collapsed ? "md:w-0 md:border-r-0" : "md:w-72"}`}
       >
         <div className="border-b border-line p-3">
           <button
