@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import SearchDialog from "./SearchDialog";
+import AuthButton from "./auth/AuthButton";
 
 export default function Header() {
   return (
@@ -57,6 +58,7 @@ export default function Header() {
             Ask
           </Link>
           <SearchDialog />
+          <AuthButton />
         </nav>
       </div>
     </header>

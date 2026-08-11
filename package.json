@@ -29,6 +29,8 @@
   "type": "module",
   "dependencies": {
     "@anthropic-ai/sdk": "^0.116.0",
+    "@supabase/ssr": "^0.12.4",
+    "@supabase/supabase-js": "^2.112.2",
     "@upstash/ratelimit": "^2.0.8",
     "@upstash/redis": "^1.38.2",
     "@vercel/analytics": "^2.0.1",
