@@ -11,3 +11,6 @@ node_modules
 verifier/__pycache__
 verifier/*.json
 verifier/checkpoints.sqlite
+
+# Sentry
+.env.sentry-build-plugin

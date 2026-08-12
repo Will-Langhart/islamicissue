@@ -1,4 +1,5 @@
 import Anthropic from "@anthropic-ai/sdk";
+import * as Sentry from "@sentry/nextjs";
 import { buildSystem, CHAT_MODEL } from "@/lib/chatbot/prompt";
 import { rateLimit, clientIp } from "@/lib/chatbot/rate-limit";
 import { findInvalidCitations } from "@/lib/chatbot/citations.mjs";
@@ -110,6 +111,9 @@ export async function POST(req) {
         }
       } catch (err) {
         console.error("[chat] stream error:", err);
+        // The chat stream is the app's main server risk surface — report it with
+        // context so production failures are tracked, not just logged ephemerally.
+        Sentry.captureException(err, { tags: { route: "api/chat" } });
         controller.enqueue(
           encoder.encode(
             "\n\n_Something went wrong reaching the model. Please try again._"
