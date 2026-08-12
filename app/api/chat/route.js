@@ -1,6 +1,7 @@
 import Anthropic from "@anthropic-ai/sdk";
 import { buildSystem, CHAT_MODEL } from "@/lib/chatbot/prompt";
 import { rateLimit, clientIp } from "@/lib/chatbot/rate-limit";
+import { findInvalidCitations } from "@/lib/chatbot/citations.mjs";
 
 // Needs the Node runtime: the SDK + fs-backed corpus build.
 export const runtime = "nodejs";
@@ -77,13 +78,26 @@ export async function POST(req) {
           messages,
         });
 
+        let answer = "";
         for await (const event of claude) {
           if (
             event.type === "content_block_delta" &&
             event.delta.type === "text_delta"
           ) {
+            answer += event.delta.text;
             controller.enqueue(encoder.encode(event.delta.text));
           }
+        }
+
+        // Deterministic citation check. The client renderer already neutralizes
+        // fabricated links at render time; this logs them so hallucinated
+        // citations are observable in production (the client can't report back).
+        const invalid = findInvalidCitations(answer);
+        if (invalid.length) {
+          console.warn(
+            "[chat] fabricated citations:",
+            invalid.map((c) => `${c.label} → ${c.url}`).join(", ")
+          );
         }
 
         const final = await claude.finalMessage();

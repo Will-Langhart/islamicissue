@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { isValidInternalUrl } from "@/lib/chatbot/citations.mjs";
 
 // A small, HTML-safe markdown renderer. Handles the subset the chatbot emits:
 // paragraphs, bullet/numbered lists, bold, inline code, and links. It builds
@@ -36,27 +37,42 @@ function renderInline(text) {
       const label = m[8];
       const url = m[9];
       const internal = url.startsWith("/");
-      nodes.push(
-        internal ? (
-          <Link
+      if (internal && !isValidInternalUrl(url)) {
+        // Deterministic guard: the model invented a citation pointing to no real
+        // page. Render it inert and visibly flagged so it can never 404 or pose
+        // as a source of the compendium.
+        nodes.push(
+          <span
             key={nextKey()}
-            href={url}
-            className="text-accent underline decoration-brand-2/50 underline-offset-2 hover:decoration-brand-2"
+            title="Unverified citation — no such page in the compendium"
+            className="text-muted line-through decoration-red-400/60"
           >
             {label}
-          </Link>
-        ) : (
-          <a
-            key={nextKey()}
-            href={url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-accent underline underline-offset-2"
-          >
-            {label}
-          </a>
-        )
-      );
+          </span>
+        );
+      } else {
+        nodes.push(
+          internal ? (
+            <Link
+              key={nextKey()}
+              href={url}
+              className="text-accent underline decoration-brand-2/50 underline-offset-2 hover:decoration-brand-2"
+            >
+              {label}
+            </Link>
+          ) : (
+            <a
+              key={nextKey()}
+              href={url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-accent underline underline-offset-2"
+            >
+              {label}
+            </a>
+          )
+        );
+      }
     }
     last = pattern.lastIndex;
   }
