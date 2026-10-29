@@ -1,15 +1,18 @@
 import Anthropic from "@anthropic-ai/sdk";
 import * as Sentry from "@sentry/nextjs";
 import { buildSystem, CHAT_MODEL } from "@/lib/chatbot/prompt";
-import { rateLimit, clientIp } from "@/lib/chatbot/rate-limit";
+import { rateLimit, dailyLimit, clientIp } from "@/lib/chatbot/rate-limit";
 import { findInvalidCitations } from "@/lib/chatbot/citations.mjs";
 
 // Needs the Node runtime: the SDK + fs-backed corpus build.
 export const runtime = "nodejs";
 export const maxDuration = 60;
 
-const MAX_MESSAGES = 40;
-const MAX_CHARS = 8000;
+// Bounds on what one anonymous request can cost: conversation history sent,
+// and tokens generated per reply (thinking included).
+const MAX_MESSAGES = 20;
+const MAX_CHARS = 4000;
+const MAX_TOKENS = 2000;
 
 function sanitize(messages) {
   if (!Array.isArray(messages)) return null;
@@ -63,6 +66,21 @@ export async function POST(req) {
     );
   }
 
+  // Counted only for valid requests, right before the model call.
+  const daily = await dailyLimit(clientIp(req));
+  if (!daily.ok) {
+    // 503, not 429: the client shows this message instead of a short retry toast.
+    return Response.json(
+      {
+        error:
+          daily.scope === "ip"
+            ? "You've reached today's question limit. Please come back tomorrow."
+            : "The study assistant has reached its daily limit. Please come back tomorrow.",
+      },
+      { status: 503, headers: { "Retry-After": String(daily.retryAfter) } }
+    );
+  }
+
   const client = new Anthropic();
   const encoder = new TextEncoder();
 
@@ -71,7 +89,7 @@ export async function POST(req) {
       try {
         const claude = client.messages.stream({
           model: CHAT_MODEL,
-          max_tokens: 8000,
+          max_tokens: MAX_TOKENS,
           // Grounded Q&A over provided context is not intelligence-hard; low
           // effort keeps answers snappy. Adaptive thinking stays on by default.
           output_config: { effort: "low" },
@@ -102,7 +120,11 @@ export async function POST(req) {
         }
 
         const final = await claude.finalMessage();
-        if (final.stop_reason === "refusal") {
+        if (final.stop_reason === "max_tokens") {
+          controller.enqueue(
+            encoder.encode("\n\n_(Answer cut short. Ask me to continue.)_")
+          );
+        } else if (final.stop_reason === "refusal") {
           controller.enqueue(
             encoder.encode(
               "\n\n_(I can't help with that one. Try asking about a specific issue in the compendium.)_"

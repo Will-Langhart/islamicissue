@@ -14,7 +14,7 @@ site's thesis.
 | **Persistence** | **localStorage only** — no auth, no database. |
 | **Retrieval** | **Full-context + prompt caching.** The reviewed corpus (~50–90K tokens) is stuffed into the cached system prompt every call. No Pinecone, no embeddings, no vector DB. |
 | **Model access** | Direct `ANTHROPIC_API_KEY` (already in `.env`), official `@anthropic-ai/sdk`, streaming. |
-| **Model** | `claude-opus-5` (see cost lever below). |
+| **Model** | `claude-sonnet-5-5` by default, overridable with the `CHAT_MODEL` env var (see cost lever below). |
 
 ## Why this shape (and not Pinecone + LangGraph)
 
@@ -83,10 +83,20 @@ ever matters, promote it to a `build-chatbot-corpus.mjs` step alongside
 
 ## Cost lever
 
-`claude-opus-5` is the default. Switching `CHAT_MODEL` in `lib/chatbot/prompt.mjs`
-to `claude-sonnet-5` cuts token cost ~40% with near-Opus quality on this grounded
-Q&A task. Prompt caching makes the large cached corpus cheap on cache **reads**
-(~0.1× input price) after the first call.
+`claude-sonnet-5-5` is the default (the chat is public and anonymous). Set the
+`CHAT_MODEL` env var to `claude-haiku-5-5` to cut cost further, or back to an Opus
+model if answer quality needs it. Prompt caching makes the large cached corpus
+cheap on cache **reads** (~0.1× input price) after the first call.
+
+Spend guards in `app/api/chat/route.js` and `lib/chatbot/rate-limit.mjs`:
+
+- 12 requests per minute per IP.
+- `CHAT_IP_DAILY_LIMIT` requests per IP per UTC day (default 30).
+- `CHAT_DAILY_LIMIT` requests site-wide per UTC day (default 300). Shared across
+  instances only when Upstash is configured; otherwise it is per instance.
+- `max_tokens` 2000 per reply, and at most 20 messages of 4,000 characters of history.
+
+The Anthropic Console spend limit on the API key's workspace is the hard backstop.
 
 ## Growth path
 
